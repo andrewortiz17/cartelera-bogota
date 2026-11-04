@@ -3,3 +3,4 @@ android/app/build/
 android/.gradle/
 __pycache__/
 manual.json
+logs/
