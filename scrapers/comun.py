@@ -80,9 +80,8 @@ def clave_pelicula(titulo: str) -> str:
 def titulo_bonito(titulo: str) -> str:
     """'LOS JUEGOS DEL HAMBRE' -> 'Los juegos del hambre' (solo si viene en mayúsculas)."""
     if titulo.isupper():
-        t = titulo.lower()
-        return t[:1].upper() + t[1:]
-    return titulo
+        titulo = titulo.lower()
+    return titulo[:1].upper() + titulo[1:]
 
 
 def limpiar_titulo(titulo: str) -> str:

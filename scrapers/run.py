@@ -26,19 +26,74 @@ DESACTIVADAS = {"cine_colombia"}
 SALIDA = Path(__file__).resolve().parents[1] / "app" / "www" / "data" / "funciones.json"
 
 
+def _misma_pelicula(a: str, b: str) -> bool:
+    """'wildwood' ~ 'el bosque salvaje wildwood', 'cars' ~ 'cars una aventura sobre ruedas'.
+    Une si todas las palabras del título corto están en el largo, comparten los mismos
+    números (para no unir 'Shrek' con 'Shrek 2') y hay al menos una palabra de 5+ letras."""
+    pa, pb = set(a.split()), set(b.split())
+    corto, largo = (pa, pb) if len(pa) <= len(pb) else (pb, pa)
+    if not corto or not corto <= largo:
+        return False
+    if {w for w in pa if w.isdigit()} != {w for w in pb if w.isdigit()}:
+        return False
+    if any(len(w) >= 5 for w in corto):
+        return True
+    # título corto al inicio del largo: 'cars' ~ 'cars una aventura sobre ruedas'
+    a, b = sorted((a, b), key=len)
+    return len(a) >= 4 and b.startswith(a + " ")
+
+
 def unificar_titulos(funciones):
-    """La misma película se escribe distinto en cada cadena: usa un solo título."""
+    """La misma película se escribe distinto en cada cadena: usa un solo título.
+    Agrupa por título normalizado, por título original y por títulos que se contienen."""
+    claves = sorted({clave_pelicula(f["pelicula"]) for f in funciones}, key=len)
+    padre = {c: c for c in claves}
+
+    def raiz(c):
+        while padre[c] != c:
+            padre[c] = padre[padre[c]]
+            c = padre[c]
+        return c
+
+    def unir(a, b):
+        ra, rb = raiz(a), raiz(b)
+        if ra != rb:
+            padre[rb] = ra
+
+    # 1) mismo título original
+    por_original = defaultdict(set)
+    for f in funciones:
+        if f.get("titulo_original"):
+            por_original[clave_pelicula(f["titulo_original"])].add(clave_pelicula(f["pelicula"]))
+    for grupo in por_original.values():
+        g = sorted(grupo)
+        for c in g[1:]:
+            unir(g[0], c)
+    # 2) un título contiene al otro
+    for n, a in enumerate(claves):
+        for b in claves[n + 1:]:
+            if _misma_pelicula(a, b):
+                unir(a, b)
+
     grupos = defaultdict(list)
     for f in funciones:
-        grupos[clave_pelicula(f["pelicula"])].append(f)
+        grupos[raiz(clave_pelicula(f["pelicula"]))].append(f)
     for fs in grupos.values():
-        # Prefiere el título más común que no esté todo en mayúsculas
-        conteo = Counter(f["pelicula"] for f in fs)
-        elegido = titulo_bonito(limpiar_titulo(max(conteo, key=lambda t: (not t.isupper(), conteo[t]))))
+        # Prefiere el título más común; si empatan, el más completo; evita los que vienen en MAYÚSCULAS
+        conteo = Counter(limpiar_titulo(f["pelicula"]) for f in fs)
+        elegido = titulo_bonito(max(conteo, key=lambda t: (not t.isupper(), conteo[t], len(t))))
         original = next((f["titulo_original"] for f in fs if f["titulo_original"]), "")
         for f in fs:
             f["pelicula"] = elegido
             f["titulo_original"] = f["titulo_original"] or original
+
+
+def unificar_por_tmdb(funciones, info):
+    """Con TMDB: la misma película (mismo id) queda con un solo título, el de TMDB en español."""
+    for f in funciones:
+        dato = info.get(f["pelicula"])
+        if dato and dato.get("titulo_tmdb"):
+            f["pelicula"] = dato["titulo_tmdb"]
 
 
 def main():
@@ -88,8 +143,17 @@ def main():
 
     unificar_titulos(funciones)
     funciones.sort(key=lambda f: (f["hora"], f["sala_id"]))
+    print("→ posters")
+    try:
+        import posters
+        info = posters.agregar(funciones)
+        unificar_por_tmdb(funciones, info)
+        mapa_posters = {d["titulo_tmdb"] or t: d["poster"] for t, d in info.items() if d.get("poster")}
+    except Exception as e:  # sin pósters la cartelera igual sirve
+        print(f"  posters: {type(e).__name__}: {e}")
+        mapa_posters = {}
     datos = {"generado": datetime.now(BOGOTA_TZ).isoformat(timespec="seconds"),
-             "estado": estado, "funciones": funciones}
+             "estado": estado, "posters": mapa_posters, "funciones": funciones}
     SALIDA.parent.mkdir(parents=True, exist_ok=True)
     SALIDA.write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
 

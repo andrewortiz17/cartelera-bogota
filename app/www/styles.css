@@ -85,6 +85,7 @@ main { flex: 1; position: relative; overflow: hidden; }
 /* ---------- Mapa en grises ---------- */
 #mapa { position: absolute; inset: 0; background: #2b2b2a; }
 #mapa .leaflet-tile-pane { filter: grayscale(1) brightness(1.15) contrast(.95); }
+#mapa.mapa-claro .leaflet-tile-pane { filter: grayscale(1) invert(1) brightness(.9) contrast(.85); }
 .leaflet-container { font-family: var(--texto); }
 .leaflet-control-attribution { background: rgba(13,12,11,.7) !important; color: var(--crema-2) !important; font-size: 10px; }
 .leaflet-control-attribution a { color: var(--crema-2) !important; }
@@ -211,3 +212,17 @@ main { flex: 1; position: relative; overflow: hidden; }
 .sala-en-peli { padding: 12px 0; border-bottom: 1px dashed var(--carbon-2); }
 .sala-en-peli h4 { margin: 0; font-family: var(--display); font-weight: 400; font-size: 1.2rem; letter-spacing: .6px; }
 .sala-en-peli .horarios { margin-top: 8px; }
+
+/* Pósters (TMDB) */
+img.cinta.con-poster { object-fit: cover; background: var(--carbon-2); }
+.cinta, .poster-mini, .poster-grande { flex: none; }
+.poster-mini { width: 40px; height: 60px; border-radius: 4px; object-fit: cover; background: var(--carbon-2); }
+div.poster-mini { background:
+  radial-gradient(circle at 4px 5px, var(--negro) 1.6px, transparent 2px) 0 0/40px 8px repeat-y,
+  radial-gradient(circle at 36px 5px, var(--negro) 1.6px, transparent 2px) 0 0/40px 8px repeat-y, var(--telon); }
+.peli-con-poster { display: flex; gap: 10px; align-items: flex-start; }
+.peli-con-poster > div { min-width: 0; }
+.peli-cabeza { display: flex; gap: 14px; align-items: flex-end; }
+.peli-cabeza > div { min-width: 0; }
+.poster-grande { width: 96px; height: 144px; border-radius: 8px; object-fit: cover; box-shadow: 0 6px 18px rgba(0,0,0,.5); }
+.credito-tmdb { color: var(--crema-2); font-size: .66rem; margin: 14px 0 0; }

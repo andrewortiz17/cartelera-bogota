@@ -17,6 +17,7 @@ const GRIS = {
 
 const $ = (id) => document.getElementById(id);
 const state = {
+  posters: {},                   // título → url del póster (TMDB)
   salas: [],
   salaPorId: new Map(),
   funcionesPorSala: new Map(),   // índice sala_id → funciones ordenadas
@@ -85,6 +86,7 @@ async function cargarDatos() {
         if (datos?.funciones?.length) {
           funciones = datos.funciones;
           state.generado = datos.generado ? new Date(datos.generado) : null;
+          state.posters = datos.posters || {};
           break;
         }
       } catch { /* sigue con la siguiente fuente */ }
@@ -145,15 +147,41 @@ function generarDemo(salas) {
 
 const mapa = L.map("mapa", { zoomControl: false, attributionControl: true })
   .setView([BOGOTA.lat, BOGOTA.lng], 12);
-const capaBase = L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-  maxZoom: 19, subdomains: "abcd",
-  attribution: "© OpenStreetMap · © CARTO",
-}).addTo(mapa);
-let erroresMapa = 0, mapaCargo = false;
-capaBase.on("tileload", () => { mapaCargo = true; $("aviso-mapa").hidden = true; });
-capaBase.on("tileerror", () => {
-  if (++erroresMapa > 6 && !mapaCargo) $("aviso-mapa").hidden = false;
-});
+// Mapa base: se prueban proveedores en orden y se cambia al siguiente si las teselas no cargan.
+// Con MAPTILER_KEY en config.js se usa primero MapTiler (requiere API key gratuita).
+const PROVEEDORES = [
+  ...(window.BOGOCINE_CONFIG?.MAPTILER_KEY ? [{
+    nombre: "MapTiler",
+    url: `https://api.maptiler.com/maps/dataviz-dark/256/{z}/{x}/{y}.png?key=${window.BOGOCINE_CONFIG.MAPTILER_KEY}`,
+    opciones: { attribution: "© MapTiler © OpenStreetMap" },
+  }] : []),
+  { nombre: "CARTO", url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+    opciones: { subdomains: "abcd", attribution: "© OpenStreetMap · © CARTO" } },
+  { nombre: "Esri", url: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+    opciones: { maxZoom: 16, attribution: "© Esri" } },
+  { nombre: "OpenStreetMap", url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    opciones: { attribution: "© OpenStreetMap" }, claro: true },
+];
+let capaBase = null, indiceProveedor = -1;
+
+function usarProveedor(n) {
+  if (n >= PROVEEDORES.length) { indiceProveedor = n; $("aviso-mapa").hidden = false; return; }
+  const p = PROVEEDORES[n];
+  indiceProveedor = n;
+  if (capaBase) capaBase.remove();
+  let cargadas = 0, errores = 0;
+  capaBase = L.tileLayer(p.url, { maxZoom: 19, ...p.opciones }).addTo(mapa);
+  document.getElementById("mapa").classList.toggle("mapa-claro", !!p.claro);
+  capaBase.on("tileload", () => { cargadas++; $("aviso-mapa").hidden = true; });
+  capaBase.on("tileerror", () => {
+    // Si fallan varias teselas antes de que cargue alguna, pasa al siguiente proveedor
+    if (++errores >= 4 && cargadas === 0 && indiceProveedor === n) {
+      console.warn(`Mapa: ${p.nombre} no responde, probando el siguiente`);
+      usarProveedor(n + 1);
+    }
+  });
+}
+usarProveedor(0);
 
 const marcadores = new Map(); // sala_id → L.Marker (se crean una sola vez)
 let modoFoto = null;
@@ -259,6 +287,13 @@ function miniatura(s) {
   return `<div class="miniatura"${bg}>${s.foto ? "" : svgPin(GRIS[s.tipo], 24)}</div>`;
 }
 
+function poster(p, clase = "cinta") {
+  const url = state.posters[p];
+  return url
+    ? `<img class="${clase} con-poster" src="${esc(url)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'${clase}'}))">`
+    : `<div class="${clase}"></div>`;
+}
+
 function agrupar(fs) {
   const m = new Map();
   for (const f of fs) (m.get(f.pelicula) || m.set(f.pelicula, []).get(f.pelicula)).push(f);
@@ -308,7 +343,7 @@ function renderPeliculas() {
   filas.sort((a, b) => b.pronto - a.pronto || a.p.localeCompare(b.p, "es"));
   $("lista-peliculas").innerHTML = filas.length ? filas.map(({ p, n, pronto, sig }) => `
     <li class="tarjeta" data-peli="${esc(p)}">
-      <div class="fila-peli"><div class="cinta"></div>
+      <div class="fila-peli">${poster(p)}
         <div><h3>${esc(p)}</h3><div class="meta">${sig ? `Próxima: ${fmtHora(sig.hora)}` : "Sin más funciones hoy"}${pronto ? ` · <strong>${pronto} en la próxima hora</strong>` : ""}</div></div>
         <span class="contador">${n}<small>sala${n > 1 ? "s" : ""}</small></span>
       </div>
@@ -349,7 +384,7 @@ function abrirSala(s) {
   const compra = fs.find((f) => f.url_compra)?.url_compra;
   const comprar = compra ? `<a class="boton-ir boton-comprar" href="${esc(compra)}" target="_blank" rel="noopener">🎟 Ver en ${esc(s.operador)}</a>` : "";
   abrirHoja(`${foto}<div class="hoja-contenido"><h2>${esc(s.nombre)}</h2>${meta(s)}<div class="acciones">${ir}${comprar}</div><hr class="separador">
-    ${agrupar(fs).map(([p, x]) => `<div class="peli"><h4>${esc(p)}</h4>${horarios(x, 14)}</div>`).join("") || horarios([])}</div>`);
+    ${agrupar(fs).map(([p, x]) => `<div class="peli peli-con-poster">${poster(p, "poster-mini")}<div><h4>${esc(p)}</h4>${horarios(x, 14)}</div></div>`).join("") || horarios([])}</div>`);
   if (tieneUbicacion(s)) mapa.panTo([s.lat, s.lng]);
 }
 
@@ -364,8 +399,12 @@ function abrirPelicula(p) {
   const muestra = (state.funcionesPorPeli.get(p) || [])[0] || {};
   const datos = [muestra.titulo_original && muestra.titulo_original !== p ? esc(muestra.titulo_original) : "",
     muestra.duracion_min ? `${muestra.duracion_min} min` : "", esc(muestra.clasificacion || "")].filter(Boolean).join(" · ");
-  abrirHoja(`<div class="hoja-contenido"><h2>${esc(p)}</h2><div class="meta">${datos ? datos + "<br>" : ""}Salas ordenadas por cercanía</div>
-    ${filas.map(([s, fs]) => `<div class="sala-en-peli" data-sala="${esc(s.id)}"><h4>${esc(s.nombre)}</h4>${meta(s)}${horarios(fs, 10)}</div>`).join("")}</div>`);
+  const cabeza = state.posters[p]
+    ? `<div class="peli-cabeza">${poster(p, "poster-grande")}<div><h2>${esc(p)}</h2><div class="meta">${datos}</div></div></div>`
+    : `<h2>${esc(p)}</h2><div class="meta">${datos}</div>`;
+  const credito = state.posters[p] ? '<p class="credito-tmdb">Póster: The Movie Database (TMDB)</p>' : "";
+  abrirHoja(`<div class="hoja-contenido">${cabeza}<div class="meta">Salas ordenadas por cercanía</div>
+    ${filas.map(([s, fs]) => `<div class="sala-en-peli" data-sala="${esc(s.id)}"><h4>${esc(s.nombre)}</h4>${meta(s)}${horarios(fs, 10)}</div>`).join("")}${credito}</div>`);
 }
 
 /* ================= Eventos (delegados) ================= */
