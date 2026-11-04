@@ -1,0 +1,6 @@
+{
+  "appId": "co.cartelerabogota.app",
+  "appName": "Cartelera Bogotá",
+  "webDir": "www",
+  "server": { "androidScheme": "https" }
+}

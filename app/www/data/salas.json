@@ -1,0 +1,34 @@
+{
+  "_nota": "Coordenadas aproximadas y datos SIN verificar. Revisar cada sala antes de publicar (campo 'verificado').",
+  "salas": [
+    {"id": "cc-andino", "nombre": "Andino", "operador": "Cine Colombia", "tipo": "cadena", "zona": "Chapinero / Zona T", "lat": 4.6668, "lng": -74.0530, "fuente": "cine_colombia", "verificado": false},
+    {"id": "cc-unicentro", "nombre": "Unicentro", "operador": "Cine Colombia", "tipo": "cadena", "zona": "Usaquén", "lat": 4.7023, "lng": -74.0414, "fuente": "cine_colombia", "verificado": false},
+    {"id": "cc-titan", "nombre": "Titán Plaza", "operador": "Cine Colombia", "tipo": "cadena", "zona": "Engativá / Av. Boyacá", "lat": 4.6946, "lng": -74.0861, "fuente": "cine_colombia", "verificado": false},
+    {"id": "cc-metropolis", "nombre": "Metrópolis", "operador": "Cine Colombia", "tipo": "cadena", "zona": "Barrios Unidos / Av. 68", "lat": 4.6799, "lng": -74.0811, "fuente": "cine_colombia", "verificado": false},
+    {"id": "cc-nuestro-bogota", "nombre": "Nuestro Bogotá", "operador": "Cine Colombia", "tipo": "cadena", "zona": "Fontibón / Av. Ciudad de Cali", "lat": 4.6624, "lng": -74.1414, "fuente": "cine_colombia", "verificado": false},
+    {"id": "cc-gran-estacion", "nombre": "Gran Estación", "operador": "Cine Colombia", "tipo": "cadena", "zona": "Teusaquillo / Calle 26", "lat": 4.6475, "lng": -74.1016, "fuente": "cine_colombia", "verificado": false},
+    {"id": "cc-santafe", "nombre": "Santafé", "operador": "Cine Colombia", "tipo": "cadena", "zona": "Usaquén / Calle 185", "lat": 4.7623, "lng": -74.0459, "fuente": "cine_colombia", "verificado": false},
+    {"id": "cc-centro-mayor", "nombre": "Centro Mayor", "operador": "Cine Colombia", "tipo": "cadena", "zona": "Antonio Nariño", "lat": 4.5927, "lng": -74.1238, "fuente": "cine_colombia", "verificado": false},
+    {"id": "cm-multiplaza", "nombre": "Multiplaza", "operador": "Cinemark", "tipo": "cadena", "zona": "Kennedy / Calle 19", "lat": 4.6510, "lng": -74.1260, "fuente": "cinemark", "verificado": false},
+    {"id": "cm-porvenir", "nombre": "Micentro El Porvenir", "operador": "Cinemark", "tipo": "cadena", "zona": "Bosa", "lat": 4.6206, "lng": -74.1910, "fuente": "cinemark", "verificado": false},
+    {"id": "rf-americas", "nombre": "Multicine Plaza de las Américas", "operador": "Royal Films", "tipo": "cadena", "zona": "Kennedy", "lat": 4.6187, "lng": -74.1353, "fuente": "royal_films", "verificado": false},
+    {"id": "rf-milenio", "nombre": "Milenio Plaza", "operador": "Royal Films", "tipo": "cadena", "zona": "Kennedy", "lat": 4.6227, "lng": -74.1508, "fuente": "royal_films", "verificado": false},
+    {"id": "rf-altavista", "nombre": "Altavista", "operador": "Royal Films", "tipo": "cadena", "zona": "Usme", "lat": 4.5106, "lng": -74.1186, "fuente": "royal_films", "verificado": false},
+    {"id": "pr-palatino", "nombre": "Palatino", "operador": "Procinal", "tipo": "cadena", "zona": "Usaquén / Cra. 7", "lat": 4.7215, "lng": -74.0299, "fuente": "procinal", "verificado": false},
+    {"id": "pr-unicentro-occ", "nombre": "Unicentro de Occidente", "operador": "Procinal", "tipo": "cadena", "zona": "Engativá", "lat": 4.7225, "lng": -74.1137, "fuente": "procinal", "verificado": false},
+    {"id": "cp-plaza-claro", "nombre": "Plaza Claro", "operador": "Cinépolis", "tipo": "cadena", "zona": "Puente Aranda", "lat": 4.6268, "lng": -74.1078, "fuente": "cinepolis", "verificado": false, "nota": "Confirmar que esta sede existe"},
+
+    {"id": "cine-cinemateca", "nombre": "Cinemateca de Bogotá", "operador": "Idartes", "tipo": "cinemateca", "zona": "Centro / Cra. 3 # 19-10", "lat": 4.6040, "lng": -74.0697, "fuente": "cinemateca", "verificado": false},
+    {"id": "cine-tunal", "nombre": "Cinemateca El Tunal", "operador": "Idartes", "tipo": "cinemateca", "zona": "Tunjuelito", "lat": 4.5772, "lng": -74.1304, "fuente": "cinemateca", "verificado": false},
+    {"id": "cine-fontanar", "nombre": "Cinemateca Fontanar del Río", "operador": "Idartes", "tipo": "cinemateca", "zona": "Suba / Calle 145 # 138A-10", "lat": 4.7436, "lng": -74.1112, "fuente": "cinemateca", "verificado": false},
+
+    {"id": "ind-cinemania", "nombre": "Cinemania", "operador": "Independiente", "tipo": "independiente", "zona": "Chicó / Cra. 14 # 93A-85", "lat": 4.6789, "lng": -74.0522, "fuente": "manual", "verificado": false},
+    {"id": "ind-paraiso", "nombre": "Cinema Paraíso", "operador": "Independiente", "tipo": "independiente", "zona": "Por confirmar", "lat": null, "lng": null, "fuente": "manual", "verificado": false, "nota": "Reabrió en 2023; falta confirmar dirección actual"},
+    {"id": "ind-tonala", "nombre": "Cine Tonalá", "operador": "Independiente", "tipo": "independiente", "zona": "Por confirmar", "lat": null, "lng": null, "fuente": "manual", "verificado": false, "nota": "Cerró su sede de La Merced en 2020; confirmar si volvió"},
+    {"id": "ind-mambo", "nombre": "MAMBO – Museo de Arte Moderno", "operador": "Independiente", "tipo": "independiente", "zona": "Centro / Parque de la Independencia", "lat": 4.6105, "lng": -74.0690, "fuente": "manual", "verificado": false},
+
+    {"id": "club-red", "nombre": "Red de Cineclubes Bogotanos", "operador": "Cineclubes", "tipo": "cineclub", "zona": "Varias sedes", "lat": null, "lng": null, "fuente": "manual", "verificado": false, "nota": "Contacto vía Premio Hernando Salcedo Silva; cada cineclub se agrega como sala propia"},
+    {"id": "club-biblored-tunal", "nombre": "Cineclub Diálogos del Tiempo (Biblioteca El Tunal)", "operador": "BibloRed", "tipo": "cineclub", "zona": "Tunjuelito", "lat": 4.5768, "lng": -74.1310, "fuente": "biblored", "verificado": false},
+    {"id": "club-unal", "nombre": "Cineclub Universidad Nacional", "operador": "UNAL", "tipo": "cineclub", "zona": "Teusaquillo / Ciudad Universitaria", "lat": 4.6381, "lng": -74.0840, "fuente": "manual", "verificado": false}
+  ]
+}
