@@ -1,4 +1,4 @@
-"""API de Cartelera Bogotá (borrador).
+"""API de BogoCine (borrador).
 
 Arranque local:  uvicorn app.main:app --reload   (desde la carpeta backend/)
 """
@@ -22,7 +22,7 @@ SALAS_PATH = Path(os.getenv("SALAS_PATH", Path(__file__).resolve().parents[2] / 
 ADMIN_TOKEN = os.getenv("ADMIN_TOKEN", "cambia-esto")
 INTERVALO_HORAS = 6
 
-app = FastAPI(title="Cartelera Bogotá")
+app = FastAPI(title="BogoCine")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 SALAS: list[Sala] = [Sala(**s) for s in json.loads(SALAS_PATH.read_text(encoding="utf-8"))["salas"]]

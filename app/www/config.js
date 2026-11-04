@@ -1,5 +1,7 @@
-// URL del backend (FastAPI). Déjalo vacío para usar datos de demostración.
-// Ejemplo en tu red local: "http://192.168.1.50:8000"
-window.CARTELERA_CONFIG = {
-  API_URL: ""
+// URL del backend (FastAPI). Vacío = no se usa.
+// FUNCIONES_URL: cartelera publicada en internet (p. ej. el funciones.json de tu repo en GitHub).
+// Si ambas están vacías, la app usa data/funciones.json incluido al compilar, o la demo.
+window.BOGOCINE_CONFIG = {
+  API_URL: "",
+  FUNCIONES_URL: ""
 };

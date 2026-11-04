@@ -3,56 +3,89 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#14110f">
-  <title>Cartelera Bogotá</title>
+  <meta name="theme-color" content="#0d0c0b">
+  <title>BogoCine</title>
   <link rel="stylesheet" href="vendor/leaflet.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="top">
-    <h1>Cartelera <span>Bogotá</span></h1>
-    <div id="demo-banner" class="banner" hidden>Datos de demostración · horarios inventados</div>
-    <div class="chips" id="chips">
-      <button class="chip on" data-tipo="cadena">Cadenas</button>
-      <button class="chip on" data-tipo="cinemateca">Cinemateca</button>
-      <button class="chip on" data-tipo="independiente">Independientes</button>
-      <button class="chip on" data-tipo="cineclub">Cineclubes</button>
+  <!-- Claqueta: brazo con franjas + pizarra con datos de "rodaje" -->
+  <header class="claqueta">
+    <div class="claqueta-brazo" aria-hidden="true"></div>
+    <div class="claqueta-pizarra">
+      <div class="pizarra-fila">
+        <h1 class="logo">Bogo<span>Cine</span></h1>
+        <span id="demo" class="sello" hidden>DEMO</span>
+      </div>
+      <div class="pizarra-campos">
+        <div><small>Escena</small><strong id="campo-fecha">—</strong></div>
+        <div><small>Toma</small><strong id="campo-hora">—</strong></div>
+        <div><small>Salas</small><strong id="campo-salas">—</strong></div>
+      </div>
+      <div class="filtros" id="filtros" role="group" aria-label="Tipos de sala">
+        <button class="filtro on" data-tipo="cadena"><i class="pin-mini t-cadena"></i>Cadenas</button>
+        <button class="filtro on" data-tipo="cinemateca"><i class="pin-mini t-cinemateca"></i>Cinemateca</button>
+        <button class="filtro on" data-tipo="independiente"><i class="pin-mini t-independiente"></i>Independientes</button>
+        <button class="filtro on" data-tipo="cineclub"><i class="pin-mini t-cineclub"></i>Cineclubes</button>
+      </div>
     </div>
   </header>
 
   <main>
-    <section id="view-mapa" class="view active">
-      <div id="map"></div>
-      <button id="btn-locate" class="fab" aria-label="Usar mi ubicación">◎</button>
-      <p class="hint" id="loc-hint">Buscando tu ubicación… (o toca el mapa para fijarla)</p>
+    <section id="vista-mapa" class="vista activa">
+      <div id="mapa"></div>
+      <p class="aviso-mapa" id="aviso-ubicacion">Buscando tu ubicación… o toca el mapa para fijarla</p>
+      <p class="aviso-mapa-error" id="aviso-mapa" hidden>No se pudo cargar el mapa base. Revisa tu conexión a internet.</p>
+      <p class="aviso-zoom" id="aviso-zoom">Acércate para ver las fotos de los cines</p>
+      <button id="btn-ubicar" class="fab" aria-label="Centrar en mi ubicación">
+        <svg viewBox="0 0 24 24" width="22" height="22"><circle cx="12" cy="12" r="4" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="7.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+      </button>
     </section>
 
-    <section id="view-cerca" class="view">
-      <div class="controls">
-        <label>Radio: <strong id="radio-val">5 km</strong>
+    <section id="vista-cerca" class="vista">
+      <div class="controles">
+        <label class="control-radio">
+          <span>Radio <strong id="radio-val">5 km</strong></span>
           <input type="range" id="radio" min="1" max="25" value="5">
         </label>
-        <label class="toggle"><input type="checkbox" id="proxima-hora"> Solo funciones en la próxima hora</label>
+        <label class="interruptor">
+          <input type="checkbox" id="proxima-hora">
+          <span class="pista"></span>
+          Solo funciones en la próxima hora
+        </label>
       </div>
-      <ul id="lista-cerca" class="list"></ul>
+      <ul id="lista-cerca" class="lista"></ul>
     </section>
 
-    <section id="view-peliculas" class="view">
-      <input id="buscar" class="search" type="search" placeholder="Buscar película…">
-      <ul id="lista-peliculas" class="list"></ul>
+    <section id="vista-peliculas" class="vista">
+      <div class="buscador">
+        <input id="buscar" type="search" placeholder="Buscar película…" autocomplete="off">
+      </div>
+      <ul id="lista-peliculas" class="lista"></ul>
     </section>
   </main>
 
-  <nav class="tabs">
-    <button data-view="mapa" class="active">Mapa</button>
-    <button data-view="cerca">Cerca de mí</button>
-    <button data-view="peliculas">Películas</button>
+  <nav class="pestanas">
+    <button data-vista="mapa" class="activa">
+      <svg viewBox="0 0 24 24"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Zm0 0v14m6-12v14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+      Mapa
+    </button>
+    <button data-vista="cerca">
+      <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9.5" r="2.5" fill="currentColor"/></svg>
+      Cerca de mí
+    </button>
+    <button data-vista="peliculas">
+      <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7 5v14M17 5v14M3 9.5h4M3 14.5h4M17 9.5h4M17 14.5h4" stroke="currentColor" stroke-width="1.6"/></svg>
+      Películas
+    </button>
   </nav>
 
-  <div id="sheet" class="sheet" hidden>
-    <button class="sheet-close" id="sheet-close" aria-label="Cerrar">✕</button>
-    <div id="sheet-body"></div>
-  </div>
+  <div id="velo" class="velo" hidden></div>
+  <aside id="hoja" class="hoja" hidden aria-modal="true" role="dialog">
+    <div class="hoja-franjas" aria-hidden="true"></div>
+    <button class="hoja-cerrar" id="hoja-cerrar" aria-label="Cerrar">✕</button>
+    <div id="hoja-cuerpo"></div>
+  </aside>
 
   <script src="vendor/leaflet.js"></script>
   <script src="config.js"></script>

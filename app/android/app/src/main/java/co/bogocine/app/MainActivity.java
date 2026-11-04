@@ -1,4 +1,4 @@
-package co.cartelerabogota.app;
+package co.bogocine.app;
 
 import com.getcapacitor.BridgeActivity;
 

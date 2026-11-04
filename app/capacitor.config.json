@@ -1,6 +1,7 @@
 {
-  "appId": "co.cartelerabogota.app",
-  "appName": "Cartelera Bogotá",
+  "appId": "co.bogocine.app",
+  "appName": "BogoCine",
   "webDir": "www",
-  "server": { "androidScheme": "https" }
+  "server": { "androidScheme": "https" },
+  "android": { "backgroundColor": "#0d0c0b" }
 }

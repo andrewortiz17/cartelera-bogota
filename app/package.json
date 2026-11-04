@@ -1,7 +1,7 @@
 {
-  "name": "cartelera-bogota",
+  "name": "bogocine",
   "version": "1.0.0",
-  "description": "Cartelera unificada de cines de Bogotá",
+  "description": "BogoCine: cartelera unificada de cines de Bogotá",
   "scripts": {
     "sync": "cap sync android",
     "apk": "cap sync android && cd android && ./gradlew assembleDebug"
@@ -13,6 +13,8 @@
     "@capacitor/android": "^8.6.0",
     "@capacitor/core": "^8.6.0",
     "@capacitor/geolocation": "^8.2.4",
+    "@fontsource/bebas-neue": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
     "leaflet": "^1.9.4"
   },
   "devDependencies": {
