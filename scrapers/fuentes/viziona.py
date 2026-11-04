@@ -3,7 +3,7 @@
 """
 import re
 
-from comun import Funcion, abrir, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
+from comun import Funcion, abrir, asignar_posters, imagenes_en_pagina, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
 
 NOMBRE = "viziona"
 URL = "https://vizionacines.com/"
@@ -40,6 +40,7 @@ def obtener(navegador) -> list[Funcion]:
     pagina = navegador.new_page()
     try:
         funciones = parsear(abrir(pagina, URL, esperar="Sala:", extra_ms=2000))
+        asignar_posters(funciones, imagenes_en_pagina(pagina))
     finally:
         pagina.close()
     print(f"  {NOMBRE}: {len(funciones)} funciones")

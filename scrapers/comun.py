@@ -12,7 +12,7 @@ MESES_CORTOS = {k[:3]: v for k, v in MESES.items()}
 
 # Pausa entre páginas para no cargar los sitios
 PAUSA_SEGUNDOS = 2.5
-USER_AGENT = "BogoCine/0.3 (proyecto personal; cartelera de Bogotá)"
+USER_AGENT = "BogoCine/0.4 (cartelera de Bogota; https://github.com/andrewortiz17/cartelera-bogota)"
 
 
 @dataclass
@@ -27,6 +27,7 @@ class Funcion:
     duracion_min: int | None = None
     url_compra: str = ""
     fuente: str = ""
+    poster: str = ""               # imagen que publica el propio cine
 
     def dict(self):
         return asdict(self)
@@ -88,6 +89,8 @@ def limpiar_titulo(titulo: str) -> str:
     """Quita marcas de reestreno ('RE: Cars', 'SHREK RE', 'Shrek (Reestreno)')."""
     t = re.sub(r"^(RE:|REESTRENO\s*-?)\s*", "", titulo, flags=re.I)
     t = re.sub(r"\s*\((re ?estreno)\)\s*$|\s+re$", "", t, flags=re.I)
+    # Cinemark marca su "Temporada Siniestra" con TS: 'BACKROOMS TS', 'POLTERGEIST TS4'
+    t = re.sub(r"\s+TS\d*$", "", t, flags=re.I)
     return t.strip()
 
 
@@ -110,3 +113,43 @@ def abrir(pagina, url: str, esperar: str | None = None, extra_ms: int = 1500):
     except Exception as e:
         print(f"    {url}: {type(e).__name__}: {str(e).splitlines()[0][:120]}")
         return ""
+
+
+# Lee las imágenes de la página con el texto que las rodea (alt y las primeras líneas
+# del bloque que las contiene). Así se puede saber de qué película es cada póster.
+_JS_IMAGENES = """() => [...document.querySelectorAll('img')].map(i => {
+  const src = i.currentSrc || i.src || i.dataset.src || '';
+  if (!src || src.startsWith('data:') || /\\.svg(\\?|$)|logo|icon|banner/i.test(src)) return null;
+  let c = i, textos = [i.alt || ''];
+  for (let k = 0; k < 6 && c; k++) {
+    c = c.parentElement;
+    const t = (c && c.innerText || '').trim();
+    if (t) { textos = textos.concat(t.split('\\n').slice(0, 4)); break; }
+  }
+  return { src, textos };
+}).filter(Boolean)"""
+
+
+def imagenes_en_pagina(pagina) -> list[dict]:
+    try:
+        return pagina.evaluate(_JS_IMAGENES)
+    except Exception:
+        return []
+
+
+def asignar_posters(funciones: list, imagenes: list[dict]) -> None:
+    """Pone en cada función el póster cuya descripción coincide con su título."""
+    indice = {}
+    for img in imagenes:
+        for t in img["textos"]:
+            c = clave_pelicula(limpiar_titulo(t or ""))
+            if len(c) >= 2 and c not in indice:
+                indice[c] = img["src"]
+    for f in funciones:
+        if f.poster:
+            continue
+        for t in (f.pelicula, f.titulo_original):
+            c = clave_pelicula(limpiar_titulo(t or ""))
+            if c in indice:
+                f.poster = indice[c]
+                break

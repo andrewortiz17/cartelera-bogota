@@ -4,7 +4,7 @@
 """
 import re
 
-from comun import Funcion, abrir, hora_a_24, hoy, iso, limpiar_lineas, sin_tildes
+from comun import Funcion, abrir, asignar_posters, imagenes_en_pagina, hora_a_24, hoy, iso, limpiar_lineas, sin_tildes
 
 NOMBRE = "cinepolis"
 URL = "https://cinepolis.com.co/cartelera/bogota-colombia"
@@ -55,6 +55,7 @@ def obtener(navegador) -> list[Funcion]:
     pagina = navegador.new_page()
     try:
         funciones = parsear(abrir(pagina, URL, esperar=r"\d{2,3} min", extra_ms=2500))
+        asignar_posters(funciones, imagenes_en_pagina(pagina))
     finally:
         pagina.close()
     print(f"  {NOMBRE}: {len(funciones)} funciones")

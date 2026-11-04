@@ -43,9 +43,10 @@ def _misma_pelicula(a: str, b: str) -> bool:
     return len(a) >= 4 and b.startswith(a + " ")
 
 
-def unificar_titulos(funciones):
+def unificar_titulos(funciones, qids=None):
     """La misma película se escribe distinto en cada cadena: usa un solo título.
-    Agrupa por título normalizado, por título original y por títulos que se contienen."""
+    Agrupa por identificador de Wikidata (si se conoce), por título normalizado,
+    por título original y por títulos que se contienen."""
     claves = sorted({clave_pelicula(f["pelicula"]) for f in funciones}, key=len)
     padre = {c: c for c in claves}
 
@@ -69,6 +70,14 @@ def unificar_titulos(funciones):
         g = sorted(grupo)
         for c in g[1:]:
             unir(g[0], c)
+    # 1b) mismo identificador de Wikidata
+    por_qid = defaultdict(set)
+    for titulo, qid in (qids or {}).items():
+        por_qid[qid].add(clave_pelicula(titulo))
+    for grupo in por_qid.values():
+        g = sorted(c for c in grupo if c in padre)
+        for c in g[1:]:
+            unir(g[0], c)
     # 2) un título contiene al otro
     for n, a in enumerate(claves):
         for b in claves[n + 1:]:
@@ -88,12 +97,22 @@ def unificar_titulos(funciones):
             f["titulo_original"] = f["titulo_original"] or original
 
 
-def unificar_por_tmdb(funciones, info):
-    """Con TMDB: la misma película (mismo id) queda con un solo título, el de TMDB en español."""
+# Orden de preferencia para el póster (las de mejor resolución primero)
+PREFERENCIA_POSTER = ["royal_films", "cinepolis", "procinal", "viziona", "cinemark", "cinemateca", "cine_colombia"]
+
+
+def elegir_posters(funciones) -> dict[str, str]:
+    """Un póster por película, tomado de la cadena con mejor imagen. Quita el campo de cada función."""
+    candidatos = defaultdict(dict)
     for f in funciones:
-        dato = info.get(f["pelicula"])
-        if dato and dato.get("titulo_tmdb"):
-            f["pelicula"] = dato["titulo_tmdb"]
+        src = f.pop("poster", "")
+        if src:
+            candidatos[f["pelicula"]].setdefault(f["fuente"], src)
+    return {
+        p: next(fuentes[n] for n in sorted(fuentes, key=lambda n: PREFERENCIA_POSTER.index(n)
+                                            if n in PREFERENCIA_POSTER else 99))
+        for p, fuentes in candidatos.items()
+    }
 
 
 def main():
@@ -141,17 +160,26 @@ def main():
             unicas.append(f)
     funciones = unicas
 
-    unificar_titulos(funciones)
-    funciones.sort(key=lambda f: (f["hora"], f["sala_id"]))
-    print("→ posters")
+    # Alias escritos a mano (scrapers/alias.json) para abreviaturas que no se unen solas
     try:
-        import posters
-        info = posters.agregar(funciones)
-        unificar_por_tmdb(funciones, info)
-        mapa_posters = {d["titulo_tmdb"] or t: d["poster"] for t, d in info.items() if d.get("poster")}
-    except Exception as e:  # sin pósters la cartelera igual sirve
-        print(f"  posters: {type(e).__name__}: {e}")
-        mapa_posters = {}
+        alias = json.loads((Path(__file__).parent / "alias.json").read_text(encoding="utf-8"))
+        alias = {clave_pelicula(k): v for k, v in alias.items() if not k.startswith("_")}
+        for f in funciones:
+            f["pelicula"] = alias.get(clave_pelicula(f["pelicula"]), f["pelicula"])
+    except (OSError, json.JSONDecodeError):
+        pass
+
+    print("→ wikidata")
+    try:
+        import wikidata
+        qids = wikidata.identificar(funciones)
+    except Exception as e:  # sin Wikidata se une solo por los nombres
+        print(f"  wikidata: {type(e).__name__}: {e}")
+        qids = {}
+    unificar_titulos(funciones, qids)
+    funciones.sort(key=lambda f: (f["hora"], f["sala_id"]))
+    mapa_posters = elegir_posters(funciones)
+    print(f"  posters: {len(mapa_posters)}/{len({f['pelicula'] for f in funciones})} películas con póster de los cines")
     datos = {"generado": datetime.now(BOGOTA_TZ).isoformat(timespec="seconds"),
              "estado": estado, "posters": mapa_posters, "funciones": funciones}
     SALIDA.parent.mkdir(parents=True, exist_ok=True)

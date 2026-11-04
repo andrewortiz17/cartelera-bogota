@@ -7,7 +7,7 @@ La página muestra por defecto la programación de HOY. Cada película aparece a
 import re
 import time
 
-from comun import PAUSA_SEGUNDOS, Funcion, abrir, hora_a_24, hoy, iso, limpiar_lineas
+from comun import PAUSA_SEGUNDOS, Funcion, abrir, asignar_posters, imagenes_en_pagina, hora_a_24, hoy, iso, limpiar_lineas
 
 NOMBRE = "cine_colombia"
 BASE = "https://www.cinecolombia.com/cinemas/"
@@ -65,6 +65,7 @@ def obtener(navegador) -> list[Funcion]:
             url = BASE + slug + "/"
             texto = abrir(pagina, url, esperar=r"\d{1,2}:\d{2}\s*[AP]\.?M", extra_ms=2000)
             nuevas = parsear(texto, sala_id, url)
+            asignar_posters(nuevas, imagenes_en_pagina(pagina))
             print(f"  {NOMBRE}/{slug}: {len(nuevas)} funciones")
             funciones += nuevas
             time.sleep(PAUSA_SEGUNDOS)

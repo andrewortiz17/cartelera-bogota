@@ -86,6 +86,15 @@ Sin eso, la app usa la cartelera incluida al compilar (y si ya pasó, la demo).
 
 Si una cadena cambia su página, el resumen del script marca esa fuente con ✖; el lector a ajustar está en `scrapers/fuentes/<cadena>.py`.
 
+## Pósters y unión de películas
+- **Pósters:** cada scraper toma la imagen que el propio cine publica junto a cada película
+  (`comun.asignar_posters`). Si una película está en varias cadenas, se usa la de mejor resolución.
+  Antes de publicar la app con anuncios, pide permiso a las cadenas para mostrar sus pósters.
+- **Unión:** las películas se identifican en **Wikidata** (datos CC0, uso comercial permitido) para saber
+  cuándo dos cines nombran distinto la misma película; además se une por título original y por
+  títulos que se contienen. Caché en `app/www/data/wikidata.json`.
+- `scrapers/posters.py` (TMDB) quedó solo para pruebas; no se usa en la cartelera.
+
 ## Qué funciona y qué falta
 
 Funciona:

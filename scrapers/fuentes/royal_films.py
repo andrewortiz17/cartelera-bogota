@@ -108,6 +108,13 @@ def obtener(navegador) -> list[Funcion]:
                 pass
             unicas = {(f.sala_id, f.hora, f.idioma): f for f in nuevas}
             nuevas = list(unicas.values())
+            try:
+                img = pagina.locator('img[alt="syn_img"]').first
+                src = img.get_attribute("src", timeout=2000) or ""
+                for f in nuevas:
+                    f.poster = src
+            except Exception:
+                pass
             if not nuevas and n == 0:
                 # Guarda la primera página sin funciones para poder revisar qué mostró
                 from pathlib import Path

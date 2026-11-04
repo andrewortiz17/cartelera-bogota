@@ -1,4 +1,5 @@
-"""Pósters de las películas desde TMDB (themoviedb.org).
+"""[NO SE USA en la cartelera; solo para pruebas] Pósters desde TMDB (themoviedb.org).
+La cartelera usa los pósters que publica cada cine (ver comun.asignar_posters).
 
 Necesita un token de lectura de TMDB (gratis): https://www.themoviedb.org/settings/api
 → "API Read Access Token". Guárdalo en scrapers/tmdb_token.txt (no se sube a GitHub)

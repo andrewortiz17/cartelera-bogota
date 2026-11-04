@@ -402,7 +402,7 @@ function abrirPelicula(p) {
   const cabeza = state.posters[p]
     ? `<div class="peli-cabeza">${poster(p, "poster-grande")}<div><h2>${esc(p)}</h2><div class="meta">${datos}</div></div></div>`
     : `<h2>${esc(p)}</h2><div class="meta">${datos}</div>`;
-  const credito = state.posters[p] ? '<p class="credito-tmdb">Póster: The Movie Database (TMDB)</p>' : "";
+  const credito = state.posters[p] ? '<p class="credito-tmdb">Póster publicado por la sala de cine</p>' : "";
   abrirHoja(`<div class="hoja-contenido">${cabeza}<div class="meta">Salas ordenadas por cercanía</div>
     ${filas.map(([s, fs]) => `<div class="sala-en-peli" data-sala="${esc(s.id)}"><h4>${esc(s.nombre)}</h4>${meta(s)}${horarios(fs, 10)}</div>`).join("")}${credito}</div>`);
 }

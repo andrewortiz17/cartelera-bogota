@@ -6,7 +6,7 @@ import re
 import time
 from datetime import date
 
-from comun import MESES, PAUSA_SEGUNDOS, Funcion, abrir, hora_a_24, hoy, iso, limpiar_lineas, sin_tildes, titulo_bonito
+from comun import MESES, PAUSA_SEGUNDOS, Funcion, abrir, asignar_posters, imagenes_en_pagina, hora_a_24, hoy, iso, limpiar_lineas, sin_tildes, titulo_bonito
 
 NOMBRE = "cinemateca"
 BASE = "https://cinematecadebogota.gov.co/agenda/"
@@ -50,6 +50,7 @@ def obtener(navegador) -> list[Funcion]:
         for sede, sala_id in SEDES.items():
             url = f"{BASE}{sede}"
             nuevas = parsear(abrir(pagina, url, esperar=r"\d{1,2}:\d{2}\s*[ap]m", extra_ms=1000), sala_id, url)
+            asignar_posters(nuevas, imagenes_en_pagina(pagina))
             print(f"  {NOMBRE}/{sede}: {len(nuevas)} funciones")
             funciones += nuevas
             time.sleep(PAUSA_SEGUNDOS)
