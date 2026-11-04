@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-04T10:23:23-05:00",
+ "generado": "2026-11-04T10:30:55-05:00",
  "estado": {
   "cine_colombia": {
    "funciones": 0,
@@ -10,12 +10,12 @@
    "error": null
   },
   "procinal": {
-   "funciones": 168,
+   "funciones": 156,
    "error": null
   },
   "royal_films": {
-   "funciones": 0,
-   "error": "0 funciones: revisar"
+   "funciones": 35,
+   "error": null
   },
   "cinepolis": {
    "funciones": 93,
@@ -53,18 +53,6 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/suba",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-bulevar",
-   "pelicula": "Wildwood el bosque salvaje",
-   "hora": "2026-11-04T13:50:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bulevar",
    "fuente": "procinal"
   },
   {
@@ -164,18 +152,6 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "pr-bulevar",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-04T14:00:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bulevar",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "pr-imax",
    "pelicula": "The odyssey",
    "hora": "2026-11-04T14:00:00-05:00",
@@ -237,7 +213,7 @@
   },
   {
    "sala_id": "pr-salitre",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T14:00:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D",
@@ -441,7 +417,7 @@
   },
   {
    "sala_id": "pr-bima",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T14:20:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D",
@@ -461,18 +437,6 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bima",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-bulevar",
-   "pelicula": "La caída de la ballena",
-   "hora": "2026-11-04T14:20:00-05:00",
-   "titulo_original": "Whalefall",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bulevar",
    "fuente": "procinal"
   },
   {
@@ -584,6 +548,30 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "rf-americas",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T14:30:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4198/el-bosque-salvaje:-wildwood",
+   "fuente": "royal_films"
+  },
+  {
+   "sala_id": "rf-villa-del-rio",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T14:30:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4198/el-bosque-salvaje:-wildwood",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "Cars",
    "hora": "2026-11-04T14:30:00-05:00",
@@ -621,7 +609,7 @@
   },
   {
    "sala_id": "vz-eden",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T14:35:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D Ge Y Vip",
@@ -702,6 +690,18 @@
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/salitre",
    "fuente": "procinal"
+  },
+  {
+   "sala_id": "rf-san-rafael",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T14:40:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4198/el-bosque-salvaje:-wildwood",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "cm-floresta",
@@ -932,6 +932,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "rf-milenio",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T15:00:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4198/el-bosque-salvaje:-wildwood",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "Wildwood",
    "hora": "2026-11-04T15:05:00-05:00",
@@ -942,6 +954,18 @@
    "duracion_min": 135,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "rf-americas",
+   "pelicula": "Entrega al limite",
+   "hora": "2026-11-04T15:05:00-05:00",
+   "titulo_original": "Runner",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para mayores de 15 años",
+   "duracion_min": 98,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4148/entrega-al-limite",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "cm-atlantis",
@@ -1148,6 +1172,30 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "rf-altavista",
+   "pelicula": "Shrek",
+   "hora": "2026-11-04T15:20:00-05:00",
+   "titulo_original": "Shrek (re-release)",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para todo público",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4175/shrek-%28reestreno%29",
+   "fuente": "royal_films"
+  },
+  {
+   "sala_id": "rf-americas",
+   "pelicula": "Shrek",
+   "hora": "2026-11-04T15:20:00-05:00",
+   "titulo_original": "Shrek (re-release)",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para todo público",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4175/shrek-%28reestreno%29",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-04T15:20:00-05:00",
@@ -1257,7 +1305,7 @@
   },
   {
    "sala_id": "pr-americas",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T15:30:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D",
@@ -1338,6 +1386,18 @@
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/tintal",
    "fuente": "procinal"
+  },
+  {
+   "sala_id": "rf-villa-del-rio",
+   "pelicula": "Shrek",
+   "hora": "2026-11-04T15:30:00-05:00",
+   "titulo_original": "Shrek (re-release)",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para todo público",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4175/shrek-%28reestreno%29",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "vz-eden",
@@ -1593,7 +1653,7 @@
   },
   {
    "sala_id": "pr-salitre",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T16:00:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D",
@@ -1712,18 +1772,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-bulevar",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-04T16:15:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bulevar",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "pr-occidente",
    "pelicula": "Clayface",
    "hora": "2026-11-04T16:15:00-05:00",
@@ -1734,6 +1782,18 @@
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/occidente",
    "fuente": "procinal"
+  },
+  {
+   "sala_id": "rf-villa-del-rio",
+   "pelicula": "Entrega al limite",
+   "hora": "2026-11-04T16:15:00-05:00",
+   "titulo_original": "Runner",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para mayores de 15 años",
+   "duracion_min": 98,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4148/entrega-al-limite",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "cm-multiplaza",
@@ -1844,6 +1904,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "rf-altavista",
+   "pelicula": "Entrega al limite",
+   "hora": "2026-11-04T16:25:00-05:00",
+   "titulo_original": "Runner",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para mayores de 15 años",
+   "duracion_min": 98,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4148/entrega-al-limite",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "La caída de la ballena",
    "hora": "2026-11-04T16:25:00-05:00",
@@ -1916,18 +1988,6 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "pr-bulevar",
-   "pelicula": "Shrek",
-   "hora": "2026-11-04T16:30:00-05:00",
-   "titulo_original": "Shrek",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bulevar",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "pr-occidente",
    "pelicula": "Coyote vs acme",
    "hora": "2026-11-04T16:30:00-05:00",
@@ -1952,6 +2012,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "rf-milenio",
+   "pelicula": "Shrek",
+   "hora": "2026-11-04T16:30:00-05:00",
+   "titulo_original": "Shrek (re-release)",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para todo público",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4175/shrek-%28reestreno%29",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "Wildwood",
    "hora": "2026-11-04T16:40:00-05:00",
@@ -1973,18 +2045,6 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-bulevar",
-   "pelicula": "El despertar",
-   "hora": "2026-11-04T16:40:00-05:00",
-   "titulo_original": "The awakening",
-   "formato": "2D",
-   "idioma": "Original",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bulevar",
    "fuente": "procinal"
   },
   {
@@ -2049,7 +2109,7 @@
   },
   {
    "sala_id": "vz-eden",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T16:50:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D Ge Y Vip",
@@ -2109,7 +2169,7 @@
   },
   {
    "sala_id": "cp-hayuelos",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T17:00:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D",
@@ -2183,7 +2243,7 @@
    "sala_id": "vz-eden",
    "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-04T17:00:00-05:00",
-   "titulo_original": "",
+   "titulo_original": "Wildwood",
    "formato": "2D General",
    "idioma": "Doblada",
    "clasificacion": "",
@@ -2444,6 +2504,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "rf-americas",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T17:30:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4198/el-bosque-salvaje:-wildwood",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-04T17:30:00-05:00",
@@ -2466,6 +2538,18 @@
    "duracion_min": 110,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "rf-americas",
+   "pelicula": "Sensatez y sentimiento",
+   "hora": "2026-11-04T17:35:00-05:00",
+   "titulo_original": "Sense and sensibility",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 131,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4118/sensatez-y-sentimiento",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "cm-atlantis",
@@ -2502,6 +2586,42 @@
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
    "fuente": "procinal"
+  },
+  {
+   "sala_id": "rf-americas",
+   "pelicula": "Shrek",
+   "hora": "2026-11-04T17:40:00-05:00",
+   "titulo_original": "Shrek (re-release)",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para todo público",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4175/shrek-%28reestreno%29",
+   "fuente": "royal_films"
+  },
+  {
+   "sala_id": "rf-san-rafael",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T17:40:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4198/el-bosque-salvaje:-wildwood",
+   "fuente": "royal_films"
+  },
+  {
+   "sala_id": "rf-villa-del-rio",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T17:40:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4198/el-bosque-salvaje:-wildwood",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "cm-ensueno",
@@ -2610,6 +2730,18 @@
    "duracion_min": 110,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "rf-villa-del-rio",
+   "pelicula": "Shrek",
+   "hora": "2026-11-04T17:50:00-05:00",
+   "titulo_original": "Shrek (re-release)",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para todo público",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4175/shrek-%28reestreno%29",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "cm-atlantis",
@@ -2780,6 +2912,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "rf-milenio",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T18:00:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4198/el-bosque-salvaje:-wildwood",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-04T18:10:00-05:00",
@@ -2855,7 +2999,7 @@
    "sala_id": "vz-eden",
    "pelicula": "Los juegos del hambre: sinsajo 1",
    "hora": "2026-11-04T18:10:00-05:00",
-   "titulo_original": "",
+   "titulo_original": "The hunger games: mockingjay - part 1",
    "formato": "2D Ge Y Vip",
    "idioma": "Doblada",
    "clasificacion": "",
@@ -3177,7 +3321,7 @@
   },
   {
    "sala_id": "pr-bima",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T18:30:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D",
@@ -3185,18 +3329,6 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bima",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-bulevar",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-04T18:30:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bulevar",
    "fuente": "procinal"
   },
   {
@@ -3321,7 +3453,7 @@
   },
   {
    "sala_id": "cm-ensueno",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T18:40:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D",
@@ -3344,16 +3476,16 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-bulevar",
-   "pelicula": "Wildwood el bosque salvaje",
+   "sala_id": "rf-san-rafael",
+   "pelicula": "Shrek",
    "hora": "2026-11-04T18:40:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bulevar",
-   "fuente": "procinal"
+   "titulo_original": "Shrek (re-release)",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para todo público",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4175/shrek-%28reestreno%29",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "cm-colina",
@@ -3452,6 +3584,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "rf-villa-del-rio",
+   "pelicula": "Entrega al limite",
+   "hora": "2026-11-04T18:45:00-05:00",
+   "titulo_original": "Runner",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para mayores de 15 años",
+   "duracion_min": 98,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4148/entrega-al-limite",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "cm-plaza-imperial",
    "pelicula": "Madre siniestra",
    "hora": "2026-11-04T18:50:00-05:00",
@@ -3476,18 +3620,6 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "pr-bulevar",
-   "pelicula": "Clayface",
-   "hora": "2026-11-04T18:50:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bulevar",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "pr-occidente",
    "pelicula": "Wildwood el bosque salvaje",
    "hora": "2026-11-04T18:50:00-05:00",
@@ -3498,6 +3630,30 @@
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/occidente",
    "fuente": "procinal"
+  },
+  {
+   "sala_id": "rf-milenio",
+   "pelicula": "Shrek",
+   "hora": "2026-11-04T18:50:00-05:00",
+   "titulo_original": "Shrek (re-release)",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para todo público",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4175/shrek-%28reestreno%29",
+   "fuente": "royal_films"
+  },
+  {
+   "sala_id": "rf-altavista",
+   "pelicula": "Entrega al limite",
+   "hora": "2026-11-04T18:55:00-05:00",
+   "titulo_original": "Runner",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para mayores de 15 años",
+   "duracion_min": 98,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4148/entrega-al-limite",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "vz-eden",
@@ -3693,7 +3849,7 @@
   },
   {
    "sala_id": "vz-eden",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T19:10:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D Ge Y Vip",
@@ -3705,7 +3861,7 @@
   },
   {
    "sala_id": "cp-diverplaza",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T19:15:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D",
@@ -3803,7 +3959,7 @@
    "sala_id": "vz-eden",
    "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-04T19:30:00-05:00",
-   "titulo_original": "",
+   "titulo_original": "Wildwood",
    "formato": "2D Vkids",
    "idioma": "Doblada",
    "clasificacion": "",
@@ -3944,6 +4100,30 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "rf-americas",
+   "pelicula": "Los juegos del hambre: sinsajo 1",
+   "hora": "2026-11-04T20:00:00-05:00",
+   "titulo_original": "The hunger games: mockingjay - part 1",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 123,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4158/los-juegos-del-hambre:-sinsajo-1",
+   "fuente": "royal_films"
+  },
+  {
+   "sala_id": "rf-villa-del-rio",
+   "pelicula": "Los juegos del hambre: sinsajo 1",
+   "hora": "2026-11-04T20:00:00-05:00",
+   "titulo_original": "The hunger games: mockingjay - part 1",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 123,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4158/los-juegos-del-hambre:-sinsajo-1",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "Verity",
    "hora": "2026-11-04T20:00:00-05:00",
@@ -4038,6 +4218,18 @@
    "duracion_min": 90,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "rf-villa-del-rio",
+   "pelicula": "Shrek",
+   "hora": "2026-11-04T20:10:00-05:00",
+   "titulo_original": "Shrek (re-release)",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para todo público",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4175/shrek-%28reestreno%29",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -4220,6 +4412,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "rf-americas",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T20:30:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4198/el-bosque-salvaje:-wildwood",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "cm-floresta",
    "pelicula": "Poltergeist ts4",
    "hora": "2026-11-04T20:35:00-05:00",
@@ -4254,6 +4458,18 @@
    "duracion_min": 100,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "rf-americas",
+   "pelicula": "Sensatez y sentimiento",
+   "hora": "2026-11-04T20:35:00-05:00",
+   "titulo_original": "Sense and sensibility",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 131,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4118/sensatez-y-sentimiento",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "cm-atlantis",
@@ -4352,6 +4568,30 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "rf-san-rafael",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T20:40:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4198/el-bosque-salvaje:-wildwood",
+   "fuente": "royal_films"
+  },
+  {
+   "sala_id": "rf-villa-del-rio",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T20:40:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4198/el-bosque-salvaje:-wildwood",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "cm-porvenir",
    "pelicula": "Clayface",
    "hora": "2026-11-04T20:45:00-05:00",
@@ -4397,18 +4637,6 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bima",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-bulevar",
-   "pelicula": "Verity, la sombra de un engaño",
-   "hora": "2026-11-04T20:45:00-05:00",
-   "titulo_original": "Verity",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bulevar",
    "fuente": "procinal"
   },
   {
@@ -4554,6 +4782,18 @@
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/occidente",
    "fuente": "procinal"
+  },
+  {
+   "sala_id": "rf-americas",
+   "pelicula": "los otros",
+   "hora": "2026-11-04T20:50:00-05:00",
+   "titulo_original": "The others",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4178/los-otros",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "cm-plaza-imperial",
@@ -4736,6 +4976,30 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "rf-milenio",
+   "pelicula": "Entrega al limite",
+   "hora": "2026-11-04T21:00:00-05:00",
+   "titulo_original": "Runner",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "Para mayores de 15 años",
+   "duracion_min": 98,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4148/entrega-al-limite",
+   "fuente": "royal_films"
+  },
+  {
+   "sala_id": "rf-san-rafael",
+   "pelicula": "Everest: la otra cara",
+   "hora": "2026-11-04T21:00:00-05:00",
+   "titulo_original": "Everest: the other side",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para mayores de 12 años",
+   "duracion_min": 110,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4180/everest:-la-otra-cara",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "cm-gran-plaza-bosa",
    "pelicula": "Clayface",
    "hora": "2026-11-04T21:05:00-05:00",
@@ -4809,7 +5073,7 @@
   },
   {
    "sala_id": "pr-americas",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T21:10:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D",
@@ -4830,6 +5094,18 @@
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/salitre",
    "fuente": "procinal"
+  },
+  {
+   "sala_id": "rf-villa-del-rio",
+   "pelicula": "La exorcista",
+   "hora": "2026-11-04T21:10:00-05:00",
+   "titulo_original": "The containment",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "Para mayores de 15 años",
+   "duracion_min": 85,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4189/la-exorcista",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "vz-eden",
@@ -4940,6 +5216,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "rf-villa-del-rio",
+   "pelicula": "Entrega al limite",
+   "hora": "2026-11-04T21:15:00-05:00",
+   "titulo_original": "Runner",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para mayores de 15 años",
+   "duracion_min": 98,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4148/entrega-al-limite",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "Street fighter",
    "hora": "2026-11-04T21:20:00-05:00",
@@ -4985,18 +5273,6 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-bulevar",
-   "pelicula": "Clayface",
-   "hora": "2026-11-04T21:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bulevar",
    "fuente": "procinal"
   },
   {
@@ -5060,16 +5336,16 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-bulevar",
-   "pelicula": "Wildwood el bosque salvaje",
+   "sala_id": "rf-americas",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T21:25:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bulevar",
-   "fuente": "procinal"
+   "titulo_original": "Runner",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para mayores de 15 años",
+   "duracion_min": 98,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4148/entrega-al-limite",
+   "fuente": "royal_films"
   },
   {
    "sala_id": "cm-atlantis",
@@ -5205,7 +5481,7 @@
   },
   {
    "sala_id": "pr-occidente",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T21:30:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D",
@@ -5253,7 +5529,7 @@
   },
   {
    "sala_id": "vz-eden",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T21:30:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D Ge Y Vip",
@@ -5349,7 +5625,7 @@
   },
   {
    "sala_id": "cp-diverplaza",
-   "pelicula": "Entrega al límite",
+   "pelicula": "Entrega al limite",
    "hora": "2026-11-04T21:45:00-05:00",
    "titulo_original": "Runner",
    "formato": "2D",
