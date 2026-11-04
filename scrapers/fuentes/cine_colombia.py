@@ -7,7 +7,7 @@ La página muestra por defecto la programación de HOY. Cada película aparece a
 import re
 import time
 
-from comun import PAUSA_SEGUNDOS, Funcion, hora_a_24, hoy, iso, limpiar_lineas
+from comun import PAUSA_SEGUNDOS, Funcion, abrir, hora_a_24, hoy, iso, limpiar_lineas
 
 NOMBRE = "cine_colombia"
 BASE = "https://www.cinecolombia.com/cinemas/"
@@ -63,9 +63,7 @@ def obtener(navegador) -> list[Funcion]:
     try:
         for slug, sala_id in SALAS.items():
             url = BASE + slug + "/"
-            pagina.goto(url, wait_until="networkidle", timeout=60000)
-            pagina.wait_for_timeout(2000)
-            texto = pagina.inner_text("body")
+            texto = abrir(pagina, url, esperar=r"\d{1,2}:\d{2}\s*[AP]\.?M", extra_ms=2000)
             nuevas = parsear(texto, sala_id, url)
             print(f"  {NOMBRE}/{slug}: {len(nuevas)} funciones")
             funciones += nuevas

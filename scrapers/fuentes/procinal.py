@@ -6,7 +6,7 @@ Muestra HOY por defecto:
 import re
 import time
 
-from comun import PAUSA_SEGUNDOS, Funcion, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
+from comun import PAUSA_SEGUNDOS, Funcion, abrir, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
 
 NOMBRE = "procinal"
 BASE = "https://www.procinal.com.co/ciudad/bogota/teatros/"
@@ -49,9 +49,8 @@ def obtener(navegador) -> list[Funcion]:
     try:
         for slug, sala_id in SALAS.items():
             url = BASE + slug
-            pagina.goto(url, wait_until="networkidle", timeout=60000)
-            pagina.wait_for_timeout(2500)
-            nuevas = parsear(pagina.inner_text("body"), sala_id, url)
+            texto = abrir(pagina, url, esperar=r"(Doblada|Subtitulada|Original) - ", extra_ms=1500)
+            nuevas = parsear(texto, sala_id, url)
             print(f"  {NOMBRE}/{slug}: {len(nuevas)} funciones")
             funciones += nuevas
             time.sleep(PAUSA_SEGUNDOS)

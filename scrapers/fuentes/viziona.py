@@ -3,7 +3,7 @@
 """
 import re
 
-from comun import Funcion, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
+from comun import Funcion, abrir, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
 
 NOMBRE = "viziona"
 URL = "https://vizionacines.com/"
@@ -39,9 +39,7 @@ def parsear(texto: str, dia=None) -> list[Funcion]:
 def obtener(navegador) -> list[Funcion]:
     pagina = navegador.new_page()
     try:
-        pagina.goto(URL, wait_until="networkidle", timeout=60000)
-        pagina.wait_for_timeout(3000)
-        funciones = parsear(pagina.inner_text("body"))
+        funciones = parsear(abrir(pagina, URL, esperar="Sala:", extra_ms=2000))
     finally:
         pagina.close()
     print(f"  {NOMBRE}: {len(funciones)} funciones")

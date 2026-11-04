@@ -4,7 +4,7 @@
 """
 import re
 
-from comun import Funcion, hora_a_24, hoy, iso, limpiar_lineas, sin_tildes
+from comun import Funcion, abrir, hora_a_24, hoy, iso, limpiar_lineas, sin_tildes
 
 NOMBRE = "cinepolis"
 URL = "https://cinepolis.com.co/cartelera/bogota-colombia"
@@ -54,9 +54,7 @@ def parsear(texto: str, dia=None) -> list[Funcion]:
 def obtener(navegador) -> list[Funcion]:
     pagina = navegador.new_page()
     try:
-        pagina.goto(URL, wait_until="networkidle", timeout=60000)
-        pagina.wait_for_timeout(4000)
-        funciones = parsear(pagina.inner_text("body"))
+        funciones = parsear(abrir(pagina, URL, esperar=r"\d{2,3} min", extra_ms=2500))
     finally:
         pagina.close()
     print(f"  {NOMBRE}: {len(funciones)} funciones")

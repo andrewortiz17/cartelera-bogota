@@ -5,7 +5,7 @@ página de cada película, agrupados por día y por multicine:
 import re
 import time
 
-from comun import (MESES_CORTOS, PAUSA_SEGUNDOS, Funcion, hora_a_24, hoy, iso,
+from comun import (MESES_CORTOS, PAUSA_SEGUNDOS, Funcion, abrir, hora_a_24, hoy, iso,
                    limpiar_lineas, sin_tildes, titulo_bonito)
 
 NOMBRE = "royal_films"
@@ -70,8 +70,7 @@ def parsear(texto: str, url: str, dia=None) -> list[Funcion]:
 
 def elegir_bogota(pagina):
     """La web pide país y ciudad la primera vez."""
-    pagina.goto(BASE, wait_until="networkidle", timeout=60000)
-    if "Selecciona tu ubicación" not in pagina.inner_text("body"):
+    if "Selecciona tu ubicación" not in abrir(pagina, BASE, extra_ms=2500):
         return
     pagina.get_by_text("País", exact=True).first.click()
     pagina.get_by_role("listitem").filter(has_text="Colombia").first.click()
@@ -87,16 +86,36 @@ def obtener(navegador) -> list[Funcion]:
     funciones = []
     try:
         elegir_bogota(pagina)
-        pagina.goto(CARTELERA, wait_until="networkidle", timeout=60000)
-        pagina.wait_for_timeout(2500)
+        abrir(pagina, CARTELERA, esperar="Ver trailer", extra_ms=1500)
         enlaces = pagina.eval_on_selector_all(
             'a[href^="/pelicula/"]', "els => [...new Set(els.map(e => e.getAttribute('href')))]")
         print(f"  {NOMBRE}: {len(enlaces)} películas en la cartelera de Bogotá")
-        for ruta in enlaces:
+        for n, ruta in enumerate(enlaces):
             url = BASE + ruta
-            pagina.goto(url, wait_until="networkidle", timeout=60000)
-            pagina.wait_for_timeout(2000)
-            funciones += parsear(pagina.inner_text("body"), url)
+            texto = abrir(pagina, url, esperar="Clasificación", extra_ms=1500)
+            nuevas = parsear(texto, url)
+            # Cada multicine es un panel plegable: se abre uno por uno y se vuelve a leer
+            try:
+                paneles = pagina.get_by_text(re.compile(r"^\s*Multicine ", re.I))
+                for k in range(paneles.count()):
+                    try:
+                        paneles.nth(k).click(timeout=3000)
+                        pagina.wait_for_timeout(700)
+                        nuevas += parsear(pagina.inner_text("body"), url)
+                    except Exception:
+                        pass
+            except Exception:
+                pass
+            unicas = {(f.sala_id, f.hora, f.idioma): f for f in nuevas}
+            nuevas = list(unicas.values())
+            if not nuevas and n == 0:
+                # Guarda la primera página sin funciones para poder revisar qué mostró
+                from pathlib import Path
+                destino = Path(__file__).resolve().parents[2] / "logs" / "royal_films_pagina.txt"
+                destino.parent.mkdir(exist_ok=True)
+                destino.write_text(url + "\n\n" + texto, encoding="utf-8")
+                print(f"  {NOMBRE}: 0 funciones en {ruta}; texto guardado en logs/royal_films_pagina.txt")
+            funciones += nuevas
             time.sleep(PAUSA_SEGUNDOS)
     finally:
         pagina.close()

@@ -38,7 +38,7 @@ def limpiar_lineas(texto: str) -> list[str]:
 
 def hora_a_24(texto: str) -> tuple[int, int] | None:
     """Convierte '12:40P.M.', '09:10 p. m.', '6:30 pm' o '14:35' a (h, m)."""
-    t = texto.strip().lower().replace(".", "").replace(" ", "")
+    t = re.sub(r"[\s.]", "", texto.lower())   # incluye espacios no separables (\xa0)
     m = re.fullmatch(r"(\d{1,2}):(\d{2})(am|pm)?", t)
     if not m:
         return None
@@ -90,3 +90,24 @@ def limpiar_titulo(titulo: str) -> str:
     t = re.sub(r"^(RE:|REESTRENO\s*-?)\s*", "", titulo, flags=re.I)
     t = re.sub(r"\s*\((re ?estreno)\)\s*$|\s+re$", "", t, flags=re.I)
     return t.strip()
+
+
+def abrir(pagina, url: str, esperar: str | None = None, extra_ms: int = 1500):
+    """Abre una página sin esperar 'networkidle' (los sitios con analítica nunca quedan
+    quietos). Espera a que aparezca el texto `esperar` (si se da) y luego `extra_ms`.
+    Devuelve el texto visible de la página, o "" si no cargó."""
+    try:
+        resp = pagina.goto(url, wait_until="domcontentloaded", timeout=45000)
+        if resp is not None and resp.status >= 400:
+            print(f"    {url} respondió {resp.status}")
+            return ""
+        if esperar:
+            try:
+                pagina.get_by_text(re.compile(esperar, re.I)).first.wait_for(timeout=25000)
+            except Exception:
+                print(f"    {url}: no apareció «{esperar}» (puede no haber funciones hoy)")
+        pagina.wait_for_timeout(extra_ms)
+        return pagina.inner_text("body")
+    except Exception as e:
+        print(f"    {url}: {type(e).__name__}: {str(e).splitlines()[0][:120]}")
+        return ""

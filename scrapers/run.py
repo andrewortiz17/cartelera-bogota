@@ -20,6 +20,9 @@ from comun import BOGOTA_TZ, clave_pelicula, limpiar_titulo, titulo_bonito
 from fuentes import cine_colombia, cinemark, cinemateca, cinepolis, procinal, royal_films, viziona
 
 FUENTES = {m.NOMBRE: m for m in (cine_colombia, cinemark, procinal, royal_films, cinepolis, viziona, cinemateca)}
+# Cine Colombia bloquea el acceso automatizado a su web (responde 403), así que no se
+# consulta por defecto. Se reactiva quitándolo de aquí cuando haya un acuerdo de datos.
+DESACTIVADAS = {"cine_colombia"}
 SALIDA = Path(__file__).resolve().parents[1] / "app" / "www" / "data" / "funciones.json"
 
 
@@ -45,7 +48,7 @@ def main():
     except AttributeError:
         pass
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    elegidas = {n: FUENTES[n] for n in args} if args else FUENTES
+    elegidas = {n: FUENTES[n] for n in args} if args else {n: m for n, m in FUENTES.items() if n not in DESACTIVADAS}
     estado, funciones = {}, []
 
     anterior = {}
@@ -73,6 +76,15 @@ def main():
     if args and anterior:
         funciones += [f for f in anterior.get("funciones", []) if f.get("fuente") not in elegidas]
         estado = {**anterior.get("estado", {}), **estado}
+
+    # Quita repetidas (algunas páginas muestran la misma función dos veces)
+    vistas, unicas = set(), []
+    for f in funciones:
+        clave = (f["sala_id"], clave_pelicula(f["pelicula"]), f["hora"], f.get("idioma", ""))
+        if clave not in vistas:
+            vistas.add(clave)
+            unicas.append(f)
+    funciones = unicas
 
     unificar_titulos(funciones)
     funciones.sort(key=lambda f: (f["hora"], f["sala_id"]))

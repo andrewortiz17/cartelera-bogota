@@ -63,7 +63,7 @@ Los scrapers leen las páginas públicas de cada cadena, igual que lo haría una
 
 | Fuente | Qué lee | Salas |
 |---|---|---|
-| Cine Colombia | página de cada sala (`cinecolombia.com/cinemas/<sala>/`) | 18 |
+| Cine Colombia | **desactivada**: su web bloquea el acceso automatizado (403). Pendiente de solicitud de datos | 18 |
 | Cinemark | página de cada teatro (`cinemark.com.co/ciudad/bogota/<teatro>`) | 8 |
 | Procinal | página de cada teatro (`procinal.com.co/ciudad/bogota/teatros/<teatro>`) | 10 |
 | Royal Films | página de cada película, por multicine | 5 |

@@ -3,5 +3,5 @@
 // Si ambas están vacías, la app usa data/funciones.json incluido al compilar, o la demo.
 window.BOGOCINE_CONFIG = {
   API_URL: "",
-  FUNCIONES_URL: ""
+  FUNCIONES_URL: "https://raw.githubusercontent.com/andrewortiz17/cartelera-bogota/main/app/www/data/funciones.json"
 };

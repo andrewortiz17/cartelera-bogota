@@ -7,7 +7,7 @@ Por defecto muestra HOY. Cada película aparece así:
 import re
 import time
 
-from comun import PAUSA_SEGUNDOS, Funcion, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
+from comun import PAUSA_SEGUNDOS, Funcion, abrir, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
 
 NOMBRE = "cinemark"
 BASE = "https://www.cinemark.com.co/ciudad/bogota/"
@@ -58,12 +58,8 @@ def obtener(navegador) -> list[Funcion]:
     try:
         for slug, sala_id in SALAS.items():
             url = BASE + slug
-            resp = pagina.goto(url, wait_until="networkidle", timeout=60000)
-            if resp and resp.status >= 400:
-                print(f"  {NOMBRE}/{slug}: la página respondió {resp.status}; revisa el slug")
-                continue
-            pagina.wait_for_timeout(3000)
-            nuevas = parsear(pagina.inner_text("body"), sala_id, url)
+            texto = abrir(pagina, url, esperar="HORARIOS DISPONIBLES", extra_ms=2500)
+            nuevas = parsear(texto, sala_id, url)
             print(f"  {NOMBRE}/{slug}: {len(nuevas)} funciones")
             funciones += nuevas
             time.sleep(PAUSA_SEGUNDOS)
