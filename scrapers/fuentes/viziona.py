@@ -1,9 +1,9 @@
-"""Viziona Cines (C.C. El Edén): una sola sede; la página principal muestra HOY:
+"""Viziona Cines (C.C. El Edén): una sola sede; la página principal muestra HOY y pestañas para los días siguientes ("Jue / Nov 5 2026"):
     CLAYFACE / Sala: VMAX / 2D / DOBLADA / 3:15 pm / 5:45 pm / Sala: VIP / 2D / DOBLADA / 6:55 pm / …
 """
 import re
 
-from comun import Funcion, abrir, asignar_posters, imagenes_en_pagina, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
+from comun import Funcion, abrir, leer_varios_dias, asignar_posters, imagenes_en_pagina, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
 
 NOMBRE = "viziona"
 URL = "https://vizionacines.com/"
@@ -39,7 +39,8 @@ def parsear(texto: str, dia=None) -> list[Funcion]:
 def obtener(navegador) -> list[Funcion]:
     pagina = navegador.new_page()
     try:
-        funciones = parsear(abrir(pagina, URL, esperar="Sala:", extra_ms=2000))
+        texto = abrir(pagina, URL, esperar="Sala:", extra_ms=2000)
+        funciones = leer_varios_dias(pagina, texto, parsear, NOMBRE)
         asignar_posters(funciones, imagenes_en_pagina(pagina))
     finally:
         pagina.close()

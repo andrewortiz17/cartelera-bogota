@@ -2,12 +2,13 @@
 Ejecutar desde scrapers/:  python -m pytest pruebas   (o: python pruebas/test_parsers.py)
 """
 import sys
-from datetime import date
+import re
+from datetime import date, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from fuentes import cine_colombia, cinemark, cinemateca, cinepolis, procinal, royal_films, viziona  # noqa: E402
+from fuentes import manual, cine_colombia, cinemark, cinemateca, cinepolis, procinal, royal_films, viziona  # noqa: E402
 
 DIA = date(2026, 11, 4)
 
@@ -225,6 +226,24 @@ def test_royal_films():
     assert f.pelicula == "La exorcista" and f.idioma == "Subtitulada" and f.duracion_min == 85
 
 
+def test_royal_pestanas():
+    # Fila de pestañas seguida de la programación del día elegido
+    texto = ROYAL.replace("MIÉ\n04 nov\nMulticine", "MIÉ\n04 nov\nJUE\n05 nov\nMulticine", 1).split("JUE\n05 nov\nMulticine Paseo Villa Del Rio\n2D - ORI\n06:00")[0]
+    fs = royal_films.parsear(texto, "u", DIA)
+    assert [f.hora[11:16] for f in fs] == ["21:10"]
+    manana = royal_films.parsear(texto, "u", DIA + timedelta(days=1))
+    assert [f.hora[:10] for f in manana] == ["2026-11-05"]
+
+
+def test_patron_fecha():
+    from comun import patron_fecha
+    p = patron_fecha(date(2026, 11, 5))
+    for t in ["JUE. 05 NOV. 2026", "Jue, Nov 5 2026", "Mañana (05 noviembre)", "JUE 05 nov", "Jue / Nov 5 2026"]:
+        assert re.search(p, t, re.I), t
+    for t in ["MIÉ 04 nov", "Nov 15 2026", "25 nov", "05 dic"]:
+        assert not re.search(p, t, re.I), t
+
+
 def test_cinepolis():
     fs = cinepolis.parsear(CINEPOLIS, DIA)
     assert all(f.sala_id == "cp-plaza-claro" for f in fs)
@@ -263,3 +282,15 @@ if __name__ == "__main__":
         if nombre.startswith("test_"):
             fn()
             print("✔", nombre)
+
+
+def test_manual():
+    texto = ("\ufeffsala_id;pelicula;fecha;hora;idioma\n"
+             "club-unal;Stalker;20/11/2026;7 pm;Subtitulada\n"
+             "club-unal;Vieja;2026-11-01;18:00;\n"
+             "club-x;Mal;2026-11-20;18:00;\n"
+             "club-red;Tarde;2026-11-21;12:30 a. m.;\n")
+    fs = manual.convertir(manual.filas(texto.lstrip("\ufeff")), {"club-unal", "club-red"}, DIA)
+    assert [(f.sala_id, f.hora) for f in fs] == [("club-unal", "2026-11-20T19:00:00-05:00"),
+                                                 ("club-red", "2026-11-21T00:30:00-05:00")]
+    assert fs[0].idioma == "Subtitulada" and fs[0].fuente == "manual"

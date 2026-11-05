@@ -12,6 +12,10 @@ MESES_CORTOS = {k[:3]: v for k, v in MESES.items()}
 
 # Pausa entre páginas para no cargar los sitios
 PAUSA_SEGUNDOS = 2.5
+# Cuántos días se leen en las cadenas que publican por pestañas (hoy + los siguientes).
+# Se puede cambiar sin tocar el código con la variable de entorno BOGOCINE_DIAS.
+import os as _os
+DIAS_A_LEER = max(1, int(_os.environ.get("BOGOCINE_DIAS", "3")))
 USER_AGENT = "BogoCine/0.4 (cartelera de Bogota; https://github.com/andrewortiz17/cartelera-bogota)"
 
 
@@ -153,3 +157,131 @@ def asignar_posters(funciones: list, imagenes: list[dict]) -> None:
             if c in indice:
                 f.poster = indice[c]
                 break
+
+
+def dias_a_leer() -> list[date]:
+    """Hoy y los días siguientes que se intentan leer en cada cadena."""
+    return [hoy() + timedelta(days=k) for k in range(DIAS_A_LEER)]
+
+
+def patron_fecha(dia: date) -> str:
+    """Expresión que reconoce la pestaña de un día en las webs de los cines:
+    'JUE. 05 NOV. 2026' (Cinemark), 'Jue, Nov 5 2026' (Procinal, Viziona),
+    'Mañana (05 noviembre)' (Cinépolis), 'JUE 05 nov' (Royal Films)."""
+    mes = [k for k, v in MESES_CORTOS.items() if v == dia.month][0]
+    d = rf"(?<!\d)0?{dia.day}(?!\d)"
+    return rf"({d}\W*(de\s+)?{mes}|{mes}[a-z]*\.?\W*{d})"
+
+
+# Busca el elemento más pequeño cuyo texto (corto) coincide con la fecha, prefiriendo los
+# que se pueden tocar (botones, enlaces, pestañas). Devuelve su posición en la página, si
+# está marcado como elegido (clase "selected"/"active" o aria-selected) y, si `marcar`,
+# lo deja marcado para que Playwright haga clic en él como lo haría una persona.
+_JS_BUSCAR_DIA = """([patron, marcar]) => {
+  document.querySelectorAll('[data-bogocine-dia]').forEach(e => e.removeAttribute('data-bogocine-dia'));
+  const re = new RegExp(patron, 'i');
+  const TOCABLE = 'button,a,[role=tab],[role=button],[role=option],li,label,option';
+  const todos = [...document.querySelectorAll('body *')];
+  const coinciden = todos.filter(el => {
+    const t = (el.innerText || el.textContent || '').replace(/\\s+/g, ' ').trim();
+    return t && t.length <= 40 && re.test(t);
+  });
+  let hojas = coinciden.filter(el => !coinciden.some(o => o !== el && el.contains(o)));
+  const tocables = hojas.filter(el => el.closest(TOCABLE) || getComputedStyle(el).cursor === 'pointer');
+  if (tocables.length) hojas = tocables;
+  if (!hojas.length) return null;
+  const el = hojas[0];
+  const destino = el.tagName === 'OPTION' ? el : (el.closest(TOCABLE) || el);
+  const elegido = (() => {
+    if (el.tagName === 'OPTION') return el.selected;
+    const marca = /(^|[\\s_-])(selected|active|current|is-active|activ[oa]|seleccionad[oa])([\\s_-]|$)/i;
+    for (let n = destino, k = 0; n && k < 4; n = n.parentElement, k++) {
+      if (n.getAttribute('aria-selected') === 'true' || n.getAttribute('aria-current') ||
+          marca.test(typeof n.className === 'string' ? n.className : '')) return true;
+    }
+    return false;
+  })();
+  const res = {indice: todos.indexOf(el), elegido};
+  if (!marcar) return res;
+  if (el.tagName === 'OPTION') {
+    const sel = el.closest('select'); sel.value = el.value;
+    sel.dispatchEvent(new Event('input', {bubbles: true}));
+    sel.dispatchEvent(new Event('change', {bubbles: true}));
+    res.select = true;
+    return res;
+  }
+  destino.setAttribute('data-bogocine-dia', '1');
+  return res;
+}"""
+
+
+def buscar_dia(pagina, dia: date):
+    """{'indice', 'elegido'} de la pestaña del día, o None si no hay pestaña."""
+    try:
+        return pagina.evaluate(_JS_BUSCAR_DIA, [patron_fecha(dia), False])
+    except Exception:
+        return None
+
+
+def elegir_dia(pagina, dia: date, espera_ms: int = 2500):
+    """Hace clic en la pestaña u opción del día `dia`. Devuelve (texto_de_la_página, cambió,
+    quedó_elegida) o None si no hay pestaña para ese día."""
+    try:
+        antes = pagina.inner_text("body")
+        r = pagina.evaluate(_JS_BUSCAR_DIA, [patron_fecha(dia), True])
+        if not r:
+            return None
+        if not r.get("select"):
+            try:
+                pagina.click("[data-bogocine-dia]", timeout=4000)
+            except Exception:
+                pagina.eval_on_selector("[data-bogocine-dia]", "e => e.click()")
+        pagina.wait_for_timeout(espera_ms)
+        despues = pagina.inner_text("body")
+        # Algunas webs (Cinemark) cargan los horarios del día con retraso: se espera hasta
+        # ~6 s más mientras la página siga igual.
+        for _ in range(9):
+            if despues != antes:
+                break
+            pagina.wait_for_timeout(700)
+            despues = pagina.inner_text("body")
+        tras = buscar_dia(pagina, dia) or {}
+        return despues, despues != antes, bool(tras.get("elegido"))
+    except Exception as e:
+        print(f"    no se pudo elegir el día {dia}: {type(e).__name__}: {str(e).splitlines()[0][:100]}")
+        return None
+
+
+def leer_varios_dias(pagina, texto_inicial: str, parsear_dia, etiqueta: str,
+                     repite_programacion: bool = False) -> list:
+    """Lee cada día que tenga pestaña. Ojo: de noche algunas webs (Procinal) ya abren en el
+    día siguiente y quitan la pestaña de hoy, y otras repiten la misma programación varios
+    días. Un día se acepta si al elegirlo la página cambia o, en webs que repiten la misma
+    programación (`repite_programacion`, p. ej. Procinal), si su pestaña queda marcada como
+    elegida aunque el texto sea igual. En las demás eso suele ser que no alcanzó a cargar. El texto inicial se asigna al
+    día cuya pestaña venga marcada como elegida o, si no se sabe, a la primera pestaña.
+    Nunca se copian los horarios de un día a otro sin una de esas señales.
+    `parsear_dia(texto, dia)` devuelve las funciones de ese día."""
+    if not texto_inicial:
+        return []
+    dias = dias_a_leer()
+    info = {d: buscar_dia(pagina, d) for d in dias}
+    con_pestana = [d for d in dias if info[d]]
+    if not con_pestana:                      # página de un solo día, sin pestañas
+        return parsear_dia(texto_inicial, dias[0])
+    marcados = [d for d in con_pestana if info[d].get("elegido")]
+    inicial = marcados[0] if len(marcados) == 1 else min(con_pestana, key=lambda d: info[d]["indice"])
+    out, actual = [], texto_inicial
+    for dia in con_pestana:
+        r = elegir_dia(pagina, dia)
+        if r is None:
+            continue
+        texto, cambio, elegida = r
+        if not (cambio or (elegida and repite_programacion) or (dia == inicial and actual == texto_inicial)):
+            print(f"    {etiqueta} {dia:%d/%m}: la página no cambió al elegirlo, se omite")
+            continue
+        actual = texto
+        nuevas = parsear_dia(texto, dia)
+        print(f"    {etiqueta} {dia:%d/%m}: {len(nuevas)} funciones")
+        out += nuevas
+    return out

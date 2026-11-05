@@ -17,11 +17,11 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 from comun import BOGOTA_TZ, clave_pelicula, limpiar_titulo, titulo_bonito
-from fuentes import (cine_colombia, cinemania, cinemark, cinemateca, cinepolis, elmuro, procinal,
+from fuentes import (cine_colombia, cinemania, cinemark, cinemateca, cinepolis, elmuro, manual, procinal,
                      royal_films, viziona)
 
 FUENTES = {m.NOMBRE: m for m in (cine_colombia, cinemark, procinal, royal_films, cinepolis, viziona, cinemateca,
-                                       cinemania, elmuro)}
+                                       cinemania, elmuro, manual)}
 # Cine Colombia bloquea el acceso automatizado a su web (responde 403), así que no se
 # consulta por defecto. Se reactiva quitándolo de aquí cuando haya un acuerdo de datos.
 DESACTIVADAS = {"cine_colombia"}
@@ -101,7 +101,7 @@ def unificar_titulos(funciones, qids=None):
 
 # Orden de preferencia para el póster (las de mejor resolución primero)
 PREFERENCIA_POSTER = ["royal_films", "cinepolis", "procinal", "viziona", "cinemark", "cinemateca",
-                      "cinemania", "elmuro", "cine_colombia"]
+                      "cinemania", "elmuro", "manual", "cine_colombia"]
 
 
 def elegir_posters(funciones) -> dict[str, str]:
@@ -143,7 +143,9 @@ def main():
             try:
                 fs = [f.dict() for f in modulo.obtener(contexto)]
                 funciones += fs
-                estado[nombre] = {"funciones": len(fs), "error": None if fs else "0 funciones: revisar"}
+                # La hoja manual puede estar vacía sin que sea un error
+                estado[nombre] = {"funciones": len(fs),
+                                  "error": None if fs or nombre == "manual" else "0 funciones: revisar"}
             except Exception as e:  # una fuente rota no detiene las demás
                 traceback.print_exc()
                 estado[nombre] = {"funciones": 0, "error": f"{type(e).__name__}: {e}"[:300]}
@@ -153,6 +155,20 @@ def main():
     if args and anterior:
         funciones += [f for f in anterior.get("funciones", []) if f.get("fuente") not in elegidas]
         estado = {**anterior.get("estado", {}), **estado}
+
+    # Si una fuente falló esta vez (p. ej. un sitio que no responde desde GitHub Actions),
+    # se conservan sus funciones anteriores que aún no han pasado, en vez de dejarla vacía.
+    ahora = datetime.now(BOGOTA_TZ).isoformat(timespec="seconds")
+    for nombre, e in estado.items():
+        if e["error"] and nombre in elegidas and anterior:
+            viejas = [f for f in anterior.get("funciones", [])
+                      if f.get("fuente") == nombre and f.get("hora", "") >= ahora]
+            if viejas:
+                for f in viejas:
+                    f.setdefault("poster", anterior.get("posters", {}).get(f["pelicula"], ""))
+                funciones += viejas
+                e["conservadas"] = len(viejas)
+                print(f"  {nombre}: falló; se conservan {len(viejas)} funciones de la actualización anterior")
 
     # Quita repetidas (algunas páginas muestran la misma función dos veces)
     vistas, unicas = set(), []
@@ -190,7 +206,8 @@ def main():
 
     print("\nResumen:")
     for n, e in estado.items():
-        print(f"  {'✔' if not e['error'] else '✖'} {n}: {e['funciones']} funciones {e['error'] or ''}")
+        extra = f" (se conservaron {e['conservadas']} anteriores)" if e.get("conservadas") else ""
+        print(f"  {'✔' if not e['error'] else '✖'} {n}: {e['funciones']} funciones {e['error'] or ''}{extra}")
     print(f"\nGuardado en {SALIDA}")
 
 

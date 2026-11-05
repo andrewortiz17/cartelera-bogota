@@ -5,3 +5,8 @@ __pycache__/
 manual.json
 logs/
 scrapers/tmdb_token.txt
+
+# Llave de firma de Google Play: NUNCA al repositorio
+llave-play/
+*.jks
+*.keystore

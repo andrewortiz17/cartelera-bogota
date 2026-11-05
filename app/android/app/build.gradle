@@ -7,8 +7,9 @@ android {
         applicationId "co.bogocine.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        // En GitHub Actions el número de versión sube solo con cada compilación de producción
+        versionCode((System.getenv("BOGOCINE_VERSION_CODE") ?: "1") as Integer)
+        versionName(System.getenv("BOGOCINE_VERSION_NAME") ?: "1.0")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
@@ -16,8 +17,24 @@ android {
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    // Firma de producción: la llave llega por variables de entorno (secretos de GitHub),
+    // nunca se guarda en el repositorio.
+    signingConfigs {
+        release {
+            def llave = System.getenv("BOGOCINE_KEYSTORE")
+            if (llave) {
+                storeFile file(llave)
+                storePassword System.getenv("BOGOCINE_KEYSTORE_PASSWORD")
+                keyAlias System.getenv("BOGOCINE_KEY_ALIAS")
+                keyPassword System.getenv("BOGOCINE_KEY_PASSWORD")
+            }
+        }
+    }
     buildTypes {
         release {
+            if (System.getenv("BOGOCINE_KEYSTORE")) {
+                signingConfig signingConfigs.release
+            }
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }

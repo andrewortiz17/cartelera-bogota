@@ -1,10 +1,10 @@
-"""Cinépolis: una sola página con los 4 complejos de Bogotá (programación de HOY):
+"""Cinépolis: una sola página con los 4 complejos de Bogotá (HOY; los demás días se eligen en la lista "Día": "Mañana (05 noviembre)"):
     CINÉPOLIS VIP PLAZA CLARO / Clayface / A15108 min / DOB / 15:4018:20 / DIG / SUB / 21:20 / …
 (las horas pueden venir pegadas, por eso se extraen con una expresión regular).
 """
 import re
 
-from comun import Funcion, abrir, asignar_posters, imagenes_en_pagina, hora_a_24, hoy, iso, limpiar_lineas, sin_tildes
+from comun import Funcion, abrir, leer_varios_dias, asignar_posters, imagenes_en_pagina, hora_a_24, hoy, iso, limpiar_lineas, sin_tildes
 
 NOMBRE = "cinepolis"
 URL = "https://cinepolis.com.co/cartelera/bogota-colombia"
@@ -54,7 +54,8 @@ def parsear(texto: str, dia=None) -> list[Funcion]:
 def obtener(navegador) -> list[Funcion]:
     pagina = navegador.new_page()
     try:
-        funciones = parsear(abrir(pagina, URL, esperar=r"\d{2,3} min", extra_ms=2500))
+        texto = abrir(pagina, URL, esperar=r"\d{2,3} min", extra_ms=2500)
+        funciones = leer_varios_dias(pagina, texto, parsear, NOMBRE)
         asignar_posters(funciones, imagenes_en_pagina(pagina))
     finally:
         pagina.close()

@@ -1,4 +1,4 @@
-/* BogoCine — v0.2
+/* BogoCine — v0.3
    Mapa en grises con casas por tipo de sala; al acercarse (zoom ≥ 16) cada casa
    se convierte en la foto del cine. "Cerca de mí" y búsqueda por película.
    Sin backend configurado usa horarios de demostración. */
@@ -17,7 +17,7 @@ const GRIS = {
 
 const $ = (id) => document.getElementById(id);
 const state = {
-  posters: {},                   // título → url del póster (TMDB)
+  posters: {},                   // título → url del póster (publicado por el cine)
   salas: [],
   salaPorId: new Map(),
   funcionesPorSala: new Map(),   // índice sala_id → funciones ordenadas
@@ -25,6 +25,9 @@ const state = {
   user: null,
   tipos: new Set(Object.keys(TIPO)),
   radioKm: 5,
+  dia: null,                     // inicio (00:00) del día elegido; null = hoy
+  idioma: "",                    // "", "Doblada", "Subtitulada", "Original", "Español"
+  formato: "",                   // "", "2D", "3D", "IMAX", "VIP"…
   soloProximaHora: false,
   busqueda: "",
   vista: "mapa",
@@ -46,15 +49,33 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
 const tieneUbicacion = (s) => Number.isFinite(s.lat) && Number.isFinite(s.lng);
 const minutosHasta = (d) => (d - Date.now()) / 60000;
 const enProximaHora = (d) => { const m = minutosHasta(d); return m >= 0 && m <= 60; };
-// Por ahora se muestra solo el día de hoy (hasta las 4 a. m., por las funciones de trasnoche).
-// El selector de días vendrá después; la Cinemateca y Cinemanía publican varios días.
-function finDelDia() {
-  const d = new Date();
-  if (d.getHours() >= 4) d.setDate(d.getDate() + 1);
-  d.setHours(4, 0, 0, 0);
+// Un "día de cine" va de las 4 a. m. a las 4 a. m. del día siguiente (por las funciones de trasnoche).
+function diaDeCine(fecha) {
+  const d = new Date(fecha);
+  if (d.getHours() < 4) d.setDate(d.getDate() - 1);
+  d.setHours(0, 0, 0, 0);
   return d;
 }
-const vigente = (f) => minutosHasta(f.hora) >= -10 && f.hora < finDelDia();
+const hoyCine = () => diaDeCine(new Date());
+const diaElegido = () => state.dia || hoyCine();
+const esHoy = () => diaElegido().getTime() === hoyCine().getTime();
+function ventanaDia() {
+  const ini = new Date(diaElegido()); ini.setHours(4, 0, 0, 0);
+  const fin = new Date(ini); fin.setDate(fin.getDate() + 1);
+  return [ini, fin];
+}
+const FORMATOS = ["IMAX", "4DX", "3D", "XD", "VIP", "DBOX", "MACRO XE", "2D"];
+function pasaFiltros(f) {
+  if (state.idioma && !(f.idioma || "").toLowerCase().startsWith(state.idioma.toLowerCase())) return false;
+  if (state.formato && !(f.formato || "").toUpperCase().includes(state.formato)) return false;
+  return true;
+}
+function vigente(f) {
+  const [ini, fin] = ventanaDia();
+  if (f.hora >= fin || f.hora < ini) return false;
+  if (esHoy() && minutosHasta(f.hora) < -10) return false;
+  return pasaFiltros(f);
+}
 const distanciaA = (s) => (state.user && tieneUbicacion(s) ? distanciaKm(state.user, s) : null);
 const visible = (s) => state.tipos.has(s.tipo);
 function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
@@ -86,19 +107,38 @@ async function cargarDatos() {
   }
   if (!salas) salas = (await fetch("data/salas.json").then((r) => r.json())).salas;
 
-  // Cartelera generada por los scrapers: primero la remota (si hay), luego la incluida en la app
+  // Cartelera generada por los scrapers: la de internet; si no hay conexión, la guardada en el
+  // celular la última vez; si tampoco, la incluida en la app.
+  const usar = (datos, origen) => {
+    funciones = datos.funciones;
+    state.generado = datos.generado ? new Date(datos.generado) : null;
+    state.posters = datos.posters || {};
+    state.origen = origen;
+  };
+  if (!funciones && cfg.FUNCIONES_URL) {
+    try {
+      const ctrl = new AbortController();
+      const corte = setTimeout(() => ctrl.abort(), 8000);
+      const texto = await fetch(cfg.FUNCIONES_URL, { cache: "no-store", signal: ctrl.signal }).then((r) => (r.ok ? r.text() : null));
+      clearTimeout(corte);
+      const datos = texto && JSON.parse(texto);
+      if (datos?.funciones?.length) {
+        usar(datos, "internet");
+        try { localStorage.setItem("bogocine_cartelera", texto); } catch { /* sin espacio o sin permiso */ }
+      }
+    } catch { /* sin conexión */ }
+  }
   if (!funciones) {
-    for (const url of [cfg.FUNCIONES_URL, "data/funciones.json"].filter(Boolean)) {
-      try {
-        const datos = await fetch(url, { cache: "no-store" }).then((r) => (r.ok ? r.json() : null));
-        if (datos?.funciones?.length) {
-          funciones = datos.funciones;
-          state.generado = datos.generado ? new Date(datos.generado) : null;
-          state.posters = datos.posters || {};
-          break;
-        }
-      } catch { /* sigue con la siguiente fuente */ }
-    }
+    try {
+      const guardada = JSON.parse(localStorage.getItem("bogocine_cartelera") || "null");
+      if (guardada?.funciones?.length) usar(guardada, "guardada");
+    } catch { /* caché dañada o no disponible */ }
+  }
+  if (!funciones) {
+    try {
+      const datos = await fetch("data/funciones.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : null));
+      if (datos?.funciones?.length) usar(datos, "incluida");
+    } catch { /* no viene en la app */ }
   }
   if (funciones) {
     funciones = funciones.map((f) => ({ ...f, hora: new Date(f.hora) }));
@@ -157,28 +197,40 @@ const mapa = L.map("mapa", { zoomControl: false, attributionControl: true })
   .setView([BOGOTA.lat, BOGOTA.lng], 12);
 // Mapa base: se prueban proveedores en orden y se cambia al siguiente si las teselas no cargan.
 // Con MAPTILER_KEY en config.js se usa primero MapTiler (requiere API key gratuita).
+const CFG_MAPA = window.BOGOCINE_CONFIG || {};
+const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/";
 const PROVEEDORES = [
-  ...(window.BOGOCINE_CONFIG?.MAPTILER_KEY ? [{
+  ...(CFG_MAPA.MAPTILER_KEY ? [{
     nombre: "MapTiler",
-    url: `https://api.maptiler.com/maps/dataviz-dark/256/{z}/{x}/{y}.png?key=${window.BOGOCINE_CONFIG.MAPTILER_KEY}`,
-    opciones: { attribution: "© MapTiler © OpenStreetMap" },
+    url: `https://api.maptiler.com/maps/dataviz-dark/256/{z}/{x}/{y}.png?key=${CFG_MAPA.MAPTILER_KEY}`,
+    opciones: { attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank" rel="noopener">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a>' },
+    logo: true,   // el plan gratuito de MapTiler exige mostrar su logo
   }] : []),
-  { nombre: "CARTO", url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-    opciones: { subdomains: "abcd", attribution: "© OpenStreetMap · © CARTO" } },
-  { nombre: "Esri", url: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",
-    opciones: { maxZoom: 16, attribution: "© Esri" } },
+  // Esri: gris oscuro, sin clave. Las calles y barrios van en una capa de etiquetas aparte.
+  { nombre: "Esri", url: ESRI + "World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+    etiquetas: ESRI + "World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}",
+    opciones: { maxNativeZoom: 16, attribution: "Mapa © Esri, HERE, Garmin, © OpenStreetMap" } },
+  // CARTO ahora exige clave: sin ella entrega teselas con el aviso "API KEY REQUIRED"
+  ...(CFG_MAPA.CARTO_KEY ? [{
+    nombre: "CARTO", url: `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?api_key=${CFG_MAPA.CARTO_KEY}`,
+    opciones: { subdomains: "abcd", attribution: "© OpenStreetMap · © CARTO" } }] : []),
   { nombre: "OpenStreetMap", url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
     opciones: { attribution: "© OpenStreetMap" }, claro: true },
 ];
-let capaBase = null, indiceProveedor = -1;
+let capaBase = null, capaEtiquetas = null, indiceProveedor = -1;
 
 function usarProveedor(n) {
   if (n >= PROVEEDORES.length) { indiceProveedor = n; $("aviso-mapa").hidden = false; return; }
   const p = PROVEEDORES[n];
   indiceProveedor = n;
   if (capaBase) capaBase.remove();
+  if (capaEtiquetas) { capaEtiquetas.remove(); capaEtiquetas = null; }
   let cargadas = 0, errores = 0;
   capaBase = L.tileLayer(p.url, { maxZoom: 19, ...p.opciones }).addTo(mapa);
+  document.getElementById("logo-maptiler")?.toggleAttribute("hidden", !p.logo);
+  if (p.etiquetas) {
+    capaEtiquetas = L.tileLayer(p.etiquetas, { maxZoom: 19, maxNativeZoom: 16, pane: "overlayPane", opacity: 0.85 }).addTo(mapa);
+  }
   document.getElementById("mapa").classList.toggle("mapa-claro", !!p.claro);
   capaBase.on("tileload", () => { cargadas++; $("aviso-mapa").hidden = true; });
   capaBase.on("tileerror", () => {
@@ -189,7 +241,25 @@ function usarProveedor(n) {
     }
   });
 }
-usarProveedor(0);
+// Algunos proveedores responden con una imagen de error ("API KEY REQUIRED", "Invalid key")
+// en vez de fallar, y el mapa no se entera. Antes de usar uno, se prueba una tesela.
+async function teselaValida(p) {
+  const url = p.url.replace("{s}", "a").replace("{z}", "12").replace("{x}", "1203")
+    .replace("{y}", "1986").replace("{r}", "");
+  try {
+    const r = await fetch(url, { mode: "cors", cache: "no-store" });
+    return r.ok;
+  } catch {
+    return true;   // si el navegador no deja leer la respuesta, se confía en el aviso de error de Leaflet
+  }
+}
+(async () => {
+  for (let n = 0; n < PROVEEDORES.length; n++) {
+    if (await teselaValida(PROVEEDORES[n])) { usarProveedor(n); return; }
+    console.warn(`Mapa: ${PROVEEDORES[n].nombre} rechazó la tesela de prueba`);
+  }
+  usarProveedor(PROVEEDORES.length);
+})();
 
 const marcadores = new Map(); // sala_id → L.Marker (se crean una sola vez)
 let modoFoto = null;
@@ -233,10 +303,6 @@ function actualizarMarcadores() {
 }
 
 mapa.on("zoomend", actualizarMarcadores);
-mapa.on("click", (e) => {
-  fijarUbicacion(e.latlng.lat, e.latlng.lng, true);
-  $("aviso-ubicacion").hidden = true;
-});
 
 /* ================= Ubicación ================= */
 
@@ -250,36 +316,64 @@ function fijarUbicacion(lat, lng, centrar) {
   renderListas();
 }
 
-async function obtenerUbicacion() {
+// Ubicación automática por GPS: se sigue en tiempo real (watch) y se centra el mapa
+// solo la primera vez. El botón de la esquina vuelve a centrar en tu posición.
+let seguimientoGps = null, primeraUbicacion = true;
+
+function nativoGeo() {
+  const Cap = window.Capacitor;
+  return Cap?.isNativePlatform?.() ? (Cap.Plugins?.Geolocation || Cap.registerPlugin?.("Geolocation")) : null;
+}
+
+function alRecibirPosicion(pos) {
+  if (!pos?.coords) return;
+  fijarUbicacion(pos.coords.latitude, pos.coords.longitude, primeraUbicacion);
+  primeraUbicacion = false;
+  $("aviso-ubicacion").hidden = true;
+}
+
+function alFallarGps() {
   const aviso = $("aviso-ubicacion");
+  aviso.hidden = false;
+  aviso.textContent = "Activa la ubicación del celular y da permiso a BogoCine para ver los cines cercanos.";
+}
+
+async function iniciarUbicacion() {
+  const opciones = { enableHighAccuracy: true, timeout: 15000, maximumAge: 30000 };
+  const Geo = nativoGeo();
   try {
-    const Cap = window.Capacitor;
-    const Geo = Cap?.isNativePlatform?.() ? (Cap.Plugins?.Geolocation || Cap.registerPlugin?.("Geolocation")) : null;
-    let pos;
     if (Geo) {
-      await Geo.requestPermissions().catch(() => {});
-      pos = await Geo.getCurrentPosition({ enableHighAccuracy: true, timeout: 10000 });
+      const permiso = await Geo.requestPermissions().catch(() => null);
+      if (permiso && permiso.location === "denied") return alFallarGps();
+      seguimientoGps = await Geo.watchPosition(opciones, (pos, err) => (err ? alFallarGps() : alRecibirPosicion(pos)));
+    } else if (navigator.geolocation) {
+      seguimientoGps = navigator.geolocation.watchPosition(alRecibirPosicion, alFallarGps, opciones);
     } else {
-      pos = await new Promise((ok, no) =>
-        navigator.geolocation.getCurrentPosition(ok, no, { enableHighAccuracy: true, timeout: 10000 }));
+      alFallarGps();
     }
-    fijarUbicacion(pos.coords.latitude, pos.coords.longitude, true);
-    aviso.hidden = true;
   } catch {
-    aviso.hidden = false;
-    aviso.textContent = "No pude obtener tu ubicación (revisa el permiso y el GPS). Toca el mapa para fijarla.";
+    alFallarGps();
   }
+}
+
+function centrarEnMiUbicacion() {
+  if (state.user) mapa.setView([state.user.lat, state.user.lng], Math.max(mapa.getZoom(), 14));
+  else { primeraUbicacion = true; iniciarUbicacion(); }
 }
 
 /* ================= Plantillas ================= */
 
 function horarios(fs, max = 8) {
-  if (!fs.length) return '<p class="nota">Sin funciones cargadas para hoy</p>';
+  if (!fs.length) return `<p class="nota">Sin funciones ${esHoy() ? "para hoy" : "para este día"}${state.idioma || state.formato ? " con estos filtros" : ""}</p>`;
   return `<div class="horarios">${fs.slice(0, max).map((f) => {
     const m = minutosHasta(f.hora);
     const pronto = m >= 0 && m <= 60;
     const extra = pronto ? `en ${Math.max(1, Math.round(m))} min` : [f.formato, f.idioma ? f.idioma.slice(0, 3).toUpperCase() : ""].filter(Boolean).join(" ");
-    return `<span class="hora${pronto ? " pronto" : ""}">${fmtHora(f.hora)}${extra ? `<small>${esc(extra)}</small>` : ""}</span>`;
+    const contenido = `${fmtHora(f.hora)}${extra ? `<small>${esc(extra)}</small>` : ""}`;
+    // Cada horario lleva a la página del cine para comprar esa función
+    return f.url_compra
+      ? `<a class="hora${pronto ? " pronto" : ""}" href="${esc(f.url_compra)}" target="_blank" rel="noopener" title="Comprar en la página del cine">${contenido}</a>`
+      : `<span class="hora${pronto ? " pronto" : ""}">${contenido}</span>`;
   }).join("")}</div>`;
 }
 
@@ -313,7 +407,7 @@ function agrupar(fs) {
 function renderCerca() {
   const ul = $("lista-cerca");
   if (!state.user) {
-    ul.innerHTML = '<li class="vacio"><b>¿Dónde estás?</b>Activa la ubicación o toca el mapa.</li>';
+    ul.innerHTML = '<li class="vacio"><b>¿Dónde estás?</b>Activa la ubicación del celular para ver los cines cercanos.</li>';
     return;
   }
   const items = [];
@@ -322,7 +416,7 @@ function renderCerca() {
     const d = distanciaKm(state.user, s);
     if (d > state.radioKm) continue;
     let fs = (state.funcionesPorSala.get(s.id) || []).filter(vigente);
-    if (state.soloProximaHora) { fs = fs.filter((f) => enProximaHora(f.hora)); if (!fs.length) continue; }
+    if (state.soloProximaHora && esHoy()) { fs = fs.filter((f) => enProximaHora(f.hora)); if (!fs.length) continue; }
     items.push({ s, d, fs });
   }
   items.sort((a, b) => a.d - b.d);
@@ -345,29 +439,68 @@ function renderPeliculas() {
     if (q && !p.toLowerCase().includes(q)) continue;
     const vig = fs.filter((f) => vigente(f) && visible(state.salaPorId.get(f.sala_id)));
     if (!vig.length) continue;
-    const sig = vig.find((f) => minutosHasta(f.hora) >= 0);
+    const sig = esHoy() ? vig.find((f) => minutosHasta(f.hora) >= 0) : vig[0];
     filas.push({ p, n: new Set(vig.map((f) => f.sala_id)).size, pronto: vig.filter((f) => enProximaHora(f.hora)).length, sig });
   }
   filas.sort((a, b) => b.pronto - a.pronto || a.p.localeCompare(b.p, "es"));
   $("lista-peliculas").innerHTML = filas.length ? filas.map(({ p, n, pronto, sig }) => `
     <li class="tarjeta" data-peli="${esc(p)}">
       <div class="fila-peli">${poster(p)}
-        <div><h3>${esc(p)}</h3><div class="meta">${sig ? `Próxima: ${fmtHora(sig.hora)}` : "Sin más funciones hoy"}${pronto ? ` · <strong>${pronto} en la próxima hora</strong>` : ""}</div></div>
+        <div><h3>${esc(p)}</h3><div class="meta">${sig ? `${esHoy() ? "Próxima" : "Primera"}: ${fmtHora(sig.hora)}` : "Sin más funciones hoy"}${pronto ? ` · <strong>${pronto} en la próxima hora</strong>` : ""}</div></div>
         <span class="contador">${n}<small>sala${n > 1 ? "s" : ""}</small></span>
       </div>
     </li>`).join("")
-    : '<li class="vacio"><b>Sin resultados</b>Prueba con otro título.</li>';
+    : q || state.idioma || state.formato
+      ? '<li class="vacio"><b>Sin resultados</b>Prueba con otro título o quita los filtros.</li>'
+      : esHoy()
+        ? '<li class="vacio"><b>No quedan funciones hoy</b>Toca «Mañana» arriba para ver la próxima cartelera.</li>'
+        : '<li class="vacio"><b>Sin funciones publicadas</b>Los cines aún no han subido la programación de este día.</li>';
 }
 
 function renderPizarra() {
   const ahora = new Date();
-  $("campo-fecha").textContent = ahora.toLocaleDateString("es-CO", { weekday: "short", day: "numeric", month: "short" }).replace(".", "");
+  $("campo-fecha").textContent = diaElegido().toLocaleDateString("es-CO", { weekday: "short", day: "numeric", month: "short" }).replace(".", "");
   $("campo-hora").textContent = fmtHora(ahora);
   $("campo-salas").textContent = state.salas.filter(visible).length;
 }
 
+// Días con funciones (desde hoy, máximo 7) y formatos presentes en la cartelera
+function diasDisponibles() {
+  const hoy = hoyCine().getTime(), dias = new Set([hoy]);
+  for (const fs of state.funcionesPorSala.values())
+    for (const f of fs) { const d = diaDeCine(f.hora).getTime(); if (d >= hoy) dias.add(d); }
+  return [...dias].sort((a, b) => a - b).slice(0, 7).map((t) => new Date(t));
+}
+function formatosDisponibles() {
+  const presentes = new Set();
+  for (const fs of state.funcionesPorSala.values())
+    for (const f of fs) { const F = (f.formato || "").toUpperCase(); FORMATOS.forEach((x) => F.includes(x) && presentes.add(x)); }
+  return FORMATOS.filter((x) => presentes.has(x));
+}
+function renderBarraDia() {
+  const hoy = hoyCine().getTime();
+  const elegido = diaElegido().getTime();
+  const dias = diasDisponibles().map((d) => {
+    const t = d.getTime(), dif = Math.round((t - hoy) / 864e5);
+    const arriba = dif === 0 ? "Hoy" : dif === 1 ? "Mañana" : d.toLocaleDateString("es-CO", { weekday: "short" }).replace(".", "");
+    const abajo = d.toLocaleDateString("es-CO", { day: "numeric", month: "short" }).replace(".", "");
+    return `<button class="dia${t === elegido ? " on" : ""}" data-dia="${t}"><b>${arriba}</b><small>${abajo}</small></button>`;
+  }).join("");
+  const op = (v, txt, sel) => `<option value="${v}"${v === sel ? " selected" : ""}>${txt}</option>`;
+  const idiomas = op("", "Idioma: todos", state.idioma) + op("Doblada", "Doblada", state.idioma) +
+    op("Subtitulada", "Subtitulada", state.idioma) + op("Original", "Original", state.idioma) + op("Español", "Español", state.idioma);
+  const formatos = op("", "Formato: todos", state.formato) + formatosDisponibles().map((f) => op(f, f, state.formato)).join("");
+  const html = `<div class="fila-dias">${dias}</div><div class="fila-filtros">` +
+    `<select data-filtro="idioma" aria-label="Idioma">${idiomas}</select>` +
+    `<select data-filtro="formato" aria-label="Formato">${formatos}</select></div>`;
+  document.querySelectorAll("[data-barra]").forEach((b) => { b.innerHTML = html; });
+  const interruptor = $("interruptor-hora");
+  if (interruptor) interruptor.hidden = !esHoy();
+}
+
 function renderListas() {
   // Solo se dibuja la vista visible; las otras se dibujan al abrirlas
+  if (state.vista !== "mapa") renderBarraDia();
   if (state.vista === "cerca") renderCerca();
   if (state.vista === "peliculas") renderPeliculas();
 }
@@ -418,12 +551,15 @@ function abrirPelicula(p) {
 /* ================= Eventos (delegados) ================= */
 
 $("lista-cerca").addEventListener("click", (e) => {
+  if (e.target.closest("a")) return;   // un horario abre la página de compra, no la ficha
   const li = e.target.closest("[data-sala]"); if (li) abrirSala(state.salaPorId.get(li.dataset.sala));
 });
 $("lista-peliculas").addEventListener("click", (e) => {
+  if (e.target.closest("a")) return;
   const li = e.target.closest("[data-peli]"); if (li) abrirPelicula(li.dataset.peli);
 });
 $("hoja-cuerpo").addEventListener("click", (e) => {
+  if (e.target.closest("a")) return;
   const el = e.target.closest(".sala-en-peli[data-sala]"); if (el) abrirSala(state.salaPorId.get(el.dataset.sala));
 });
 
@@ -444,6 +580,20 @@ $("filtros").addEventListener("click", (e) => {
   actualizarMarcadores(); renderPizarra(); renderListas();
 });
 
+document.querySelectorAll("[data-barra]").forEach((barra) => {
+  barra.addEventListener("click", (e) => {
+    const b = e.target.closest(".dia"); if (!b) return;
+    const t = +b.dataset.dia;
+    state.dia = t === hoyCine().getTime() ? null : new Date(t);
+    renderPizarra(); renderListas();
+  });
+  barra.addEventListener("change", (e) => {
+    const s = e.target.closest("select[data-filtro]"); if (!s) return;
+    state[s.dataset.filtro] = s.value;
+    renderListas();
+  });
+});
+
 $("radio").addEventListener("input", (e) => {
   state.radioKm = +e.target.value;
   $("radio-val").textContent = `${state.radioKm} km`;
@@ -451,7 +601,8 @@ $("radio").addEventListener("input", (e) => {
 });
 $("proxima-hora").addEventListener("change", (e) => { state.soloProximaHora = e.target.checked; renderCerca(); });
 $("buscar").addEventListener("input", debounce((e) => { state.busqueda = e.target.value.trim().toLowerCase(); renderPeliculas(); }, 150));
-$("btn-ubicar").addEventListener("click", obtenerUbicacion);
+$("btn-ubicar").addEventListener("click", centrarEnMiUbicacion);
+if (CFG_MAPA.PRIVACIDAD_URL) document.querySelectorAll("[data-privacidad]").forEach((a) => { a.href = CFG_MAPA.PRIVACIDAD_URL; });
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") cerrarHoja(); });
 
 /* ================= Inicio ================= */
@@ -459,12 +610,12 @@ document.addEventListener("keydown", (e) => { if (e.key === "Escape") cerrarHoja
   await cargarDatos();
   const sello = $("demo");
   sello.hidden = false;
-  sello.textContent = state.demo ? "DEMO" : "AL DÍA";
-  sello.title = state.generado ? `Actualizado ${state.generado.toLocaleString("es-CO")}` : "";
+  sello.textContent = state.demo ? "DEMO" : state.origen === "guardada" ? "SIN RED" : "AL DÍA";
+  sello.title = state.generado ? `Cartelera del ${state.generado.toLocaleString("es-CO")}` : "";
   crearMarcadores();
   actualizarMarcadores();
   renderPizarra();
-  obtenerUbicacion();
+  iniciarUbicacion();
   // Cada minuto: reloj de la claqueta y etiquetas "en X min"
   setInterval(() => { renderPizarra(); renderListas(); }, 60000);
 })();

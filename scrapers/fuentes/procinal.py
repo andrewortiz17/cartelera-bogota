@@ -1,12 +1,12 @@
 """Procinal Bogotá: página pública de cada teatro (www.procinal.com.co/ciudad/bogota/teatros/<teatro>).
-Muestra HOY por defecto:
+Muestra HOY; los días siguientes están en pestañas ("Jue, Nov 5 2026"):
     GODZILLA MINUS ZERO / GODZILLA MINUS ZERO / Subtitulada - 2D / 6:30 pm / 9:10 pm / …
 (ojo: procinal.com es otra empresa, Cineprox, que no opera en Bogotá)
 """
 import re
 import time
 
-from comun import PAUSA_SEGUNDOS, Funcion, abrir, asignar_posters, imagenes_en_pagina, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
+from comun import PAUSA_SEGUNDOS, Funcion, abrir, leer_varios_dias, asignar_posters, imagenes_en_pagina, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
 
 NOMBRE = "procinal"
 BASE = "https://www.procinal.com.co/ciudad/bogota/teatros/"
@@ -50,7 +50,8 @@ def obtener(navegador) -> list[Funcion]:
         for slug, sala_id in SALAS.items():
             url = BASE + slug
             texto = abrir(pagina, url, esperar=r"(Doblada|Subtitulada|Original) - ", extra_ms=1500)
-            nuevas = parsear(texto, sala_id, url)
+            nuevas = leer_varios_dias(pagina, texto, lambda t, d: parsear(t, sala_id, url, d), slug,
+                                      repite_programacion=True)
             asignar_posters(nuevas, imagenes_en_pagina(pagina))
             print(f"  {NOMBRE}/{slug}: {len(nuevas)} funciones")
             funciones += nuevas

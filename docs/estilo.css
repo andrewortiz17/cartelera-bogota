@@ -1,0 +1,18 @@
+@font-face { font-family: "Bebas Neue"; src: url(bebas.woff2) format("woff2"); font-display: swap; }
+:root { --negro: #0d0c0b; --carbon: #181614; --crema: #f3ead8; --crema-2: #b9ae9b; --oro: #d6a649; --telon: #a3212c; --rojo: #c8343f; }
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--negro); color: var(--crema); }
+body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.franjas { height: 22px; background: repeating-linear-gradient(-45deg, var(--crema) 0 13px, var(--negro) 13px 26px); }
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+h1, h2, .logo { font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif; font-weight: 400; letter-spacing: .02em; line-height: 1.1; }
+h1 { font-size: 44px; margin: 8px 0 4px; }
+h2 { font-size: 26px; color: var(--oro); margin: 32px 0 8px; }
+h3 { font-size: 16px; margin: 18px 0 4px; }
+a { color: var(--oro); }
+.fecha, .volver { color: var(--crema-2); font-size: 14px; margin: 0; }
+.resumen { background: var(--carbon); border-left: 4px solid var(--telon); padding: 14px 16px; border-radius: 6px; }
+ul { padding-left: 20px; }
+.logo { font-size: 64px; margin: 24px 0 0; }
+.logo span { color: var(--rojo); }
+.lema { color: var(--oro); font-size: 18px; margin-top: 0; }

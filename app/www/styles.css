@@ -84,7 +84,7 @@ main { flex: 1; position: relative; overflow: hidden; }
 
 /* ---------- Mapa en grises ---------- */
 #mapa { position: absolute; inset: 0; background: #2b2b2a; }
-#mapa .leaflet-tile-pane { filter: grayscale(1) brightness(1.15) contrast(.95); }
+#mapa .leaflet-tile-pane { filter: grayscale(1) brightness(1.25) contrast(1.05); }
 #mapa.mapa-claro .leaflet-tile-pane { filter: grayscale(1) invert(1) brightness(.9) contrast(.85); }
 .leaflet-container { font-family: var(--texto); }
 .leaflet-control-attribution { background: rgba(13,12,11,.7) !important; color: var(--crema-2) !important; font-size: 10px; }
@@ -119,7 +119,7 @@ main { flex: 1; position: relative; overflow: hidden; }
   background: rgba(13,12,11,.88); border: 1px solid var(--linea); color: var(--crema-2);
   padding: 7px 10px; border-radius: 10px; font-size: .76rem;
 }
-.aviso-mapa { bottom: 16px; }
+.aviso-mapa { bottom: 42px; }
 .aviso-zoom { top: 12px; transition: opacity .3s; }
 .aviso-mapa-error { position: absolute; left: 12px; right: 12px; top: 50px; z-index: 500; margin: 0;
   background: var(--telon); color: var(--crema); padding: 8px 10px; border-radius: 10px; font-size: .78rem; }
@@ -226,3 +226,28 @@ div.poster-mini { background:
 .peli-cabeza > div { min-width: 0; }
 .poster-grande { width: 96px; height: 144px; border-radius: 8px; object-fit: cover; box-shadow: 0 6px 18px rgba(0,0,0,.5); }
 .credito-tmdb { color: var(--crema-2); font-size: .66rem; margin: 14px 0 0; }
+
+.logo-maptiler { position: absolute; left: 10px; bottom: 10px; z-index: 450; opacity: .8; }
+.logo-maptiler img { height: 22px; display: block; }
+
+/* Selector de día y filtros de idioma y formato */
+.barra-dia { position: sticky; top: 0; z-index: 2; background: var(--negro); padding: 10px 16px 8px;
+  display: grid; gap: 8px; border-bottom: 1px solid var(--carbon-2); }
+.fila-dias { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.fila-dias::-webkit-scrollbar { display: none; }
+.fila-filtros { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.dia { flex: none; border: 1px solid var(--linea); background: transparent; color: var(--crema-2);
+  border-radius: 10px; padding: 5px 11px 4px; text-align: center; line-height: 1.05; }
+.dia b { display: block; font-family: var(--display); font-weight: 400; font-size: 1.05rem; letter-spacing: .8px; }
+.dia small { font-size: .62rem; text-transform: uppercase; letter-spacing: 1px; }
+.dia.on { background: var(--telon); border-color: var(--telon-claro); color: var(--crema); }
+.barra-dia select { background: var(--carbon); color: var(--crema); border: 1px solid var(--linea);
+  border-radius: 10px; padding: 7px 8px; font: inherit; font-size: .82rem; min-width: 0; }
+.buscador { position: static; }
+a.hora { color: inherit; text-decoration: none; }
+a.hora::after { content: "›"; margin-left: 5px; color: var(--oro); }
+a.hora.pronto::after { color: var(--crema); }
+
+/* Pie de las listas: origen de los datos y enlace a la política de privacidad */
+.pie { margin: 8px 16px 96px; text-align: center; font-size: 12px; color: var(--crema-2); }
+.pie a { color: var(--oro); }

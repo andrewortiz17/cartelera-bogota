@@ -22,10 +22,7 @@ if not exist app\www\data\funciones.json (
   echo ERROR: no se genero la cartelera.
   exit /b 1
 )
-git add app/www/data/funciones.json
-git commit -m "Cartelera %date%"
-git pull --no-rebase --no-edit
-git push
+%PY% -u scrapers\sincronizar.py "Cartelera %date%" solo-datos
 echo === FIN codigo %errorlevel% ===
 exit /b
 

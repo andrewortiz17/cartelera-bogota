@@ -34,7 +34,8 @@
   <main>
     <section id="vista-mapa" class="vista activa">
       <div id="mapa"></div>
-      <p class="aviso-mapa" id="aviso-ubicacion">Buscando tu ubicación… o toca el mapa para fijarla</p>
+      <a id="logo-maptiler" class="logo-maptiler" href="https://www.maptiler.com" target="_blank" rel="noopener" hidden><img src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler"></a>
+      <p class="aviso-mapa" id="aviso-ubicacion">Buscando tu ubicación…</p>
       <p class="aviso-mapa-error" id="aviso-mapa" hidden>No se pudo cargar el mapa base. Revisa tu conexión a internet.</p>
       <p class="aviso-zoom" id="aviso-zoom">Acércate para ver las fotos de los cines</p>
       <button id="btn-ubicar" class="fab" aria-label="Centrar en mi ubicación">
@@ -43,25 +44,29 @@
     </section>
 
     <section id="vista-cerca" class="vista">
+      <div class="barra-dia" data-barra></div>
       <div class="controles">
         <label class="control-radio">
           <span>Radio <strong id="radio-val">5 km</strong></span>
           <input type="range" id="radio" min="1" max="25" value="5">
         </label>
-        <label class="interruptor">
+        <label class="interruptor" id="interruptor-hora">
           <input type="checkbox" id="proxima-hora">
           <span class="pista"></span>
           Solo funciones en la próxima hora
         </label>
       </div>
       <ul id="lista-cerca" class="lista"></ul>
+      <p class="pie">Horarios publicados por cada sala · <a data-privacidad href="https://andrewortiz17.github.io/cartelera-bogota/privacidad.html" target="_blank" rel="noopener">Privacidad</a></p>
     </section>
 
     <section id="vista-peliculas" class="vista">
+      <div class="barra-dia" data-barra></div>
       <div class="buscador">
         <input id="buscar" type="search" placeholder="Buscar película…" autocomplete="off">
       </div>
       <ul id="lista-peliculas" class="lista"></ul>
+      <p class="pie">Horarios publicados por cada sala · <a data-privacidad href="https://andrewortiz17.github.io/cartelera-bogota/privacidad.html" target="_blank" rel="noopener">Privacidad</a></p>
     </section>
   </main>
 

@@ -1,12 +1,12 @@
 """Royal Films: la cartelera de Bogotá lista las películas; los horarios están en la
-página de cada película, agrupados por día y por multicine:
+página de cada película, agrupados por día (pestañas) y por multicine:
     MIÉ / 04 nov / Multicine Paseo Villa Del Rio / 2D - ORI / 09:10 p. m. / …
 """
 import re
 import time
 
-from comun import (MESES_CORTOS, PAUSA_SEGUNDOS, Funcion, abrir, hora_a_24, hoy, iso,
-                   limpiar_lineas, sin_tildes, titulo_bonito)
+from comun import (MESES_CORTOS, PAUSA_SEGUNDOS, Funcion, abrir, dias_a_leer, elegir_dia, hora_a_24,
+                   hoy, iso, limpiar_lineas, sin_tildes, titulo_bonito)
 
 NOMBRE = "royal_films"
 BASE = "https://www.cinemasroyalfilms.com"
@@ -42,11 +42,16 @@ def parsear(texto: str, url: str, dia=None) -> list[Funcion]:
     original = next((l.split(":", 1)[1].strip() for l in L if l.startswith("Nombre original:")), "")
     clasif = next((l.split(":", 1)[1].strip() for l in L if l.startswith("Clasificación:")), "")
     dur = next((int(m.group(1)) for l in L if (m := re.match(r"^(\d+) mins?$", l))), None)
-    out, en_hoy, sala, formato, idioma = [], False, None, "", ""
+    out, en_hoy, sala, formato, idioma, fin_par = [], False, None, "", "", -9
     for i, l in enumerate(L):
         if RE_DIA.match(l) and i + 1 < len(L) and (f := RE_FECHA.match(L[i + 1])):
             mes = MESES_CORTOS.get(sin_tildes(f.group(2).lower()))
-            en_hoy = mes == dia.month and int(f.group(1)) == dia.day
+            coincide = mes == dia.month and int(f.group(1)) == dia.day
+            # Dos formas: pestañas seguidas ("MIÉ 04 nov / JUE 05 nov / …" y debajo el día
+            # elegido) o un bloque por día. En una fila de pestañas basta con que `dia` esté.
+            en_fila = fin_par == i - 1
+            en_hoy = (en_hoy or coincide) if en_fila else coincide
+            fin_par = i + 1
             continue
         if l.upper().startswith("CARTELERA"):
             en_hoy = False
@@ -81,31 +86,51 @@ def elegir_bogota(pagina):
     pagina.wait_for_timeout(2500)
 
 
+def leer_paneles(pagina, url, dia) -> list[Funcion]:
+    """Cada multicine es un panel plegable: se abre uno por uno y se vuelve a leer."""
+    nuevas = parsear(pagina.inner_text("body"), url, dia)
+    try:
+        paneles = pagina.get_by_text(re.compile(r"^\s*Multicine ", re.I))
+        for k in range(paneles.count()):
+            try:
+                paneles.nth(k).click(timeout=3000)
+                pagina.wait_for_timeout(700)
+                nuevas += parsear(pagina.inner_text("body"), url, dia)
+            except Exception:
+                pass
+    except Exception:
+        pass
+    return nuevas
+
+
 def obtener(navegador) -> list[Funcion]:
     pagina = navegador.new_page()
     funciones = []
     try:
         elegir_bogota(pagina)
-        abrir(pagina, CARTELERA, esperar="Ver trailer", extra_ms=1500)
-        enlaces = pagina.eval_on_selector_all(
-            'a[href^="/pelicula/"]', "els => [...new Set(els.map(e => e.getAttribute('href')))]")
+        enlaces = []
+        for intento in range(3):   # la página a veces redirige mientras se lee
+            try:
+                abrir(pagina, CARTELERA, esperar="Ver trailer", extra_ms=1500 + 1500 * intento)
+                enlaces = pagina.eval_on_selector_all(
+                    'a[href^="/pelicula/"]', "els => [...new Set(els.map(e => e.getAttribute('href')))]")
+                if enlaces:
+                    break
+            except Exception as e:
+                print(f"  {NOMBRE}: intento {intento + 1}: {type(e).__name__}")
+                pagina.wait_for_timeout(3000)
         print(f"  {NOMBRE}: {len(enlaces)} películas en la cartelera de Bogotá")
         for n, ruta in enumerate(enlaces):
             url = BASE + ruta
             texto = abrir(pagina, url, esperar="Clasificación", extra_ms=1500)
-            nuevas = parsear(texto, url)
-            # Cada multicine es un panel plegable: se abre uno por uno y se vuelve a leer
-            try:
-                paneles = pagina.get_by_text(re.compile(r"^\s*Multicine ", re.I))
-                for k in range(paneles.count()):
-                    try:
-                        paneles.nth(k).click(timeout=3000)
-                        pagina.wait_for_timeout(700)
-                        nuevas += parsear(pagina.inner_text("body"), url)
-                    except Exception:
-                        pass
-            except Exception:
-                pass
+            nuevas = []
+            for dia in dias_a_leer():
+                if dia != hoy():
+                    # Pestañas de día: "JUE / 05 nov". Si no hay pestaña para ese día, se salta.
+                    elegido = elegir_dia(pagina, dia, espera_ms=1500)
+                    if not elegido or not elegido[1]:
+                        continue
+                nuevas += leer_paneles(pagina, url, dia)
             unicas = {(f.sala_id, f.hora, f.idioma): f for f in nuevas}
             nuevas = list(unicas.values())
             try:

@@ -95,20 +95,40 @@ Si una cadena cambia su página, el resumen del script marca esa fuente con ✖;
   títulos que se contienen. Caché en `app/www/data/wikidata.json`.
 - `scrapers/posters.py` (TMDB) quedó solo para pruebas; no se usa en la cartelera.
 
+## Días siguientes, cineclubes a mano y Google Play
+
+**Varios días:** Cinemark, Procinal, Royal Films, Cinépolis y Viziona se leen hoy y los 2 días
+siguientes (pestañas de día de cada web). Si un día no tiene pestaña o la página no cambia al
+elegirla, ese día se salta; nunca se copian los horarios de hoy a otro día. Para leer más días:
+variable de entorno `BOGOCINE_DIAS` (por defecto 3).
+
+**Cineclubes y salas sin web:** doble clic en `editar-cineclubes.bat`. Abre en Excel
+`scrapers/manual.csv` (una fila por función: `sala_id; pelicula; fecha; hora; idioma; formato; url; poster; titulo_original`)
+y `scrapers/salas-ids.csv` con los ids válidos. Fecha `20/11/2026` o `2026-11-20`, hora `19:00` o `7:00 pm`.
+Guarda como CSV y corre `actualizar-cartelera.bat` (o espera la actualización automática). Las filas
+con fecha pasada se ignoran solas.
+
+**Google Play:** todo está en `play-store/` (textos de la ficha y respuestas de seguridad de datos en
+`ficha.md`, ícono 512, gráfico 1024×500 y capturas; `tomar-capturas.bat` las regenera). La política
+de privacidad está en `docs/` y se publica con GitHub Pages. El AAB firmado sale de Actions →
+"Compilar para Google Play" con la llave guardada en los secretos del repositorio.
+
 ## Qué funciona y qué falta
 
 Funciona:
 - Mapa con todas las salas, coloreadas por tipo, y filtros por tipo
-- Ubicación del usuario (GPS o tocando el mapa) y lista "Cerca de mí" con radio ajustable
+- Ubicación del usuario por GPS y lista "Cerca de mí" con radio ajustable
 - Filtro "solo funciones en la próxima hora"
 - Búsqueda de películas, ordenando las salas por cercanía; enlace "Cómo llegar"
 - API con carga manual para cineclubes y monitoreo de qué fuente está rota
 
 Falta:
 - [x] Scrapers de Cine Colombia, Cinemark, Procinal, Royal Films, Cinépolis, Viziona y Cinemateca (`scrapers/`)
-- [ ] Cineclubes por formulario manual
+- [x] Cineclubes por hoja manual (`scrapers/manual.csv`)
+- [x] Selector de días, filtros de idioma y formato, compra por función, cartelera sin internet
+- [x] Preparación para Google Play (`play-store/`, `docs/`)
 - [ ] Verificar coordenadas y operadores de cada sala (`"verificado": false`)
 - [ ] Confirmar Cinema Paraíso y Cine Tonalá (sin dirección actual)
-- [ ] Emparejar títulos con TMDB
+- [x] Unir títulos entre cadenas (normalización + Wikidata) y pósters de los propios cines
 - [ ] Tiempo de viaje real (OpenRouteService/OSRM) en vez de línea recta
 - [ ] Base de datos (Postgres + PostGIS) en lugar de memoria

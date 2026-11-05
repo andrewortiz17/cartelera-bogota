@@ -1,0 +1,61 @@
+﻿sala_id;nombre;tipo;zona
+club-elmuro-coffee;Cine Club El Muro · Bogotá Coffee Roasters;cineclub;Teusaquillo / Tv. 17A Bis # 35-71
+club-elmuro-tavola;Cine Club El Muro · La Tavola Santa;cineclub;Chapinero / Calle 55 # 10-25
+club-biblored-tunal;Cineclub Diálogos del Tiempo (Biblioteca El Tunal);cineclub;Tunjuelito
+club-unal;Cineclub Universidad Nacional;cineclub;Teusaquillo / Ciudad Universitaria
+club-red;Red de Cineclubes Bogotanos;cineclub;Varias sedes
+ind-tonala;Cine Tonalá;independiente;Por confirmar
+ind-cinemalocal;Cinema Local;independiente;San Felipe / Calle 74 # 20B-19
+ind-paraiso;Cinema Paraíso;independiente;Por confirmar
+ind-cinemania;Cinemania;independiente;Chicó / Cra. 14 # 93A-85
+ind-mambo;MAMBO – Museo de Arte Moderno;independiente;Centro / Parque de la Independencia
+cine-cefe-chapinero;Cinemateca CEFE Chapinero;cinemateca;Chapinero
+cine-tunal;Cinemateca El Tunal;cinemateca;Tunjuelito
+cine-fontanar;Cinemateca Fontanar del Río;cinemateca;Suba / Calle 145 # 138A-10
+cine-cinemateca;Cinemateca de Bogotá;cinemateca;Centro / Cra. 3 # 19-10
+rf-altavista;Altavista;cadena;Usme
+cc-andino;Andino;cadena;Chapinero / Zona T
+cm-atlantis;Atlantis;cadena;Chapinero / Calle 81
+cc-avenida-chile;Avenida Chile;cadena;Chapinero / Calle 72
+pr-bima;Bima;cadena;Usaquén / Autopista Norte con Calle 232
+pr-bulevar;Bulevar Niza;cadena;Suba / Av. Suba con Calle 127
+cc-calle-100;Calle 100;cadena;Chicó / Calle 100
+cc-cedritos;Cedritos;cadena;Usaquén / Calle 151
+cc-centro-mayor;Centro Mayor;cadena;Antonio Nariño
+pr-suba;Centro Suba;cadena;Suba / Calle 145
+pr-tunal;Ciudad Tunal;cadena;Tunjuelito
+cp-diverplaza;Diverplaza;cadena;Engativá / Álamos
+cc-embajador;Embajador;cadena;Centro / Calle 24
+cm-floresta;Floresta (Cafam);cadena;Suba / Av. 68 con Calle 98
+cc-galerias;Galerías;cadena;Teusaquillo
+cc-gran-estacion;Gran Estación;cadena;Teusaquillo / Calle 26
+cm-gran-plaza-bosa;Gran Plaza Bosa;cadena;Bosa
+cm-ensueno;Gran Plaza El Ensueño;cadena;Ciudad Bolívar / Calle 59C Sur # 51-21
+cp-hayuelos;Hayuelos;cadena;Fontibón / Hayuelos
+pr-imax;IMAX Plaza de las Américas;cadena;Kennedy
+cc-lumina;Lumina Distrito Cultural;cadena;Por confirmar
+cp-mallplaza-nqs;Mallplaza NQS;cadena;Puente Aranda / NQS
+cc-metropolis;Metrópolis;cadena;Barrios Unidos / Av. 68
+cm-porvenir;Micentro El Porvenir;cadena;Bosa
+rf-milenio;Milenio Plaza;cadena;Kennedy
+rf-americas;Multicine Plaza de las Américas;cadena;Kennedy
+cm-multiplaza;Multiplaza;cadena;Kennedy / Calle 19
+cc-nuestro-bogota;Nuestro Bogotá;cadena;Fontibón
+pr-palatino;Palatino;cadena;Usaquén / Cra. 7 con Calle 139
+cm-colina;Parque Colina;cadena;Suba / Calle 138
+rf-villa-del-rio;Paseo Villa del Río;cadena;Bosa / Autopista Sur
+cc-plaza-central;Plaza Central;cadena;Puente Aranda / Cra. 65
+cm-plaza-imperial;Plaza Imperial;cadena;Suba / Cra. 104 # 148-07
+cc-americas;Plaza de las Américas;cadena;Kennedy
+pr-americas;Plaza de las Américas;cadena;Kennedy
+cc-portal-80;Portal 80;cadena;Engativá / Calle 80
+cc-portoalegre;Portoalegre;cadena;Bosa / Kennedy
+pr-salitre;Salitre Plaza;cadena;Fontibón / Cra. 68B # 24-39
+rf-san-rafael;San Rafael;cadena;Usaquén / Calle 134
+cc-santafe;Santafé;cadena;Usaquén / Calle 185
+pr-tintal;Tintal Plaza;cadena;Kennedy / Av. Ciudad de Cali
+cc-titan;Titán Plaza;cadena;Engativá / Cra. 72 # 80-94
+cc-unicentro;Unicentro;cadena;Usaquén
+pr-occidente;Unicentro de Occidente;cadena;Engativá
+cp-plaza-claro;VIP Plaza Claro;cadena;Puente Aranda
+vz-eden;Viziona Cines (El Edén);cadena;Kennedy / Av. Boyacá con Av. Américas

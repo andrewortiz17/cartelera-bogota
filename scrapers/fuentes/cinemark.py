@@ -1,13 +1,13 @@
 """Cinemark: lee la página pública de cada teatro (www.cinemark.com.co/ciudad/bogota/<teatro>).
 
-Por defecto muestra HOY. Cada película aparece así:
+Muestra HOY; los días siguientes están en pestañas ("JUE. 05 NOV. 2026"). Cada película aparece así:
     CLAYFACE / VER DETALLE / TERROR+ 15 AÑOS110 MINUTOS / HORARIOS DISPONIBLES / … /
     2D / DOBLADA / Sillas: / GENERAL / 14:35 / 17:45 / …
 """
 import re
 import time
 
-from comun import PAUSA_SEGUNDOS, Funcion, abrir, asignar_posters, imagenes_en_pagina, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
+from comun import PAUSA_SEGUNDOS, Funcion, abrir, leer_varios_dias, asignar_posters, imagenes_en_pagina, hora_a_24, hoy, iso, limpiar_lineas, titulo_bonito
 
 NOMBRE = "cinemark"
 BASE = "https://www.cinemark.com.co/ciudad/bogota/"
@@ -59,7 +59,7 @@ def obtener(navegador) -> list[Funcion]:
         for slug, sala_id in SALAS.items():
             url = BASE + slug
             texto = abrir(pagina, url, esperar="HORARIOS DISPONIBLES", extra_ms=2500)
-            nuevas = parsear(texto, sala_id, url)
+            nuevas = leer_varios_dias(pagina, texto, lambda t, d: parsear(t, sala_id, url, d), slug)
             asignar_posters(nuevas, imagenes_en_pagina(pagina))
             print(f"  {NOMBRE}/{slug}: {len(nuevas)} funciones")
             funciones += nuevas
