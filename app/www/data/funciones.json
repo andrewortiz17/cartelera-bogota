@@ -1,8 +1,8 @@
 {
- "generado": "2026-11-04T18:53:44-05:00",
+ "generado": "2026-11-04T19:03:18-05:00",
  "estado": {
   "cinemark": {
-   "funciones": 60,
+   "funciones": 56,
    "error": null
   },
   "procinal": {
@@ -14,11 +14,11 @@
    "error": null
   },
   "cinepolis": {
-   "funciones": 59,
+   "funciones": 57,
    "error": null
   },
   "viziona": {
-   "funciones": 12,
+   "funciones": 11,
    "error": null
   },
   "cinemateca": {
@@ -30,7 +30,6 @@
   "Bojayá: la verdad desde adentro": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Plantilla%20Poster%20imag%20secundaria%20-%202026-10-28T152922.986.jpg?itok=xb762thm",
   "Lolita en honda": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Plantilla%20Poster%20imag%20secundaria%20-%202026-10-28T161119.625.jpg?itok=dvTGfcN8",
   "Cuba y la noche": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Plantilla%20Poster%20imag%20secundaria%20-%202026-10-28T161426.585.jpg?itok=d0fYw6uD",
-  "El corazón de la bestia": "https://static.cinepolis.com/img/peliculas/53485/1/1/53485.jpg",
   "Your name": "https://static.cinepolis.com/img/peliculas/54208/1/1/54208.jpg",
   "Los juegos del hambre: sinsajo parte 1": "https://d2gok2bmf4ckrg.cloudfront.net/movies-poster/1789737700899-3. Mockingjay – Part 1 - OCTUBRE 29_.jpg",
   "Shrek": "https://static.cinepolis.com/img/peliculas/53739/1/1/53739.jpg",
@@ -38,26 +37,26 @@
   "Wildwood": "https://static.cinepolis.com/img/peliculas/54046/1/1/54046.jpg",
   "Clayface": "https://static.cinepolis.com/img/peliculas/53686/1/1/53686.jpg",
   "Godzilla minus zero": "https://static.cinepolis.com/img/peliculas/53861/1/1/53861.jpg",
-  "Verity, la sombra de un engaño": "https://static.cinepolis.com/img/peliculas/53533/1/1/53533.jpg",
-  "Madre siniestra": "https://static.cinepolis.com/img/peliculas/53608/1/1/53608.jpg",
+  "El corazón de la bestia": "https://static.cinepolis.com/img/peliculas/53485/1/1/53485.jpg",
   "El despertar": "https://static.cinepolis.com/img/peliculas/54079/1/1/54079.jpg",
   "Rammstein - Live in Mexico City": "https://static.cinepolis.com/img/peliculas/53685/1/1/53685.jpg",
   "Cars una aventura sobre ruedas": "https://static.cinepolis.com/img/peliculas/53609/1/1/53609.jpg",
+  "Verity, la sombra de un engaño": "https://static.cinepolis.com/img/peliculas/53533/1/1/53533.jpg",
   "Entrega al límite": "https://static.cinepolis.com/img/peliculas/54078/1/1/54078.jpg",
   "El coloquio de los pájaros": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Plantilla%20Poster%20imag%20secundaria%20-%202026-10-28T161622.476.jpg?itok=1LdCLEYi",
   "Esta tierra canta premoniciones": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Plantilla%20Poster%20imag%20secundaria%20-%202026-10-28T164347.053.jpg?itok=w6YIvsYD",
   "La exorcista": "https://d2gok2bmf4ckrg.cloudfront.net/movies-poster/1792534394859-La-Exorcista-Afiche-HD_.jpg",
   "Resident evil: noche cero": "https://score.procinal.com.co/mobilecomjson/imagenes/1851.jpg",
   "Las hermanas pathan": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Plantilla%20Poster%20imag%20secundaria%20-%202026-10-28T164629.725.jpg?itok=jOYPEAwR",
-  "Los juegos: sin 1": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6aa21c023b89e3aa60853a53/common/los-juegos-sin-1-re-112901-1789049392345",
   "Street fighter": "https://static.cinepolis.com/img/peliculas/53604/1/1/53604.jpg",
-  "Poltergeist ts4": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6ab60226ac1bada1b0e31ff2/common/poltergeist-ts4-112907-1792428821268",
+  "Poltergeist": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6ab60226ac1bada1b0e31ff2/common/poltergeist-ts4-112907-1792428821268",
   "La odisea": "https://score.procinal.com.co/mobilecomjson/imagenes/1715.jpg",
   "La caída de la ballena": "https://static.cinepolis.com/img/peliculas/53605/1/1/53605.jpg",
-  "Los otros": "https://d11w3vv8f1cdqg.cloudfront.net/movies-poster/1792451310588-Poster_.jpg",
+  "Los otros": "https://dqq1cn0vfegag.cloudfront.net/movies-poster/1792451310588-Poster_.jpg",
   "Sensatez y sentimiento": "https://score.procinal.com.co/mobilecomjson/imagenes/1905.jpg",
-  "Backrooms ts": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6adfa912fe6fc486cac74a8d/common/backrooms-ts-113950-1793110810244",
-  "Everest: la otra cara": "https://d11w3vv8f1cdqg.cloudfront.net/movies-poster/1792526597352-Poster_Everest.jpg",
+  "Backrooms": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6adfa912fe6fc486cac74a8d/common/backrooms-ts-113950-1793110810244",
+  "Madre siniestra": "https://static.cinepolis.com/img/peliculas/53608/1/1/53608.jpg",
+  "Everest: la otra cara": "https://dqq1cn0vfegag.cloudfront.net/movies-poster/1792526597352-Poster_Everest.jpg",
   "El gran falsificador": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/EL-GRAN-FALSIFICADOR-webp-1075x1536.JPG?itok=zdZndNFy",
   "Frío metal": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/Poster%20fr%C3%ADo%20metal.png?itok=lZQjqeoV",
   "Manual para invocar fantasmas": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/MPIF_Afiche.jpg?itok=uzHm4RxI",
@@ -202,30 +201,6 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-04T17:30:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 101,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-plaza-claro",
-   "pelicula": "Your name",
-   "hora": "2026-11-04T17:30:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "TP",
-   "duracion_min": 107,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-mallplaza-nqs",
@@ -420,42 +395,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "cm-colina",
-   "pelicula": "Verity, la sombra de un engaño",
-   "hora": "2026-11-04T18:45:00-05:00",
-   "titulo_original": "Verity",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 120,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Wildwood",
-   "hora": "2026-11-04T18:45:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Shrek",
-   "hora": "2026-11-04T18:45:00-05:00",
-   "titulo_original": "Shrek",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "TODOS",
-   "duracion_min": 90,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-diverplaza",
    "pelicula": "Wildwood",
    "hora": "2026-11-04T18:45:00-05:00",
@@ -466,18 +405,6 @@
    "duracion_min": 132,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "Madre siniestra",
-   "hora": "2026-11-04T18:50:00-05:00",
-   "titulo_original": "Other mommy",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 95,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
   },
   {
    "sala_id": "pr-americas",
@@ -514,18 +441,6 @@
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/occidente",
    "fuente": "procinal"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Clayface",
-   "hora": "2026-11-04T18:55:00-05:00",
-   "titulo_original": "",
-   "formato": "2D Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
   },
   {
    "sala_id": "cm-atlantis",
@@ -901,9 +816,9 @@
   },
   {
    "sala_id": "cm-colina",
-   "pelicula": "Los juegos: sin 1",
+   "pelicula": "Los juegos del hambre: sinsajo parte 1",
    "hora": "2026-11-04T20:00:00-05:00",
-   "titulo_original": "",
+   "titulo_original": "The hunger games: mockingjay part 1",
    "formato": "2D",
    "idioma": "Doblada",
    "clasificacion": "+12 AÑOS",
@@ -913,9 +828,9 @@
   },
   {
    "sala_id": "cm-multiplaza",
-   "pelicula": "Los juegos: sin 1",
+   "pelicula": "Los juegos del hambre: sinsajo parte 1",
    "hora": "2026-11-04T20:00:00-05:00",
-   "titulo_original": "",
+   "titulo_original": "The hunger games: mockingjay part 1",
    "formato": "2D",
    "idioma": "Doblada",
    "clasificacion": "+12 AÑOS",
@@ -1045,7 +960,7 @@
   },
   {
    "sala_id": "cm-multiplaza",
-   "pelicula": "Poltergeist ts4",
+   "pelicula": "Poltergeist",
    "hora": "2026-11-04T20:10:00-05:00",
    "titulo_original": "",
    "formato": "2D",
@@ -1261,7 +1176,7 @@
   },
   {
    "sala_id": "cm-floresta",
-   "pelicula": "Poltergeist ts4",
+   "pelicula": "Poltergeist",
    "hora": "2026-11-04T20:35:00-05:00",
    "titulo_original": "",
    "formato": "2D",
@@ -1297,7 +1212,7 @@
   },
   {
    "sala_id": "cm-atlantis",
-   "pelicula": "Poltergeist ts4",
+   "pelicula": "Poltergeist",
    "hora": "2026-11-04T20:40:00-05:00",
    "titulo_original": "",
    "formato": "2D",
@@ -1309,7 +1224,7 @@
   },
   {
    "sala_id": "cm-colina",
-   "pelicula": "Poltergeist ts4",
+   "pelicula": "Poltergeist",
    "hora": "2026-11-04T20:40:00-05:00",
    "titulo_original": "",
    "formato": "2D",
@@ -1321,7 +1236,7 @@
   },
   {
    "sala_id": "cm-ensueno",
-   "pelicula": "Poltergeist ts4",
+   "pelicula": "Poltergeist",
    "hora": "2026-11-04T20:40:00-05:00",
    "titulo_original": "",
    "formato": "2D",
@@ -1633,7 +1548,7 @@
   },
   {
    "sala_id": "cm-atlantis",
-   "pelicula": "Backrooms ts",
+   "pelicula": "Backrooms",
    "hora": "2026-11-04T21:00:00-05:00",
    "titulo_original": "",
    "formato": "2D",
