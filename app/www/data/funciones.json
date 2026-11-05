@@ -1,28 +1,31 @@
 {
- "generado": "2026-11-04T22:31:59-05:00",
+ "generado": "2026-11-05T13:22:31-05:00",
  "estado": {
   "cinemark": {
-   "funciones": 324,
-   "error": null
+   "funciones": 0,
+   "error": "0 funciones: revisar",
+   "conservadas": 324
   },
   "procinal": {
-   "funciones": 308,
-   "error": null
+   "funciones": 0,
+   "error": "0 funciones: revisar",
+   "conservadas": 306
   },
   "royal_films": {
-   "funciones": 132,
-   "error": null
+   "funciones": 0,
+   "error": "TimeoutError: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"País\", exact=True).first\n    - locator resolved to <span class=\"current\" _ngcontent-isx-c45=\"\"> País </span>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      -",
+   "conservadas": 132
   },
   "cinepolis": {
-   "funciones": 157,
+   "funciones": 286,
    "error": null
   },
   "viziona": {
-   "funciones": 54,
+   "funciones": 62,
    "error": null
   },
   "cinemateca": {
-   "funciones": 535,
+   "funciones": 536,
    "error": null
   },
   "cinemania": {
@@ -39,35 +42,34 @@
   }
  },
  "posters": {
-  "Los juegos del hambre: amanecer en la cosecha": "https://score.procinal.com.co/mobilecomjson/imagenes/1686.jpg",
-  "Clayface": "https://static.cinepolis.com/img/peliculas/53686/1/1/53686.jpg",
-  "Godzilla minus zero": "https://d2gok2bmf4ckrg.cloudfront.net/movies-poster/1792529226195-Poster.png",
-  "El bosque salvaje: wildwood": "https://d1h560xa7cmqwq.cloudfront.net/movies-poster/1793044645820-Poster Vertical 4_5_.jpg",
-  "El corazón de la bestia": "https://static.cinepolis.com/img/peliculas/53485/1/1/53485.jpg",
   "El gato con sombrero": "https://d2gok2bmf4ckrg.cloudfront.net/movies-poster/1787165512641-Poster_.jpg",
   "El gran falsificador": "https://score.procinal.com.co/mobilecomjson/imagenes/1975.jpg",
   "Shrek": "https://d11w3vv8f1cdqg.cloudfront.net/movies-poster/1792445036616-01_SHR25_WEBART_4X5_SL_F01_022526_Rev_Las_.jpg",
+  "Clayface": "https://static.cinepolis.com/img/peliculas/53686/1/1/53686.jpg",
   "Sensatez y sentimiento": "https://cinemania.com.co/wp-content/uploads/2026/08/sensatez.jpg",
   "Tierra de mi padre": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Tierra-de-mi-padre_webp.JPG?itok=8VqnmKwX",
+  "El bosque salvaje: wildwood": "https://d1h560xa7cmqwq.cloudfront.net/movies-poster/1793044645820-Poster Vertical 4_5_.jpg",
   "La caída de la ballena": "https://score.procinal.com.co/mobilecomjson/imagenes/1878.jpg",
+  "El corazón de la bestia": "https://static.cinepolis.com/img/peliculas/53485/1/1/53485.jpg",
+  "Godzilla minus zero": "https://d2gok2bmf4ckrg.cloudfront.net/movies-poster/1792529226195-Poster.png",
   "La odisea": "https://score.procinal.com.co/mobilecomjson/imagenes/1715.jpg",
-  "Coyote vs. acme": "https://score.procinal.com.co/mobilecomjson/imagenes/1832.jpg",
+  "Coyote vs acme": "https://score.procinal.com.co/mobilecomjson/imagenes/1832.jpg",
   "Digger": "https://score.procinal.com.co/mobilecomjson/imagenes/1717.jpg",
   "Caballo salvaje nueve": "https://static.cinepolis.com/img/peliculas/54047/1/1/54047.jpg",
   "Frío metal": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/Poster%20fr%C3%ADo%20metal.png?itok=lZQjqeoV",
   "Verity": "https://score.procinal.com.co/mobilecomjson/imagenes/1860.jpg",
   "Your name": "https://static.cinepolis.com/img/peliculas/54208/1/1/54208.jpg",
   "Calle málaga": "https://cinemania.com.co/wp-content/uploads/2026/09/Poster-Calle-714x1024.jpg",
-  "Los juegos del hambre: sinsajo parte 2": "https://static.cinepolis.com/img/genericos/cartel.jpg",
   "A cualquier precio": "https://d11w3vv8f1cdqg.cloudfront.net/movies-poster/1788988417260-ACP_POSTER_70X100cm_Online_.jpg",
   "Manual para invocar fantasmas": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/MPIF_Afiche.jpg?itok=uzHm4RxI",
-  "Street fighter": "https://static.cinepolis.com/img/peliculas/53604/1/1/53604.jpg",
+  "Street Fighter": "https://static.cinepolis.com/img/peliculas/53604/1/1/53604.jpg",
   "Por todos los medios": "https://static.cinepolis.com/img/genericos/cartel.jpg",
   "El poder de la red": "https://cinemania.com.co/wp-content/uploads/2026/10/red.jpg",
   "Chicharras": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/MV5BZDljMTRmNDUtYmEyZi00NDBiLTllOGQtNjZiODcwMmM3NmFjXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg?itok=un8pPKpo",
   "La marcha del hambre": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-04/afiche%20Espan%CC%83ol%20bc%20-%20La%20Marcha%20del%20Hambre%20Documental%20%281%29.jpg?itok=3UHpOC2e",
   "Los demonios": "https://cineclubelmuro.com/wp-content/uploads/2026/10/the-devil-1-e1793726312622.jpeg",
-  "Rammstein": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6aac1eea27c81b4b03905238/common/rammstein-113071-1789678652326",
+  "Rammstein": "https://static.cinepolis.com/img/peliculas/53685/1/1/53685.jpg",
+  "Los juegos del hambre: sinsajo parte 2": "https://static.cinepolis.com/img/genericos/cartel.jpg",
   "Rocky": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6ad64b682ee212a36f71b0c8/common/rocky-113513-1792428994338",
   "Entrega al limite": "https://dqq1cn0vfegag.cloudfront.net/movies-poster/1788989029460-POSTER RUNNER_.jpg",
   "Madre siniestra": "https://score.procinal.com.co/mobilecomjson/imagenes/1920.jpg",
@@ -79,7 +81,7 @@
   "Tadeo jones 4": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6ab44e37e4d1ff0a6de63a53/common/tadeo-jones-4-111106-1790605337168",
   "Midbo": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Screen%20Shot%202026-10-19%20at%2010.56.51%20AM.png?itok=A2R6nnEd",
   "El increíble castillo vagabundo": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-03/EL%20INCREI%CC%81BLE%20CASTILLO%20VAGABUNDO_POSTER_MAIN_35X50.jpg?itok=sbxnGCj8",
-  "Fontanar del río": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Affiche_ce-n-est-qu-un-au-revoir.jpg?itok=wB2xsmna",
+  "Fontanar del río": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-03/langue_etrangere-334190661-large_11zon_0.jpg?itok=TKD62jMV",
   "Buscando un cielo para rambo": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Afiche%20Oficial%20-%20Rambo%20%28Web%29.jpg?itok=Mia8Q_p0",
   "Resurección": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Afiche%20Oficial%20-%20Resurrection%20%28Web%29.jpg?itok=QI9Z9MkG",
   "Un don nadie contra putin": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/Afiche%20Oficial%20-%20Un%20Don%20Nadie%20contra%20Putin%20%28Web%29.jpg?itok=wrIRV8in",
@@ -91,6 +93,7 @@
   "El mono": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6adfd33f3909fd2f84a42d93/common/el-mono-113956-1793807191176",
   "La colina de las amapolas": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-02/Screenshot_2.png?itok=1pMDGtSc",
   "Cenizas y diamantes": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/cenizasydiam.jpg?itok=19FfIx4o",
+  "Stray Kids World Tour RUN IT LIVE VIEWING": "https://static.cinepolis.com/img/peliculas/54090/1/1/54090.jpg",
   "El juego de la vida": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-04/EJDLV_Afiche_35x50cms.jpg?itok=kztBV-rX",
   "Mi vecino totoro": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-08/Mi-Vecino-Totoro_POSTER_MAIN_35x50-WEBP-1075x1536.JPG?itok=PyHaMypn",
   "El conformista": "https://cineclubelmuro.com/wp-content/uploads/2026/11/EL-CONFORMISTA-e1793673327481.jpeg",
@@ -181,222 +184,6 @@
   "Ganadores 24° bogoshorts": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/GANADORES%2024BS_AFICHE.jpg?itok=ZSqBS4Ra"
  },
  "funciones": [
-  {
-   "sala_id": "pr-suba",
-   "pelicula": "Los juegos del hambre: amanecer en la cosecha",
-   "hora": "2026-11-04T17:45:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/suba",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-suba",
-   "pelicula": "Los juegos del hambre: amanecer en la cosecha",
-   "hora": "2026-11-04T21:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/suba",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "cp-diverplaza",
-   "pelicula": "Clayface",
-   "hora": "2026-11-04T21:05:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A15",
-   "duracion_min": 108,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-plaza-claro",
-   "pelicula": "Clayface",
-   "hora": "2026-11-04T21:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Subtitulada",
-   "clasificacion": "A15",
-   "duracion_min": 108,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-diverplaza",
-   "pelicula": "El despertar",
-   "hora": "2026-11-04T21:25:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Español",
-   "clasificacion": "A15",
-   "duracion_min": 96,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-diverplaza",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-04T21:30:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 135,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-04T21:30:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 135,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-04T21:30:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 135,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-diverplaza",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-04T21:35:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 132,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-diverplaza",
-   "pelicula": "Entrega al limite",
-   "hora": "2026-11-04T21:45:00-05:00",
-   "titulo_original": "Runner",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 97,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "Clayface",
-   "hora": "2026-11-04T21:45:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A15",
-   "duracion_min": 108,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "Madre siniestra",
-   "hora": "2026-11-04T21:45:00-05:00",
-   "titulo_original": "Other mommy",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A15",
-   "duracion_min": 93,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Madre siniestra",
-   "hora": "2026-11-04T21:45:00-05:00",
-   "titulo_original": "Other mommy",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A15",
-   "duracion_min": 93,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-diverplaza",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-04T21:55:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 101,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-04T22:00:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 101,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-plaza-claro",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-04T22:00:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 135,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Clayface",
-   "hora": "2026-11-04T22:10:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A15",
-   "duracion_min": 108,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-04T22:15:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 101,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
   {
    "sala_id": "pr-palatino",
    "pelicula": "El gato con sombrero",
@@ -675,7 +462,7 @@
   },
   {
    "sala_id": "pr-occidente",
-   "pelicula": "Coyote vs. acme",
+   "pelicula": "Coyote vs acme",
    "hora": "2026-11-05T14:15:00-05:00",
    "titulo_original": "",
    "formato": "2D",
@@ -1406,6 +1193,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-05T15:00:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Your name",
    "hora": "2026-11-05T15:00:00-05:00",
@@ -1670,6 +1469,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-05T15:30:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-05T15:30:00-05:00",
@@ -1755,7 +1566,7 @@
   },
   {
    "sala_id": "vz-eden",
-   "pelicula": "Coyote vs. acme",
+   "pelicula": "Coyote vs acme",
    "hora": "2026-11-05T15:30:00-05:00",
    "titulo_original": "",
    "formato": "2D Ge Y Vip",
@@ -2054,6 +1865,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Los juegos del hambre: sinsajo parte 2",
+   "hora": "2026-11-05T15:55:00-05:00",
+   "titulo_original": "The hunger games: mockingjay part 2",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 137,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Manual para invocar fantasmas",
    "hora": "2026-11-05T16:00:00-05:00",
@@ -2175,7 +1998,7 @@
   },
   {
    "sala_id": "vz-eden",
-   "pelicula": "Street fighter",
+   "pelicula": "Street Fighter",
    "hora": "2026-11-05T16:00:00-05:00",
    "titulo_original": "",
    "formato": "2D Vip",
@@ -2184,6 +2007,18 @@
    "duracion_min": null,
    "url_compra": "https://vizionacines.com/",
    "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Shrek",
+   "hora": "2026-11-05T16:10:00-05:00",
+   "titulo_original": "Shrek",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 90,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "pr-occidente",
@@ -2244,6 +2079,18 @@
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/tintal",
    "fuente": "procinal"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-05T16:20:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-mallplaza-nqs",
@@ -2402,6 +2249,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-05T16:35:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-05T16:40:00-05:00",
@@ -2522,6 +2381,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-05T16:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "pr-americas",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-05T16:45:00-05:00",
@@ -2628,6 +2499,18 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Clayface",
+   "hora": "2026-11-05T17:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -2892,6 +2775,18 @@
    "duracion_min": 100,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Your name",
+   "hora": "2026-11-05T17:25:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-altavista",
@@ -3266,6 +3161,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-05T18:00:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-05T18:00:00-05:00",
@@ -3614,8 +3521,20 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-05T18:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
-   "pelicula": "Street fighter",
+   "pelicula": "Street Fighter",
    "hora": "2026-11-05T18:15:00-05:00",
    "titulo_original": "",
    "formato": "2D",
@@ -3816,6 +3735,18 @@
    "duracion_min": 110,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-05T18:30:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -4082,6 +4013,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-05T18:45:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Clayface",
    "hora": "2026-11-05T18:45:00-05:00",
@@ -4236,6 +4179,18 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Por todos los medios",
+   "hora": "2026-11-05T19:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -4430,6 +4385,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-05T19:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Por todos los medios",
    "hora": "2026-11-05T19:15:00-05:00",
@@ -4476,6 +4443,18 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Clayface",
+   "hora": "2026-11-05T19:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -4550,6 +4529,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-05T19:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "ind-cinemania",
    "pelicula": "El gran falsificador",
    "hora": "2026-11-05T19:45:00-05:00",
@@ -4620,6 +4611,18 @@
    "duracion_min": 140,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Your name",
+   "hora": "2026-11-05T20:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-plaza-claro",
@@ -5210,6 +5213,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-05T20:50:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-05T20:50:00-05:00",
@@ -5223,7 +5238,7 @@
   },
   {
    "sala_id": "pr-americas",
-   "pelicula": "Street fighter",
+   "pelicula": "Street Fighter",
    "hora": "2026-11-05T20:50:00-05:00",
    "titulo_original": "",
    "formato": "2D",
@@ -5378,8 +5393,20 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-05T21:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
-   "pelicula": "Street fighter",
+   "pelicula": "Street Fighter",
    "hora": "2026-11-05T21:00:00-05:00",
    "titulo_original": "",
    "formato": "2D",
@@ -5726,6 +5753,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-05T21:15:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Clayface",
    "hora": "2026-11-05T21:15:00-05:00",
@@ -6014,6 +6053,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-05T21:30:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Clayface",
    "hora": "2026-11-05T21:30:00-05:00",
@@ -6290,6 +6341,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Por todos los medios",
+   "hora": "2026-11-05T21:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Por todos los medios",
    "hora": "2026-11-05T21:45:00-05:00",
@@ -6338,6 +6401,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-05T22:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-05T22:00:00-05:00",
@@ -6346,18 +6421,6 @@
    "idioma": "Doblada",
    "clasificacion": "A12",
    "duracion_min": 135,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-05T22:00:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 114,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
   },
@@ -6516,30 +6579,6 @@
    "duracion_min": 110,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
    "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Clayface",
-   "hora": "2026-11-06T14:00:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A15",
-   "duracion_min": 108,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T14:00:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 114,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -6735,7 +6774,7 @@
   },
   {
    "sala_id": "pr-occidente",
-   "pelicula": "Coyote vs. acme",
+   "pelicula": "Coyote vs acme",
    "hora": "2026-11-06T14:15:00-05:00",
    "titulo_original": "",
    "formato": "2D",
@@ -7082,30 +7121,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T14:30:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D Vkids",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-06T14:35:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cm-atlantis",
    "pelicula": "Clayface",
    "hora": "2026-11-06T14:40:00-05:00",
@@ -7274,18 +7289,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-06T14:45:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D Vmax",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cm-ensueno",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-06T14:50:00-05:00",
@@ -7406,18 +7409,6 @@
    "fuente": "cinemark"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "Shrek",
-   "hora": "2026-11-06T14:55:00-05:00",
-   "titulo_original": "Shrek",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cm-atlantis",
    "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-06T15:00:00-05:00",
@@ -7476,6 +7467,18 @@
    "duracion_min": 105,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-06T15:00:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -7742,6 +7745,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T15:30:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-06T15:30:00-05:00",
@@ -7826,18 +7841,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "Coyote vs. acme",
-   "hora": "2026-11-06T15:30:00-05:00",
-   "titulo_original": "",
-   "formato": "2D Ge Y Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cm-multiplaza",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-06T15:35:00-05:00",
@@ -7860,18 +7863,6 @@
    "duracion_min": 105,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
    "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-06T15:35:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 101,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-plaza-claro",
@@ -7908,18 +7899,6 @@
    "duracion_min": 114,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4038/el-gato-con-sombrero",
    "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-06T15:40:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
   },
   {
    "sala_id": "cm-floresta",
@@ -8102,16 +8081,16 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T15:50:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D Vip",
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Los juegos del hambre: sinsajo parte 2",
+   "hora": "2026-11-06T15:55:00-05:00",
+   "titulo_original": "The hunger games: mockingjay part 2",
+   "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
+   "clasificacion": "A12",
+   "duracion_min": 137,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -8258,16 +8237,16 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "Street fighter",
-   "hora": "2026-11-06T16:00:00-05:00",
-   "titulo_original": "",
-   "formato": "2D Vip",
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Shrek",
+   "hora": "2026-11-06T16:10:00-05:00",
+   "titulo_original": "Shrek",
+   "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
+   "clasificacion": "A7",
+   "duracion_min": 90,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "pr-occidente",
@@ -8330,14 +8309,14 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Clayface",
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El corazón de la bestia",
    "hora": "2026-11-06T16:20:00-05:00",
-   "titulo_original": "",
+   "titulo_original": "Heart of the beast",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "A15",
-   "duracion_min": 108,
+   "clasificacion": "A12",
+   "duracion_min": 101,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
   },
@@ -8388,18 +8367,6 @@
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/salitre",
    "fuente": "procinal"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Clayface",
-   "hora": "2026-11-06T16:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D Ge Y Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -8486,6 +8453,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T16:35:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-06T16:40:00-05:00",
@@ -8496,18 +8475,6 @@
    "duracion_min": 135,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
    "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T16:40:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 114,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
   },
   {
    "sala_id": "pr-americas",
@@ -8604,6 +8571,18 @@
    "duracion_min": 114,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4038/el-gato-con-sombrero",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-06T16:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "pr-americas",
@@ -8712,6 +8691,18 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Clayface",
+   "hora": "2026-11-06T17:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -8832,18 +8823,6 @@
    "duracion_min": 105,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
    "fuente": "cinemark"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T17:10:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D Vkids",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
   },
   {
    "sala_id": "cm-floresta",
@@ -8978,6 +8957,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Your name",
+   "hora": "2026-11-06T17:25:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-altavista",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-06T17:25:00-05:00",
@@ -9050,18 +9041,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-06T17:30:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cm-ensueno",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-06T17:35:00-05:00",
@@ -9108,18 +9087,6 @@
    "duracion_min": 107,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "A cualquier precio",
-   "hora": "2026-11-06T17:40:00-05:00",
-   "titulo_original": "By any means",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
   },
   {
    "sala_id": "cm-atlantis",
@@ -9230,18 +9197,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-06T17:50:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D Vmax",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cm-ensueno",
    "pelicula": "Clayface",
    "hora": "2026-11-06T17:55:00-05:00",
@@ -9348,6 +9303,18 @@
    "duracion_min": 110,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-06T18:00:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -9506,18 +9473,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "Los juegos del hambre: sinsajo parte 2",
-   "hora": "2026-11-06T18:00:00-05:00",
-   "titulo_original": "The hunger games: mockingjay part 2",
-   "formato": "2D Ge Y Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cm-ensueno",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-06T18:05:00-05:00",
@@ -9626,18 +9581,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-06T18:10:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cm-atlantis",
    "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-06T18:15:00-05:00",
@@ -9696,6 +9639,18 @@
    "duracion_min": 110,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T18:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -9768,18 +9723,6 @@
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/tintal",
    "fuente": "procinal"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-06T18:20:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 101,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-plaza-claro",
@@ -9902,6 +9845,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-06T18:30:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-06T18:30:00-05:00",
@@ -10008,18 +9963,6 @@
    "duracion_min": 107,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4147/a-cualquier-precio",
    "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T18:30:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
   },
   {
    "sala_id": "cm-atlantis",
@@ -10166,6 +10109,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-06T18:45:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Clayface",
    "hora": "2026-11-06T18:45:00-05:00",
@@ -10250,18 +10205,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "La caída de la ballena",
-   "hora": "2026-11-06T18:45:00-05:00",
-   "titulo_original": "Whalefall",
-   "formato": "2D Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "pr-americas",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-06T18:50:00-05:00",
@@ -10322,6 +10265,18 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Por todos los medios",
+   "hora": "2026-11-06T19:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T19:00:00-05:00",
@@ -10330,18 +10285,6 @@
    "idioma": "Doblada",
    "clasificacion": "A12",
    "duracion_min": 135,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Clayface",
-   "hora": "2026-11-06T19:00:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A15",
-   "duracion_min": 108,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
   },
@@ -10454,18 +10397,6 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "Clayface",
-   "hora": "2026-11-06T19:00:00-05:00",
-   "titulo_original": "",
-   "formato": "2D Ge Y Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cm-ensueno",
    "pelicula": "Shrek",
    "hora": "2026-11-06T19:05:00-05:00",
@@ -10514,6 +10445,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T19:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Por todos los medios",
    "hora": "2026-11-06T19:15:00-05:00",
@@ -10538,18 +10481,6 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T19:20:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 114,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Competencia nacional bmvf 1",
    "hora": "2026-11-06T19:30:00-05:00",
@@ -10562,8 +10493,20 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Clayface",
+   "hora": "2026-11-06T19:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
-   "pelicula": "Street fighter",
+   "pelicula": "Street Fighter",
    "hora": "2026-11-06T19:30:00-05:00",
    "titulo_original": "",
    "formato": "2D",
@@ -10634,6 +10577,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-06T19:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "ind-cinemania",
    "pelicula": "El gran falsificador",
    "hora": "2026-11-06T19:45:00-05:00",
@@ -10644,18 +10599,6 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T19:50:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D Vkids",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
   },
   {
    "sala_id": "cm-colina",
@@ -10692,6 +10635,18 @@
    "duracion_min": 140,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Your name",
+   "hora": "2026-11-06T20:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-plaza-claro",
@@ -10896,18 +10851,6 @@
    "duracion_min": 101,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "A cualquier precio",
-   "hora": "2026-11-06T20:20:00-05:00",
-   "titulo_original": "By any means",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -11066,18 +11009,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-06T20:30:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cm-atlantis",
    "pelicula": "Caballo salvaje nueve",
    "hora": "2026-11-06T20:35:00-05:00",
@@ -11148,18 +11079,6 @@
    "duracion_min": 135,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4123/godzilla-minus-zero",
    "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-06T20:40:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
   },
   {
    "sala_id": "cm-floresta",
@@ -11306,20 +11225,20 @@
    "fuente": "cinemark"
   },
   {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "El corazón de la bestia",
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-06T20:50:00-05:00",
-   "titulo_original": "Heart of the beast",
+   "titulo_original": "Wildwood",
    "formato": "2D",
    "idioma": "Doblada",
    "clasificacion": "A12",
-   "duracion_min": 101,
+   "duracion_min": 132,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
   },
   {
    "sala_id": "pr-americas",
-   "pelicula": "Street fighter",
+   "pelicula": "Street Fighter",
    "hora": "2026-11-06T20:50:00-05:00",
    "titulo_original": "",
    "formato": "2D",
@@ -11364,18 +11283,6 @@
    "duracion_min": 114,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4038/el-gato-con-sombrero",
    "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-06T20:50:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D Vmax",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
   },
   {
    "sala_id": "cm-porvenir",
@@ -11472,6 +11379,18 @@
    "duracion_min": 100,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T21:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -11630,18 +11549,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "Entrega al limite",
-   "hora": "2026-11-06T21:05:00-05:00",
-   "titulo_original": "Runner",
-   "formato": "2D Ge Y Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cm-colina",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-06T21:10:00-05:00",
@@ -11738,18 +11645,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "Resident evil: noche cero",
-   "hora": "2026-11-06T21:10:00-05:00",
-   "titulo_original": "Resident evil",
-   "formato": "2D Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cm-atlantis",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-06T21:15:00-05:00",
@@ -11820,6 +11715,18 @@
    "duracion_min": 95,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-06T21:15:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -12026,18 +11933,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "Verity",
-   "hora": "2026-11-06T21:20:00-05:00",
-   "titulo_original": "Verity",
-   "formato": "2D Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cm-colina",
    "pelicula": "Clayface",
    "hora": "2026-11-06T21:25:00-05:00",
@@ -12110,19 +12005,19 @@
    "fuente": "cinemark"
   },
   {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "Clayface",
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T21:30:00-05:00",
-   "titulo_original": "",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "A15",
-   "duracion_min": 108,
+   "clasificacion": "A12",
+   "duracion_min": 135,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "cp-mallplaza-nqs",
+   "sala_id": "cp-hayuelos",
    "pelicula": "Clayface",
    "hora": "2026-11-06T21:30:00-05:00",
    "titulo_original": "",
@@ -12278,18 +12173,6 @@
    "fuente": "cinemark"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "Clayface",
-   "hora": "2026-11-06T21:35:00-05:00",
-   "titulo_original": "",
-   "formato": "2D Ge Y Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cp-plaza-claro",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T21:40:00-05:00",
@@ -12386,6 +12269,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Por todos los medios",
+   "hora": "2026-11-06T21:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Por todos los medios",
    "hora": "2026-11-06T21:45:00-05:00",
@@ -12434,6 +12329,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T22:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T22:00:00-05:00",
@@ -12442,18 +12349,6 @@
    "idioma": "Doblada",
    "clasificacion": "A12",
    "duracion_min": 135,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T22:00:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 114,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
   },
@@ -12495,7 +12390,7 @@
   },
   {
    "sala_id": "cp-hayuelos",
-   "pelicula": "Street fighter",
+   "pelicula": "Street Fighter",
    "hora": "2026-11-06T22:15:00-05:00",
    "titulo_original": "",
    "formato": "2D",
@@ -12542,6 +12437,246 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T11:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T11:20:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Your name",
+   "hora": "2026-11-07T11:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T11:30:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D Vmax",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Your name",
+   "hora": "2026-11-07T11:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T11:40:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T11:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T11:50:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D Vkids",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T12:00:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T12:00:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T12:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T12:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T12:30:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Your name",
+   "hora": "2026-11-07T12:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T12:30:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Shrek",
+   "hora": "2026-11-07T12:35:00-05:00",
+   "titulo_original": "Shrek",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Shrek",
+   "hora": "2026-11-07T12:45:00-05:00",
+   "titulo_original": "Shrek",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 90,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T12:50:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T12:50:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "3D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Coyote vs acme",
+   "hora": "2026-11-07T12:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "El increíble castillo vagabundo",
    "hora": "2026-11-07T13:00:00-05:00",
@@ -12552,6 +12687,102 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Stray Kids World Tour RUN IT LIVE VIEWING",
+   "hora": "2026-11-07T13:00:00-05:00",
+   "titulo_original": "",
+   "formato": "OV",
+   "idioma": "",
+   "clasificacion": "A12",
+   "duracion_min": 195,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Stray Kids World Tour RUN IT LIVE VIEWING",
+   "hora": "2026-11-07T13:00:00-05:00",
+   "titulo_original": "",
+   "formato": "OV",
+   "idioma": "",
+   "clasificacion": "A12",
+   "duracion_min": 195,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Stray Kids World Tour RUN IT LIVE VIEWING",
+   "hora": "2026-11-07T13:00:00-05:00",
+   "titulo_original": "",
+   "formato": "OV",
+   "idioma": "",
+   "clasificacion": "A12",
+   "duracion_min": 195,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T13:00:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Stray Kids World Tour RUN IT LIVE VIEWING",
+   "hora": "2026-11-07T13:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Original",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-07T13:05:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T13:15:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Street Fighter",
+   "hora": "2026-11-07T13:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -12566,6 +12797,78 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-07T13:30:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T13:30:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T13:45:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T13:45:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T13:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Your name",
+   "hora": "2026-11-07T13:55:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cine-fontanar",
    "pelicula": "Fontanar del río",
    "hora": "2026-11-07T14:00:00-05:00",
@@ -12576,6 +12879,18 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/80",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T14:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -12602,6 +12917,30 @@
    "fuente": "cinemania"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T14:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T14:25:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D Vkids",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Mi vecino totoro",
    "hora": "2026-11-07T14:30:00-05:00",
@@ -12612,6 +12951,54 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Your name",
+   "hora": "2026-11-07T14:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T14:35:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T14:40:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T14:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -12626,6 +13013,54 @@
    "fuente": "cinemania"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T14:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D Vmax",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Your name",
+   "hora": "2026-11-07T14:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T14:50:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Shrek",
+   "hora": "2026-11-07T14:55:00-05:00",
+   "titulo_original": "Shrek",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "club-elmuro-coffee",
    "pelicula": "El conformista",
    "hora": "2026-11-07T15:00:00-05:00",
@@ -12636,6 +13071,54 @@
    "duracion_min": null,
    "url_compra": "https://cineclubelmuro.com/event/el-conformista/",
    "fuente": "elmuro"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Rammstein",
+   "hora": "2026-11-07T15:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T15:00:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Rammstein",
+   "hora": "2026-11-07T15:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T15:00:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -12650,6 +13133,30 @@
    "fuente": "cinemania"
   },
   {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-07T15:15:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T15:20:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Llueve sobre babel",
    "hora": "2026-11-07T15:30:00-05:00",
@@ -12660,6 +13167,78 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T15:30:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T15:30:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Coyote vs acme",
+   "hora": "2026-11-07T15:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T15:40:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-07T15:40:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T15:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -12698,6 +13277,66 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T16:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "3D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T16:00:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Street Fighter",
+   "hora": "2026-11-07T16:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Street Fighter",
+   "hora": "2026-11-07T16:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 120,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-07T16:20:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "ind-cinemania",
    "pelicula": "Tierra de mi padre",
    "hora": "2026-11-07T16:20:00-05:00",
@@ -12710,6 +13349,78 @@
    "fuente": "cinemania"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T16:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T16:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-07T16:30:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T16:35:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T16:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T16:45:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Kmkz: salvaje, libre y valiente",
    "hora": "2026-11-07T17:00:00-05:00",
@@ -12720,6 +13431,90 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T17:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Por todos los medios",
+   "hora": "2026-11-07T17:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T17:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T17:10:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D Vkids",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Stray Kids World Tour RUN IT LIVE VIEWING",
+   "hora": "2026-11-07T17:15:00-05:00",
+   "titulo_original": "",
+   "formato": "OV",
+   "idioma": "",
+   "clasificacion": "A12",
+   "duracion_min": 195,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Stray Kids World Tour RUN IT LIVE VIEWING",
+   "hora": "2026-11-07T17:15:00-05:00",
+   "titulo_original": "",
+   "formato": "OV",
+   "idioma": "",
+   "clasificacion": "A12",
+   "duracion_min": 195,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Stray Kids World Tour RUN IT LIVE VIEWING",
+   "hora": "2026-11-07T17:15:00-05:00",
+   "titulo_original": "",
+   "formato": "OV",
+   "idioma": "",
+   "clasificacion": "A12",
+   "duracion_min": 195,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -12746,6 +13541,114 @@
    "fuente": "cinemania"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Stray Kids World Tour RUN IT LIVE VIEWING",
+   "hora": "2026-11-07T17:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Original",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Your name",
+   "hora": "2026-11-07T17:25:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-07T17:30:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Your name",
+   "hora": "2026-11-07T17:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T17:30:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Your name",
+   "hora": "2026-11-07T17:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "A cualquier precio",
+   "hora": "2026-11-07T17:40:00-05:00",
+   "titulo_original": "By any means",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T17:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T17:50:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D Vmax",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Tierra de mi padre",
    "hora": "2026-11-07T18:00:00-05:00",
@@ -12768,6 +13671,42 @@
    "duracion_min": null,
    "url_compra": "https://cineclubelmuro.com/event/salo-o-las-120-jornadas-de-sodoma-2/",
    "fuente": "elmuro"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T18:00:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T18:00:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T18:00:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -12794,6 +13733,138 @@
    "fuente": "cinemania"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Los juegos del hambre: sinsajo parte 2",
+   "hora": "2026-11-07T18:00:00-05:00",
+   "titulo_original": "The hunger games: mockingjay part 2",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-07T18:10:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T18:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T18:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T18:20:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T18:30:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T18:40:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Caballo salvaje nueve",
+   "hora": "2026-11-07T18:40:00-05:00",
+   "titulo_original": "Wild horse nine",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 118,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-07T18:45:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T18:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "La caída de la ballena",
+   "hora": "2026-11-07T18:45:00-05:00",
+   "titulo_original": "Whalefall",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Hijo de tigre y mula",
    "hora": "2026-11-07T19:00:00-05:00",
@@ -12804,6 +13875,66 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Rammstein",
+   "hora": "2026-11-07T19:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T19:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T19:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T19:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T19:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -12818,6 +13949,30 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T19:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T19:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "ind-cinemania",
    "pelicula": "A cualquier precio",
    "hora": "2026-11-07T19:30:00-05:00",
@@ -12828,6 +13983,30 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Por todos los medios",
+   "hora": "2026-11-07T19:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T19:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -12842,6 +14021,18 @@
    "fuente": "cinemania"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T19:50:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D Vkids",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Torah tropical",
    "hora": "2026-11-07T20:00:00-05:00",
@@ -12852,6 +14043,54 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Your name",
+   "hora": "2026-11-07T20:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T20:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T20:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-07T20:15:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -12876,6 +14115,390 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-07T20:20:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "A cualquier precio",
+   "hora": "2026-11-07T20:20:00-05:00",
+   "titulo_original": "By any means",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T20:30:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T20:30:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T20:40:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-07T20:40:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T20:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T20:50:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T20:50:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D Vmax",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T21:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T21:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Entrega al limite",
+   "hora": "2026-11-07T21:05:00-05:00",
+   "titulo_original": "Runner",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T21:10:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-07T21:15:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-07T21:15:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Verity",
+   "hora": "2026-11-07T21:15:00-05:00",
+   "titulo_original": "Verity",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Caballo salvaje nueve",
+   "hora": "2026-11-07T21:20:00-05:00",
+   "titulo_original": "Wild horse nine",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 118,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Resident evil: noche cero",
+   "hora": "2026-11-07T21:25:00-05:00",
+   "titulo_original": "Resident evil",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T21:30:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T21:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T21:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T21:35:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T21:40:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Por todos los medios",
+   "hora": "2026-11-07T21:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Por todos los medios",
+   "hora": "2026-11-07T21:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T21:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T22:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-07T22:00:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-07T22:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 114,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Por todos los medios",
+   "hora": "2026-11-07T22:10:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 107,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Street Fighter",
+   "hora": "2026-11-07T22:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 120,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Clayface",
+   "hora": "2026-11-07T22:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -15551,6 +17174,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
+   "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cine-fontanar",
+   "pelicula": "Fontanar del río",
+   "hora": "2026-11-28T14:00:00-05:00",
+   "titulo_original": "",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://cinematecadebogota.gov.co/agenda/80",
    "fuente": "cinemateca"
   },
   {
