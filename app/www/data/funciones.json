@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-04T21:49:15-05:00",
+ "generado": "2026-11-04T22:12:27-05:00",
  "estado": {
   "cinemark": {
-   "funciones": 236,
+   "funciones": 208,
    "error": null
   },
   "procinal": {
-   "funciones": 164,
+   "funciones": 189,
    "error": null
   },
   "royal_films": {
@@ -14,11 +14,11 @@
    "error": null
   },
   "cinepolis": {
-   "funciones": 167,
+   "funciones": 162,
    "error": null
   },
   "viziona": {
-   "funciones": 28,
+   "funciones": 27,
    "error": null
   },
   "cinemateca": {
@@ -43,27 +43,26 @@
   "Shrek": "https://d11w3vv8f1cdqg.cloudfront.net/movies-poster/1792445036616-01_SHR25_WEBART_4X5_SL_F01_022526_Rev_Las_.jpg",
   "El bosque salvaje: wildwood": "https://d11w3vv8f1cdqg.cloudfront.net/movies-poster/1793044645820-Poster Vertical 4_5_.jpg",
   "La caída de la ballena": "https://score.procinal.com.co/mobilecomjson/imagenes/1878.jpg",
+  "Clayface": "https://static.cinepolis.com/img/peliculas/53686/1/1/53686.jpg",
   "El corazón de la bestia": "https://static.cinepolis.com/img/peliculas/53485/1/1/53485.jpg",
   "La odisea": "https://score.procinal.com.co/mobilecomjson/imagenes/1715.jpg",
   "Coyote vs. acme": "https://score.procinal.com.co/mobilecomjson/imagenes/1832.jpg",
-  "Clayface": "https://static.cinepolis.com/img/peliculas/53686/1/1/53686.jpg",
+  "Digger": "https://score.procinal.com.co/mobilecomjson/imagenes/1717.jpg",
   "Caballo salvaje nueve": "https://static.cinepolis.com/img/peliculas/54047/1/1/54047.jpg",
-  "Godzilla minus zero": "https://d2gok2bmf4ckrg.cloudfront.net/movies-poster/1792529226195-Poster.png",
+  "Godzilla minus zero": "https://d1h560xa7cmqwq.cloudfront.net/movies-poster/1792529226195-Poster.png",
+  "Verity": "https://score.procinal.com.co/mobilecomjson/imagenes/1860.jpg",
   "Los juegos del hambre: amanecer en la cosecha": "https://score.procinal.com.co/mobilecomjson/imagenes/1686.jpg",
   "El gran falsificador": "https://score.procinal.com.co/mobilecomjson/imagenes/1975.jpg",
   "A cualquier precio": "https://dqq1cn0vfegag.cloudfront.net/movies-poster/1788988417260-ACP_POSTER_70X100cm_Online_.jpg",
-  "Street Fighter": "https://static.cinepolis.com/img/peliculas/53604/1/1/53604.jpg",
-  "Los juegos del hambre: sinsajo parte 2": "https://static.cinepolis.com/img/genericos/cartel.jpg",
-  "Your name": "https://static.cinepolis.com/img/peliculas/54208/1/1/54208.jpg",
-  "Entrega al limite": "https://dqq1cn0vfegag.cloudfront.net/movies-poster/1788989029460-POSTER RUNNER_.jpg",
-  "Madre siniestra": "https://score.procinal.com.co/mobilecomjson/imagenes/1920.jpg",
-  "El despertar": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6ad93bc0d22aa5525ae25be4/common/el-despertar-113896-1793206884704",
   "Resident evil: noche cero": "https://score.procinal.com.co/mobilecomjson/imagenes/1851.jpg",
+  "Los juegos del hambre: sinsajo parte 2": "https://static.cinepolis.com/img/genericos/cartel.jpg",
+  "Street Fighter": "https://static.cinepolis.com/img/peliculas/53604/1/1/53604.jpg",
+  "Your name": "https://static.cinepolis.com/img/peliculas/54208/1/1/54208.jpg",
+  "Entrega al limite": "https://d11w3vv8f1cdqg.cloudfront.net/movies-poster/1788989029460-POSTER RUNNER_.jpg",
+  "Madre siniestra": "https://score.procinal.com.co/mobilecomjson/imagenes/1920.jpg",
   "Sensatez y sentimiento": "https://cinemania.com.co/wp-content/uploads/2026/08/sensatez.jpg",
   "Tierra de mi padre": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Tierra-de-mi-padre_webp.JPG?itok=8VqnmKwX",
-  "Digger": "https://score.procinal.com.co/mobilecomjson/imagenes/1717.jpg",
   "Frío metal": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/Poster%20fr%C3%ADo%20metal.png?itok=lZQjqeoV",
-  "Verity: La sombra de un engaño": "https://score.procinal.com.co/mobilecomjson/imagenes/1860.jpg",
   "Calle málaga": "https://cinemania.com.co/wp-content/uploads/2026/09/Poster-Calle-714x1024.jpg",
   "Manual para invocar fantasmas": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/MPIF_Afiche.jpg?itok=uzHm4RxI",
   "Por todos los medios": "https://static.cinepolis.com/img/genericos/cartel.jpg",
@@ -77,7 +76,6 @@
   "Tres hermanas": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-08/3H.jpg?itok=lTw9QGL4",
   "Torah tropical": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/57150_12444__imagen__.jpg?itok=MwUJnug2",
   "Backrooms": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6adfa912fe6fc486cac74a8d/common/backrooms-ts-113950-1793110810244",
-  "Tadeo jones 4": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6ab44e37e4d1ff0a6de63a53/common/tadeo-jones-4-111106-1790605337168",
   "Midbo": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Screen%20Shot%202026-10-19%20at%2010.56.51%20AM.png?itok=A2R6nnEd",
   "El increíble castillo vagabundo": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-03/EL%20INCREI%CC%81BLE%20CASTILLO%20VAGABUNDO_POSTER_MAIN_35X50.jpg?itok=sbxnGCj8",
   "Fontanar del río": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Affiche_ce-n-est-qu-un-au-revoir.jpg?itok=wB2xsmna",
@@ -89,7 +87,6 @@
   "Corporación contracorriente": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/poster%20proyeccio%CC%81n%206%20nov.png?itok=G8qH6R6v",
   "Competencia nacional bmvf 1": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-11/BMVF26_Afiche.jpeg?itok=30epK_q0",
   "Engendro": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/a09cd69fba9fc199b7c56c2394a3fa53.jpg?itok=Nq5FJu6H",
-  "El mono": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6adfd33f3909fd2f84a42d93/common/el-mono-113956-1793807191176",
   "La colina de las amapolas": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-02/Screenshot_2.png?itok=1pMDGtSc",
   "Cenizas y diamantes": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/cenizasydiam.jpg?itok=19FfIx4o",
   "El juego de la vida": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-04/EJDLV_Afiche_35x50cms.jpg?itok=kztBV-rX",
@@ -183,6 +180,18 @@
  },
  "funciones": [
   {
+   "sala_id": "pr-palatino",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-04T13:40:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "3D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-bulevar",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-04T14:00:00-05:00",
@@ -243,6 +252,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "Clayface",
+   "hora": "2026-11-04T14:10:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-salitre",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-04T14:10:00-05:00",
@@ -252,6 +273,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/salitre",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Shrek",
+   "hora": "2026-11-04T14:15:00-05:00",
+   "titulo_original": "Shrek",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
    "fuente": "procinal"
   },
   {
@@ -291,6 +324,42 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-04T14:20:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-palatino",
+   "pelicula": "Digger",
+   "hora": "2026-11-04T14:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-palatino",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-04T14:20:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-salitre",
    "pelicula": "Clayface",
    "hora": "2026-11-04T14:20:00-05:00",
@@ -312,6 +381,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/tintal",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-04T14:30:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "3D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
    "fuente": "procinal"
   },
   {
@@ -375,6 +456,30 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "La caída de la ballena",
+   "hora": "2026-11-04T14:50:00-05:00",
+   "titulo_original": "Whalefall",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T15:20:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-bima",
    "pelicula": "Caballo salvaje nueve",
    "hora": "2026-11-04T15:20:00-05:00",
@@ -423,6 +528,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-palatino",
+   "pelicula": "Caballo salvaje nueve",
+   "hora": "2026-11-04T15:30:00-05:00",
+   "titulo_original": "Wild horse nine",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-tintal",
    "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-04T15:30:00-05:00",
@@ -444,6 +561,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/tunal",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-04T15:45:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
    "fuente": "procinal"
   },
   {
@@ -480,6 +609,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/occidente",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-palatino",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T15:45:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
    "fuente": "procinal"
   },
   {
@@ -516,6 +657,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bima",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-04T16:00:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
    "fuente": "procinal"
   },
   {
@@ -591,6 +744,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-palatino",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-04T16:20:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-salitre",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-04T16:20:00-05:00",
@@ -600,6 +765,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/salitre",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Shrek",
+   "hora": "2026-11-04T16:30:00-05:00",
+   "titulo_original": "Shrek",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
    "fuente": "procinal"
   },
   {
@@ -639,6 +816,42 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "Clayface",
+   "hora": "2026-11-04T16:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-04T16:40:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-palatino",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-04T16:40:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-salitre",
    "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-04T16:40:00-05:00",
@@ -672,6 +885,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/tintal",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-04T16:45:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
    "fuente": "procinal"
   },
   {
@@ -735,6 +960,30 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-palatino",
+   "pelicula": "Verity",
+   "hora": "2026-11-04T17:00:00-05:00",
+   "titulo_original": "Verity",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "La odisea",
+   "hora": "2026-11-04T17:15:00-05:00",
+   "titulo_original": "The odyssey",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-suba",
    "pelicula": "Los juegos del hambre: amanecer en la cosecha",
    "hora": "2026-11-04T17:45:00-05:00",
@@ -756,6 +1005,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/tunal",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-04T18:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
    "fuente": "procinal"
   },
   {
@@ -795,6 +1056,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-palatino",
+   "pelicula": "Caballo salvaje nueve",
+   "hora": "2026-11-04T18:00:00-05:00",
+   "titulo_original": "Wild horse nine",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-salitre",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-04T18:00:00-05:00",
@@ -804,6 +1077,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/salitre",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T18:10:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
    "fuente": "procinal"
   },
   {
@@ -927,6 +1212,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-palatino",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T18:30:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-salitre",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-04T18:30:00-05:00",
@@ -951,6 +1248,30 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "A cualquier precio",
+   "hora": "2026-11-04T18:40:00-05:00",
+   "titulo_original": "By any means",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-04T18:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-bima",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-04T18:45:00-05:00",
@@ -960,6 +1281,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/bima",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-palatino",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-04T18:45:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
    "fuente": "procinal"
   },
   {
@@ -987,6 +1320,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-04T18:50:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-bima",
    "pelicula": "Clayface",
    "hora": "2026-11-04T18:50:00-05:00",
@@ -1008,6 +1353,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/occidente",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-04T19:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
    "fuente": "procinal"
   },
   {
@@ -1047,6 +1404,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-palatino",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-04T19:00:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-salitre",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-04T19:00:00-05:00",
@@ -1083,6 +1452,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "Clayface",
+   "hora": "2026-11-04T19:10:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-bima",
    "pelicula": "A cualquier precio",
    "hora": "2026-11-04T19:10:00-05:00",
@@ -1107,6 +1488,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-palatino",
+   "pelicula": "Clayface",
+   "hora": "2026-11-04T19:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-salitre",
    "pelicula": "La odisea",
    "hora": "2026-11-04T20:15:00-05:00",
@@ -1119,52 +1512,16 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-04T20:20:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 132,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-diverplaza",
-   "pelicula": "Street Fighter",
-   "hora": "2026-11-04T20:25:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 120,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "El bosque salvaje: wildwood",
+   "sala_id": "pr-americas",
+   "pelicula": "Resident evil: noche cero",
    "hora": "2026-11-04T20:30:00-05:00",
-   "titulo_original": "Wildwood",
+   "titulo_original": "Resident evil",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 132,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-plaza-claro",
-   "pelicula": "Verity: La sombra de un engaño",
-   "hora": "2026-11-04T20:30:00-05:00",
-   "titulo_original": "Verity",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A15",
-   "duracion_min": 114,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "pr-bima",
@@ -1215,16 +1572,16 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "cp-mallplaza-nqs",
+   "sala_id": "pr-americas",
    "pelicula": "La caída de la ballena",
    "hora": "2026-11-04T20:40:00-05:00",
    "titulo_original": "Whalefall",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 105,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "cp-diverplaza",
@@ -1240,9 +1597,9 @@
   },
   {
    "sala_id": "cp-hayuelos",
-   "pelicula": "La exorcista",
+   "pelicula": "La Exorcista",
    "hora": "2026-11-04T20:45:00-05:00",
-   "titulo_original": "The containment",
+   "titulo_original": "",
    "formato": "2D",
    "idioma": "Doblada",
    "clasificacion": "A12",
@@ -1275,6 +1632,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-palatino",
+   "pelicula": "El gran falsificador",
+   "hora": "2026-11-04T20:45:00-05:00",
+   "titulo_original": "L'affaire bojarski",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-salitre",
    "pelicula": "Los juegos del hambre: sinsajo parte 2",
    "hora": "2026-11-04T20:45:00-05:00",
@@ -1296,6 +1665,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/tintal",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Street Fighter",
+   "hora": "2026-11-04T20:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
    "fuente": "procinal"
   },
   {
@@ -1336,7 +1717,7 @@
   },
   {
    "sala_id": "cp-plaza-claro",
-   "pelicula": "Verity: La sombra de un engaño",
+   "pelicula": "Verity",
    "hora": "2026-11-04T21:00:00-05:00",
    "titulo_original": "Verity",
    "formato": "2D",
@@ -1392,6 +1773,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/occidente",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-palatino",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-04T21:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
    "fuente": "procinal"
   },
   {
@@ -1455,6 +1848,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "A cualquier precio",
+   "hora": "2026-11-04T21:10:00-05:00",
+   "titulo_original": "By any means",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-bima",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-04T21:10:00-05:00",
@@ -1488,6 +1893,18 @@
    "clasificacion": "",
    "duracion_min": null,
    "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/salitre",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-04T21:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
    "fuente": "procinal"
   },
   {
@@ -1527,6 +1944,18 @@
    "fuente": "procinal"
   },
   {
+   "sala_id": "pr-palatino",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-04T21:15:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-salitre",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-04T21:15:00-05:00",
@@ -1549,6 +1978,18 @@
    "duracion_min": 108,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-04T21:20:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "pr-bima",
@@ -1599,18 +2040,6 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-04T21:25:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-diverplaza",
    "pelicula": "El despertar",
    "hora": "2026-11-04T21:25:00-05:00",
@@ -1621,66 +2050,6 @@
    "duracion_min": 96,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-04T21:30:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-04T21:30:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-04T21:30:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "Madre siniestra",
-   "hora": "2026-11-04T21:30:00-05:00",
-   "titulo_original": "Other mommy",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 95,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-04T21:30:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-diverplaza",
@@ -1719,6 +2088,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-04T21:30:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-bima",
    "pelicula": "A cualquier precio",
    "hora": "2026-11-04T21:30:00-05:00",
@@ -1755,18 +2136,6 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-04T21:35:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-diverplaza",
    "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-04T21:35:00-05:00",
@@ -1779,22 +2148,10 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "cm-colina",
+   "sala_id": "pr-americas",
    "pelicula": "Clayface",
    "hora": "2026-11-04T21:40:00-05:00",
    "titulo_original": "",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "La exorcista",
-   "hora": "2026-11-04T21:40:00-05:00",
-   "titulo_original": "The containment",
    "formato": "2D",
    "idioma": "Doblada",
    "clasificacion": "",
@@ -1803,40 +2160,16 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "cm-atlantis",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-04T21:45:00-05:00",
-   "titulo_original": "Wildwood",
+   "sala_id": "pr-palatino",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-04T21:40:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
    "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El despertar",
-   "hora": "2026-11-04T21:45:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-04T21:45:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
+   "idioma": "Subtitulada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
+   "fuente": "procinal"
   },
   {
    "sala_id": "cp-diverplaza",
@@ -1885,42 +2218,6 @@
    "duracion_min": 93,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-04T21:50:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-04T21:50:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Resident evil: noche cero",
-   "hora": "2026-11-04T21:50:00-05:00",
-   "titulo_original": "Resident evil",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
   },
   {
    "sala_id": "cp-diverplaza",
@@ -2017,18 +2314,6 @@
    "duracion_min": 101,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "pr-palatino",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-05T13:40:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "3D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -2163,18 +2448,6 @@
    "fuente": "cinemark"
   },
   {
-   "sala_id": "pr-americas",
-   "pelicula": "Clayface",
-   "hora": "2026-11-05T14:10:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "cm-plaza-imperial",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-05T14:15:00-05:00",
@@ -2185,18 +2458,6 @@
    "duracion_min": 135,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "Shrek",
-   "hora": "2026-11-05T14:15:00-05:00",
-   "titulo_original": "Shrek",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
   },
   {
    "sala_id": "cm-atlantis",
@@ -2257,42 +2518,6 @@
    "duracion_min": 132,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-05T14:20:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-palatino",
-   "pelicula": "Digger",
-   "hora": "2026-11-05T14:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Subtitulada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-palatino",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-05T14:20:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
   },
   {
    "sala_id": "cm-gran-plaza-bosa",
@@ -2389,18 +2614,6 @@
    "duracion_min": 114,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-05T14:30:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "3D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
   },
   {
    "sala_id": "rf-americas",
@@ -2667,18 +2880,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-americas",
-   "pelicula": "La caída de la ballena",
-   "hora": "2026-11-05T14:50:00-05:00",
-   "titulo_original": "Whalefall",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "rf-altavista",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-05T14:50:00-05:00",
@@ -2788,7 +2989,7 @@
   },
   {
    "sala_id": "cm-colina",
-   "pelicula": "Verity: La sombra de un engaño",
+   "pelicula": "Verity",
    "hora": "2026-11-05T15:00:00-05:00",
    "titulo_original": "Verity",
    "formato": "2D",
@@ -3027,18 +3228,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-americas",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-05T15:20:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "cm-gran-plaza-bosa",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-05T15:25:00-05:00",
@@ -3097,18 +3286,6 @@
    "duracion_min": 114,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "pr-palatino",
-   "pelicula": "Caballo salvaje nueve",
-   "hora": "2026-11-05T15:30:00-05:00",
-   "titulo_original": "Wild horse nine",
-   "formato": "2D",
-   "idioma": "Subtitulada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
   },
   {
    "sala_id": "rf-villa-del-rio",
@@ -3243,30 +3420,6 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "pr-americas",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-05T15:45:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-palatino",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-05T15:45:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "rf-altavista",
    "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-05T15:45:00-05:00",
@@ -3399,18 +3552,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-americas",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-05T16:00:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "rf-altavista",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-05T16:00:00-05:00",
@@ -3495,18 +3636,6 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "pr-palatino",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-05T16:20:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "vz-eden",
    "pelicula": "Clayface",
    "hora": "2026-11-05T16:20:00-05:00",
@@ -3541,18 +3670,6 @@
    "duracion_min": 101,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "Shrek",
-   "hora": "2026-11-05T16:30:00-05:00",
-   "titulo_original": "Shrek",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
   },
   {
    "sala_id": "cm-ensueno",
@@ -3591,42 +3708,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-americas",
-   "pelicula": "Clayface",
-   "hora": "2026-11-05T16:40:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-05T16:40:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-palatino",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-05T16:40:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "rf-americas",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-05T16:40:00-05:00",
@@ -3649,18 +3730,6 @@
    "duracion_min": 114,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4038/el-gato-con-sombrero",
    "fuente": "royal_films"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-05T16:45:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
   },
   {
    "sala_id": "cm-colina",
@@ -3745,18 +3814,6 @@
    "duracion_min": 114,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "pr-palatino",
-   "pelicula": "Verity: La sombra de un engaño",
-   "hora": "2026-11-05T17:00:00-05:00",
-   "titulo_original": "Verity",
-   "formato": "2D",
-   "idioma": "Subtitulada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
   },
   {
    "sala_id": "cm-atlantis",
@@ -3853,18 +3910,6 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "La odisea",
-   "hora": "2026-11-05T17:15:00-05:00",
-   "titulo_original": "The odyssey",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
   },
   {
    "sala_id": "cm-floresta",
@@ -4371,30 +4416,6 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "pr-americas",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-05T18:00:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-palatino",
-   "pelicula": "Caballo salvaje nueve",
-   "hora": "2026-11-05T18:00:00-05:00",
-   "titulo_original": "Wild horse nine",
-   "formato": "2D",
-   "idioma": "Subtitulada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "rf-americas",
    "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-05T18:00:00-05:00",
@@ -4477,18 +4498,6 @@
    "duracion_min": 135,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
    "fuente": "cinemark"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-05T18:10:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
   },
   {
    "sala_id": "rf-altavista",
@@ -4755,18 +4764,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-palatino",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-05T18:30:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D",
-   "idioma": "Subtitulada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "rf-milenio",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-05T18:30:00-05:00",
@@ -4875,18 +4872,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-americas",
-   "pelicula": "A cualquier precio",
-   "hora": "2026-11-05T18:40:00-05:00",
-   "titulo_original": "By any means",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "rf-altavista",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-05T18:40:00-05:00",
@@ -4959,30 +4944,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-americas",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-05T18:45:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-palatino",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-05T18:45:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "rf-villa-del-rio",
    "pelicula": "Entrega al limite",
    "hora": "2026-11-05T18:45:00-05:00",
@@ -5005,18 +4966,6 @@
    "duracion_min": null,
    "url_compra": "https://vizionacines.com/",
    "fuente": "viziona"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-05T18:50:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
   },
   {
    "sala_id": "cm-atlantis",
@@ -5079,30 +5028,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-americas",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-05T19:00:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-palatino",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-05T19:00:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Subtitulada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "vz-eden",
    "pelicula": "Clayface",
    "hora": "2026-11-05T19:00:00-05:00",
@@ -5137,18 +5062,6 @@
    "duracion_min": 110,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
    "fuente": "cinemark"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "Clayface",
-   "hora": "2026-11-05T19:10:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -5221,18 +5134,6 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
-  },
-  {
-   "sala_id": "pr-palatino",
-   "pelicula": "Clayface",
-   "hora": "2026-11-05T19:30:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Subtitulada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
   },
   {
    "sala_id": "cm-multiplaza",
@@ -5595,18 +5496,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-americas",
-   "pelicula": "Resident evil: noche cero",
-   "hora": "2026-11-05T20:30:00-05:00",
-   "titulo_original": "Resident evil",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "rf-milenio",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-05T20:30:00-05:00",
@@ -5677,18 +5566,6 @@
    "duracion_min": 132,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "La caída de la ballena",
-   "hora": "2026-11-05T20:40:00-05:00",
-   "titulo_original": "Whalefall",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
   },
   {
    "sala_id": "rf-villa-del-rio",
@@ -5763,18 +5640,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-palatino",
-   "pelicula": "El gran falsificador",
-   "hora": "2026-11-05T20:45:00-05:00",
-   "titulo_original": "L'affaire bojarski",
-   "formato": "2D",
-   "idioma": "Subtitulada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "rf-americas",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-05T20:45:00-05:00",
@@ -5821,18 +5686,6 @@
    "duracion_min": 101,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "Street Fighter",
-   "hora": "2026-11-05T20:50:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
   },
   {
    "sala_id": "rf-americas",
@@ -5979,18 +5832,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-palatino",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-05T21:00:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "rf-americas",
    "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-05T21:00:00-05:00",
@@ -6085,18 +5926,6 @@
    "duracion_min": 135,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "A cualquier precio",
-   "hora": "2026-11-05T21:10:00-05:00",
-   "titulo_original": "By any means",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
   },
   {
    "sala_id": "rf-milenio",
@@ -6207,30 +6036,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-americas",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-05T21:15:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-palatino",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-05T21:15:00-05:00",
-   "titulo_original": "Wildwood",
-   "formato": "2D",
-   "idioma": "Subtitulada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "rf-villa-del-rio",
    "pelicula": "Entrega al limite",
    "hora": "2026-11-05T21:15:00-05:00",
@@ -6267,18 +6072,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-americas",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-05T21:20:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "rf-americas",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-05T21:20:00-05:00",
@@ -6304,7 +6097,7 @@
   },
   {
    "sala_id": "vz-eden",
-   "pelicula": "Verity: La sombra de un engaño",
+   "pelicula": "Verity",
    "hora": "2026-11-05T21:20:00-05:00",
    "titulo_original": "Verity",
    "formato": "2D Vip",
@@ -6409,18 +6202,6 @@
    "duracion_min": 108,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-05T21:30:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
   },
   {
    "sala_id": "rf-altavista",
@@ -6541,30 +6322,6 @@
    "duracion_min": 135,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "pr-americas",
-   "pelicula": "Clayface",
-   "hora": "2026-11-05T21:40:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
-   "fuente": "procinal"
-  },
-  {
-   "sala_id": "pr-palatino",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-05T21:40:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Subtitulada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
   },
   {
    "sala_id": "cm-atlantis",
@@ -6711,18 +6468,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "pr-palatino",
-   "pelicula": "Clayface",
-   "hora": "2026-11-05T22:00:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Subtitulada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/palatino",
-   "fuente": "procinal"
-  },
-  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Por todos los medios",
    "hora": "2026-11-05T22:10:00-05:00",
@@ -6745,30 +6490,6 @@
    "duracion_min": 132,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Tadeo jones 4",
-   "hora": "2026-11-06T09:00:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "TODOS",
-   "duracion_min": 95,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-06T09:10:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -6807,15 +6528,15 @@
    "fuente": "cinemateca"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Shrek",
+   "sala_id": "cm-colina",
+   "pelicula": "El gato con sombrero",
    "hora": "2026-11-06T14:00:00-05:00",
-   "titulo_original": "Shrek",
+   "titulo_original": "The cat in the hat",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "TODOS",
-   "duracion_min": 90,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -6867,16 +6588,40 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El bosque salvaje: wildwood",
+   "sala_id": "cm-colina",
+   "pelicula": "Shrek",
    "hora": "2026-11-06T14:10:00-05:00",
-   "titulo_original": "Wildwood",
+   "titulo_original": "Shrek",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "clasificacion": "TODOS",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Clayface",
+   "hora": "2026-11-06T14:10:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Shrek",
+   "hora": "2026-11-06T14:15:00-05:00",
+   "titulo_original": "Shrek",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "pr-tunal",
@@ -6891,15 +6636,27 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "cm-ensueno",
+   "sala_id": "cm-atlantis",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-06T14:20:00-05:00",
    "titulo_original": "The cat in the hat",
-   "formato": "2D",
+   "formato": "3D",
    "idioma": "Doblada",
    "clasificacion": "+7 AÑOS",
    "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-06T14:20:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 135,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -6915,6 +6672,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-06T14:20:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Buscando un cielo para rambo",
    "hora": "2026-11-06T14:30:00-05:00",
@@ -6927,7 +6696,19 @@
    "fuente": "cinemateca"
   },
   {
-   "sala_id": "cm-ensueno",
+   "sala_id": "cm-atlantis",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-06T14:30:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 135,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T14:30:00-05:00",
    "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
@@ -6935,31 +6716,7 @@
    "idioma": "Doblada",
    "clasificacion": "+12 AÑOS",
    "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-06T14:30:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T14:30:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "3D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -6973,6 +6730,18 @@
    "duracion_min": 114,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T14:30:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "3D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "rf-americas",
@@ -7011,15 +6780,27 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El corazón de la bestia",
+   "sala_id": "cm-atlantis",
+   "pelicula": "Clayface",
    "hora": "2026-11-06T14:40:00-05:00",
-   "titulo_original": "Heart of the beast",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+15 AÑOS",
+   "duracion_min": 110,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T14:40:00-05:00",
+   "titulo_original": "The cat in the hat",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -7045,30 +6826,6 @@
    "duracion_min": 114,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4038/el-gato-con-sombrero",
    "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T14:45:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-06T14:45:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -7107,18 +6864,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T14:50:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T14:50:00-05:00",
@@ -7129,6 +6874,18 @@
    "duracion_min": 135,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "La caída de la ballena",
+   "hora": "2026-11-06T14:50:00-05:00",
+   "titulo_original": "Whalefall",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "rf-altavista",
@@ -7191,27 +6948,27 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Clayface",
+   "sala_id": "cm-atlantis",
+   "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-06T15:00:00-05:00",
-   "titulo_original": "",
+   "titulo_original": "Wildwood",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 135,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
    "fuente": "cinemark"
   },
   {
-   "sala_id": "cm-floresta",
-   "pelicula": "Clayface",
+   "sala_id": "cm-colina",
+   "pelicula": "Verity",
    "hora": "2026-11-06T15:00:00-05:00",
-   "titulo_original": "",
+   "titulo_original": "Verity",
    "formato": "2D",
-   "idioma": "Doblada",
+   "idioma": "",
    "clasificacion": "+15 AÑOS",
-   "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "duracion_min": 120,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -7287,27 +7044,15 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-porvenir",
+   "sala_id": "cm-colina",
    "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T15:05:00-05:00",
+   "hora": "2026-11-06T15:10:00-05:00",
    "titulo_original": "The cat in the hat",
    "formato": "2D",
    "idioma": "Doblada",
    "clasificacion": "+7 AÑOS",
    "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-06T15:10:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -7323,18 +7068,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "cm-floresta",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-06T15:15:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-hayuelos",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-06T15:15:00-05:00",
@@ -7345,6 +7078,18 @@
    "duracion_min": 101,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-06T15:20:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 135,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-plaza-claro",
@@ -7359,27 +7104,27 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T15:30:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
+   "sala_id": "pr-americas",
    "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-06T15:30:00-05:00",
+   "hora": "2026-11-06T15:20:00-05:00",
    "titulo_original": "Wildwood",
    "formato": "2D",
    "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Caballo salvaje nueve",
+   "hora": "2026-11-06T15:30:00-05:00",
+   "titulo_original": "Wild horse nine",
+   "formato": "2D",
+   "idioma": "",
    "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "duracion_min": 120,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
    "fuente": "cinemark"
   },
   {
@@ -7405,18 +7150,6 @@
    "duracion_min": 114,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4038/el-gato-con-sombrero",
    "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T15:35:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "3D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-mallplaza-nqs",
@@ -7467,18 +7200,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-floresta",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-06T15:45:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Clayface",
    "hora": "2026-11-06T15:45:00-05:00",
@@ -7513,6 +7234,18 @@
    "duracion_min": 130,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4198/el-bosque-salvaje:-wildwood",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Clayface",
+   "hora": "2026-11-06T15:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+15 AÑOS",
+   "duracion_min": 110,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -7551,6 +7284,18 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cm-atlantis",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T16:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T16:00:00-05:00",
@@ -7585,6 +7330,18 @@
    "duracion_min": 132,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-06T16:00:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "rf-altavista",
@@ -7683,6 +7440,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "Shrek",
+   "hora": "2026-11-06T16:30:00-05:00",
+   "titulo_original": "Shrek",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "pr-tunal",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-06T16:30:00-05:00",
@@ -7695,18 +7464,6 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Shrek",
-   "hora": "2026-11-06T16:35:00-05:00",
-   "titulo_original": "Shrek",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "TODOS",
-   "duracion_min": 90,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-06T16:40:00-05:00",
@@ -7717,6 +7474,30 @@
    "duracion_min": 114,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Clayface",
+   "hora": "2026-11-06T16:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-06T16:40:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "rf-americas",
@@ -7741,6 +7522,30 @@
    "duracion_min": 114,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4038/el-gato-con-sombrero",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T16:45:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Caballo salvaje nueve",
+   "hora": "2026-11-06T16:50:00-05:00",
+   "titulo_original": "Wild horse nine",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 120,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "rf-villa-del-rio",
@@ -7803,27 +7608,27 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "cm-ensueno",
+   "sala_id": "cm-atlantis",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-06T17:05:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "3D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T17:15:00-05:00",
    "titulo_original": "The cat in the hat",
    "formato": "2D",
    "idioma": "Doblada",
    "clasificacion": "+7 AÑOS",
    "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Shrek",
+   "hora": "2026-11-06T17:05:00-05:00",
+   "titulo_original": "Shrek",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TODOS",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -7851,16 +7656,16 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "cm-porvenir",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T17:20:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "3D",
+   "sala_id": "pr-americas",
+   "pelicula": "La odisea",
+   "hora": "2026-11-06T17:15:00-05:00",
+   "titulo_original": "The odyssey",
+   "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "cp-mallplaza-nqs",
@@ -7899,15 +7704,15 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El bosque salvaje: wildwood",
+   "sala_id": "cm-atlantis",
+   "pelicula": "Caballo salvaje nueve",
    "hora": "2026-11-06T17:25:00-05:00",
-   "titulo_original": "Wildwood",
+   "titulo_original": "Wild horse nine",
    "formato": "2D",
-   "idioma": "Doblada",
+   "idioma": "",
    "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "duracion_min": 120,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
    "fuente": "cinemark"
   },
   {
@@ -7921,6 +7726,18 @@
    "duracion_min": 114,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4038/el-gato-con-sombrero",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T17:30:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-plaza-claro",
@@ -7971,18 +7788,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-06T17:35:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Your name",
    "hora": "2026-11-06T17:40:00-05:00",
@@ -7995,27 +7800,15 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "cm-ensueno",
+   "sala_id": "cm-atlantis",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T17:45:00-05:00",
    "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
    "formato": "2D",
-   "idioma": "Doblada",
+   "idioma": "",
    "clasificacion": "+12 AÑOS",
    "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T17:45:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
    "fuente": "cinemark"
   },
   {
@@ -8043,15 +7836,15 @@
    "fuente": "procinal"
   },
   {
-   "sala_id": "cm-porvenir",
-   "pelicula": "El gato con sombrero",
+   "sala_id": "cm-colina",
+   "pelicula": "El corazón de la bestia",
    "hora": "2026-11-06T17:50:00-05:00",
-   "titulo_original": "The cat in the hat",
+   "titulo_original": "Heart of the beast",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 100,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -8065,18 +7858,6 @@
    "duracion_min": 135,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4123/godzilla-minus-zero",
    "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Clayface",
-   "hora": "2026-11-06T17:55:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -8115,7 +7896,7 @@
    "fuente": "elmuro"
   },
   {
-   "sala_id": "cm-floresta",
+   "sala_id": "cm-colina",
    "pelicula": "Rammstein",
    "hora": "2026-11-06T18:00:00-05:00",
    "titulo_original": "",
@@ -8123,7 +7904,7 @@
    "idioma": "",
    "clasificacion": "+12 AÑOS",
    "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -8175,6 +7956,18 @@
    "fuente": "cinemania"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T18:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "rf-americas",
    "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-06T18:00:00-05:00",
@@ -8211,28 +8004,16 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T18:05:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "Godzilla minus zero",
+   "sala_id": "pr-americas",
+   "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-06T18:10:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "titulo_original": "Wildwood",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "rf-altavista",
@@ -8283,7 +8064,19 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-ensueno",
+   "sala_id": "cm-atlantis",
+   "pelicula": "El bosque salvaje: wildwood",
+   "hora": "2026-11-06T18:15:00-05:00",
+   "titulo_original": "Wildwood",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 135,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
    "pelicula": "Rocky",
    "hora": "2026-11-06T18:15:00-05:00",
    "titulo_original": "",
@@ -8291,19 +8084,7 @@
    "idioma": "",
    "clasificacion": "+12 AÑOS",
    "duracion_min": 120,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-06T18:15:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -8355,7 +8136,7 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-ensueno",
+   "sala_id": "cm-colina",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T18:25:00-05:00",
    "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
@@ -8363,31 +8144,7 @@
    "idioma": "Doblada",
    "clasificacion": "+12 AÑOS",
    "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-06T18:30:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "Clayface",
-   "hora": "2026-11-06T18:30:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -8427,6 +8184,30 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cm-atlantis",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-06T18:35:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 100,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T18:35:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "3D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T18:40:00-05:00",
@@ -8449,6 +8230,18 @@
    "duracion_min": 118,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "A cualquier precio",
+   "hora": "2026-11-06T18:40:00-05:00",
+   "titulo_original": "By any means",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "rf-altavista",
@@ -8487,15 +8280,15 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-floresta",
-   "pelicula": "El bosque salvaje: wildwood",
+   "sala_id": "cm-colina",
+   "pelicula": "Clayface",
    "hora": "2026-11-06T18:45:00-05:00",
-   "titulo_original": "Wildwood",
+   "titulo_original": "",
    "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "idioma": "",
+   "clasificacion": "+15 AÑOS",
+   "duracion_min": 110,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -8509,6 +8302,18 @@
    "duracion_min": 108,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-06T18:45:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "pr-tunal",
@@ -8533,6 +8338,30 @@
    "duracion_min": 98,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4148/entrega-al-limite",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-06T18:50:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Clayface",
+   "hora": "2026-11-06T18:55:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+15 AÑOS",
+   "duracion_min": 110,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -8583,16 +8412,28 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Shrek",
-   "hora": "2026-11-06T19:05:00-05:00",
-   "titulo_original": "Shrek",
+   "sala_id": "pr-americas",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T19:00:00-05:00",
+   "titulo_original": "The cat in the hat",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "TODOS",
-   "duracion_min": 90,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Clayface",
+   "hora": "2026-11-06T19:10:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -8691,15 +8532,15 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El gato con sombrero",
+   "sala_id": "cm-colina",
+   "pelicula": "Los juegos del hambre: sinsajo parte 2",
    "hora": "2026-11-06T20:00:00-05:00",
-   "titulo_original": "The cat in the hat",
+   "titulo_original": "The hunger games: mockingjay part 2",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 140,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -8775,6 +8616,30 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cm-atlantis",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T20:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Caballo salvaje nueve",
+   "hora": "2026-11-06T20:15:00-05:00",
+   "titulo_original": "Wild horse nine",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 120,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-06T20:15:00-05:00",
@@ -8809,18 +8674,6 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-06T20:20:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-plaza-claro",
@@ -8859,7 +8712,7 @@
    "fuente": "elmuro"
   },
   {
-   "sala_id": "cm-floresta",
+   "sala_id": "cm-colina",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-06T20:30:00-05:00",
    "titulo_original": "The cat in the hat",
@@ -8867,19 +8720,7 @@
    "idioma": "Doblada",
    "clasificacion": "+7 AÑOS",
    "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-06T20:30:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "3D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -8905,6 +8746,18 @@
    "duracion_min": 135,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Resident evil: noche cero",
+   "hora": "2026-11-06T20:30:00-05:00",
+   "titulo_original": "Resident evil",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "pr-tunal",
@@ -8931,15 +8784,15 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El bosque salvaje: wildwood",
-   "hora": "2026-11-06T20:40:00-05:00",
-   "titulo_original": "Wildwood",
+   "sala_id": "cm-atlantis",
+   "pelicula": "Caballo salvaje nueve",
+   "hora": "2026-11-06T20:35:00-05:00",
+   "titulo_original": "Wild horse nine",
    "formato": "2D",
-   "idioma": "Doblada",
+   "idioma": "",
    "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "duracion_min": 120,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
    "fuente": "cinemark"
   },
   {
@@ -8955,6 +8808,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "La caída de la ballena",
+   "hora": "2026-11-06T20:40:00-05:00",
+   "titulo_original": "Whalefall",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "rf-villa-del-rio",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T20:40:00-05:00",
@@ -8965,18 +8830,6 @@
    "duracion_min": 135,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4123/godzilla-minus-zero",
    "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Clayface",
-   "hora": "2026-11-06T20:45:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -9003,15 +8856,15 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El gato con sombrero",
+   "sala_id": "cm-colina",
+   "pelicula": "El corazón de la bestia",
    "hora": "2026-11-06T20:50:00-05:00",
-   "titulo_original": "The cat in the hat",
+   "titulo_original": "Heart of the beast",
    "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 100,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -9025,6 +8878,18 @@
    "duracion_min": 101,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Street Fighter",
+   "hora": "2026-11-06T20:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "rf-americas",
@@ -9051,31 +8916,7 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-porvenir",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-06T20:55:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-06T21:00:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
+   "sala_id": "cm-atlantis",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T21:00:00-05:00",
    "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
@@ -9083,7 +8924,19 @@
    "idioma": "",
    "clasificacion": "+12 AÑOS",
    "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-06T21:00:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 135,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -9159,6 +9012,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cm-colina",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T21:10:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T21:10:00-05:00",
@@ -9169,6 +9034,18 @@
    "duracion_min": 135,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "A cualquier precio",
+   "hora": "2026-11-06T21:10:00-05:00",
+   "titulo_original": "By any means",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "rf-milenio",
@@ -9195,27 +9072,15 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Clayface",
-   "hora": "2026-11-06T21:15:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
+   "sala_id": "cm-atlantis",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-06T21:15:00-05:00",
    "titulo_original": "Heart of the beast",
    "formato": "2D",
-   "idioma": "Doblada",
+   "idioma": "",
    "clasificacion": "+12 AÑOS",
    "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
    "fuente": "cinemark"
   },
   {
@@ -9231,6 +9096,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "pr-americas",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-06T21:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
    "sala_id": "rf-villa-del-rio",
    "pelicula": "Entrega al limite",
    "hora": "2026-11-06T21:15:00-05:00",
@@ -9243,18 +9120,6 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-porvenir",
-   "pelicula": "Clayface",
-   "hora": "2026-11-06T21:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-plaza-claro",
    "pelicula": "Caballo salvaje nueve",
    "hora": "2026-11-06T21:20:00-05:00",
@@ -9265,6 +9130,18 @@
    "duracion_min": 118,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-06T21:20:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "rf-americas",
@@ -9291,27 +9168,27 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El mono",
+   "sala_id": "cm-colina",
+   "pelicula": "Clayface",
    "hora": "2026-11-06T21:25:00-05:00",
    "titulo_original": "",
    "formato": "2D",
-   "idioma": "Doblada",
+   "idioma": "",
    "clasificacion": "+15 AÑOS",
-   "duracion_min": 95,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "duracion_min": 110,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
-   "sala_id": "cm-floresta",
-   "pelicula": "Godzilla minus zero",
+   "sala_id": "cm-atlantis",
+   "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-06T21:30:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "titulo_original": "Wildwood",
    "formato": "2D",
-   "idioma": "Doblada",
+   "idioma": "",
    "clasificacion": "+12 AÑOS",
    "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
    "fuente": "cinemark"
   },
   {
@@ -9337,6 +9214,18 @@
    "duracion_min": 108,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "pr-americas",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-06T21:30:00-05:00",
+   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
   },
   {
    "sala_id": "rf-altavista",
@@ -9387,27 +9276,15 @@
    "fuente": "royal_films"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "A cualquier precio",
+   "sala_id": "cm-colina",
+   "pelicula": "El bosque salvaje: wildwood",
    "hora": "2026-11-06T21:35:00-05:00",
-   "titulo_original": "By any means",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-06T21:35:00-05:00",
-   "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
+   "titulo_original": "Wildwood",
    "formato": "2D",
    "idioma": "Doblada",
    "clasificacion": "+12 AÑOS",
    "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -9423,27 +9300,39 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "cm-ensueno",
+   "sala_id": "pr-americas",
+   "pelicula": "Clayface",
+   "hora": "2026-11-06T21:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://www.procinal.com.co/ciudad/bogota/teatros/americas",
+   "fuente": "procinal"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Clayface",
+   "hora": "2026-11-06T21:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+15 AÑOS",
+   "duracion_min": 110,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-06T21:45:00-05:00",
    "titulo_original": "Ambientada en 1949, dos años después de los turbulentos acontecimientos de Godzilla Minus One, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación una vez más.",
    "formato": "2D",
-   "idioma": "Doblada",
+   "idioma": "",
    "clasificacion": "+12 AÑOS",
    "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "El mono",
-   "hora": "2026-11-06T21:45:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 95,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
