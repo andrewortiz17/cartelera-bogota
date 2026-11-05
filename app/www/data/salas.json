@@ -642,7 +642,8 @@
    "fuente": "cinemateca",
    "verificado": false,
    "foto": null,
-   "foto_fuente": null
+   "foto_fuente": null,
+   "nota": "Sin programación publicada por ahora"
   },
   {
    "id": "cine-fontanar",
@@ -676,7 +677,7 @@
    "zona": "Chicó / Cra. 14 # 93A-85",
    "lat": 4.6789,
    "lng": -74.0522,
-   "fuente": "manual",
+   "fuente": "cinemania",
    "verificado": false,
    "foto": null,
    "foto_fuente": null
@@ -732,7 +733,7 @@
    "lng": null,
    "fuente": "manual",
    "verificado": false,
-   "nota": "Contacto vía Premio Hernando Salcedo Silva; cada cineclub se agrega como sala propia",
+   "nota": "Agrupa varios cineclubes; cada uno se agrega como sala propia",
    "foto": null,
    "foto_fuente": null
   },
@@ -758,6 +759,46 @@
    "lat": 4.6381,
    "lng": -74.084,
    "fuente": "manual",
+   "verificado": false,
+   "foto": null,
+   "foto_fuente": null
+  },
+  {
+   "id": "ind-cinemalocal",
+   "nombre": "Cinema Local",
+   "operador": "Independiente",
+   "tipo": "independiente",
+   "zona": "San Felipe / Calle 74 # 20B-19",
+   "lat": 4.664,
+   "lng": -74.069,
+   "fuente": "manual",
+   "verificado": false,
+   "foto": null,
+   "foto_fuente": null,
+   "nota": "Publica su cartelera sin horarios: consulta funciones al (+57) 305 805 9809"
+  },
+  {
+   "id": "club-elmuro-tavola",
+   "nombre": "Cine Club El Muro · La Tavola Santa",
+   "operador": "Cine Club El Muro",
+   "tipo": "cineclub",
+   "zona": "Chapinero / Calle 55 # 10-25",
+   "lat": 4.6402,
+   "lng": -74.0638,
+   "fuente": "elmuro",
+   "verificado": false,
+   "foto": null,
+   "foto_fuente": null
+  },
+  {
+   "id": "club-elmuro-coffee",
+   "nombre": "Cine Club El Muro · Bogotá Coffee Roasters",
+   "operador": "Cine Club El Muro",
+   "tipo": "cineclub",
+   "zona": "Teusaquillo / Tv. 17A Bis # 35-71",
+   "lat": 4.6262,
+   "lng": -74.0731,
+   "fuente": "elmuro",
    "verificado": false,
    "foto": null,
    "foto_fuente": null

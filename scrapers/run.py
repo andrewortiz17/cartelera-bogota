@@ -17,9 +17,11 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 from comun import BOGOTA_TZ, clave_pelicula, limpiar_titulo, titulo_bonito
-from fuentes import cine_colombia, cinemark, cinemateca, cinepolis, procinal, royal_films, viziona
+from fuentes import (cine_colombia, cinemania, cinemark, cinemateca, cinepolis, elmuro, procinal,
+                     royal_films, viziona)
 
-FUENTES = {m.NOMBRE: m for m in (cine_colombia, cinemark, procinal, royal_films, cinepolis, viziona, cinemateca)}
+FUENTES = {m.NOMBRE: m for m in (cine_colombia, cinemark, procinal, royal_films, cinepolis, viziona, cinemateca,
+                                       cinemania, elmuro)}
 # Cine Colombia bloquea el acceso automatizado a su web (responde 403), así que no se
 # consulta por defecto. Se reactiva quitándolo de aquí cuando haya un acuerdo de datos.
 DESACTIVADAS = {"cine_colombia"}
@@ -98,7 +100,8 @@ def unificar_titulos(funciones, qids=None):
 
 
 # Orden de preferencia para el póster (las de mejor resolución primero)
-PREFERENCIA_POSTER = ["royal_films", "cinepolis", "procinal", "viziona", "cinemark", "cinemateca", "cine_colombia"]
+PREFERENCIA_POSTER = ["royal_films", "cinepolis", "procinal", "viziona", "cinemark", "cinemateca",
+                      "cinemania", "elmuro", "cine_colombia"]
 
 
 def elegir_posters(funciones) -> dict[str, str]:

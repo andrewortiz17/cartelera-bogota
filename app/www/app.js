@@ -46,7 +46,15 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
 const tieneUbicacion = (s) => Number.isFinite(s.lat) && Number.isFinite(s.lng);
 const minutosHasta = (d) => (d - Date.now()) / 60000;
 const enProximaHora = (d) => { const m = minutosHasta(d); return m >= 0 && m <= 60; };
-const vigente = (f) => minutosHasta(f.hora) >= -10;
+// Por ahora se muestra solo el día de hoy (hasta las 4 a. m., por las funciones de trasnoche).
+// El selector de días vendrá después; la Cinemateca y Cinemanía publican varios días.
+function finDelDia() {
+  const d = new Date();
+  if (d.getHours() >= 4) d.setDate(d.getDate() + 1);
+  d.setHours(4, 0, 0, 0);
+  return d;
+}
+const vigente = (f) => minutosHasta(f.hora) >= -10 && f.hora < finDelDia();
 const distanciaA = (s) => (state.user && tieneUbicacion(s) ? distanciaKm(state.user, s) : null);
 const visible = (s) => state.tipos.has(s.tipo);
 function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
