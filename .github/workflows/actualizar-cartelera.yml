@@ -1,0 +1,53 @@
+name: Actualizar cartelera
+
+on:
+  schedule:
+    # Horas en UTC: 10:37 UTC = 5:37 a. m. en Bogotá; 18:23 UTC = 1:23 p. m. en Bogotá
+    - cron: "37 10 * * *"
+    - cron: "23 18 * * *"
+  workflow_dispatch:        # botón "Run workflow" para correrlo a mano
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cartelera
+  cancel-in-progress: false
+
+jobs:
+  cartelera:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scrapers/requirements.txt
+
+      - name: Instalar dependencias
+        run: |
+          pip install -r scrapers/requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Correr scrapers
+        working-directory: scrapers
+        env:
+          TZ: America/Bogota
+          PYTHONIOENCODING: utf-8
+        run: python -u run.py
+
+      - name: Subir la cartelera
+        run: |
+          git config user.name "bogocine-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add app/www/data/funciones.json app/www/data/wikidata.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios en la cartelera"
+          else
+            git commit -m "Cartelera automática $(TZ=America/Bogota date '+%Y-%m-%d %H:%M')"
+            git pull --rebase
+            git push
+          fi
