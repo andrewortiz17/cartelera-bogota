@@ -3,6 +3,13 @@ name: Compilar APK
 on:
   push:
     branches: [main]
+    # No recompilar el APK cuando solo cambia la cartelera o los scrapers
+    paths-ignore:
+      - "app/www/data/**"
+      - "scrapers/**"
+      - "logs/**"
+      - "*.bat"
+      - "README.md"
   workflow_dispatch:
 
 jobs:
