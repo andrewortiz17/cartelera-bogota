@@ -20,5 +20,7 @@
         <item name="android:background">@drawable/splash</item>
         <!-- Android 12+: ícono de la app sobre el rojo telón, igual que la animación de inicio -->
         <item name="windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <!-- Sin ícono fijo: la claqueta aparece animada en cuanto carga la app -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_vacio</item>
     </style>
 </resources>

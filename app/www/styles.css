@@ -267,10 +267,10 @@ a.hora.pronto::after { color: var(--crema); }
 .intro.fuera { opacity: 0; visibility: hidden; }
 .intro-claqueta { width: min(46vw, 230px); overflow: visible; filter: drop-shadow(0 10px 18px rgba(0,0,0,.35)); }
 .intro-brazo { transform-box: view-box; transform-origin: 26px 50px; transform: rotate(-20deg);
-  animation: golpe .5s cubic-bezier(.55, 0, .9, .45) .25s forwards, rebote .3s ease-out .75s forwards; }
-.intro-claqueta { animation: sacudida .28s ease-out .73s; }
+  animation: golpe .45s cubic-bezier(.55, 0, .9, .45) .08s forwards, rebote .3s ease-out .53s forwards; }
+.intro-claqueta { animation: sacudida .28s ease-out .51s; }
 .intro-nombre { font-family: var(--display); font-size: clamp(2.2rem, 11vw, 3.4rem); letter-spacing: 3px;
-  color: var(--crema); opacity: 0; transform: translateY(10px); animation: aparece .4s ease-out .85s forwards; }
+  color: var(--crema); opacity: 0; transform: translateY(10px); animation: aparece .4s ease-out .62s forwards; }
 .intro-nombre span { color: var(--negro); }
 .intro-nombre i { font-style: normal; color: var(--oro); }
 @keyframes golpe { to { transform: rotate(0deg); } }

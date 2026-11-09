@@ -1,10 +1,10 @@
-/* Animación de inicio: se retira sola a los ~1,6 s, o antes si se toca la pantalla */
+/* Animación de inicio: se retira sola a los ~1,4 s, o antes si se toca la pantalla */
 (function intro() {
   const el = document.getElementById("intro");
   if (!el) return;
   const quieto = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const cerrar = () => { el.classList.add("fuera"); setTimeout(() => el.remove(), 400); };
-  setTimeout(cerrar, quieto ? 500 : 1650);
+  setTimeout(cerrar, quieto ? 500 : 1450);
   el.addEventListener("click", cerrar, { once: true });
 })();
 

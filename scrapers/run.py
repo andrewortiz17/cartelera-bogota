@@ -26,6 +26,7 @@ FUENTES = {m.NOMBRE: m for m in (cine_colombia, cinemark, procinal, royal_films,
 # consulta por defecto. Se reactiva quitándolo de aquí cuando haya un acuerdo de datos.
 DESACTIVADAS = {"cine_colombia"}
 SALIDA = Path(__file__).resolve().parents[1] / "app" / "www" / "data" / "funciones.json"
+PUBLICADA = "https://raw.githubusercontent.com/andrewortiz17/cartelera-bogota/main/app/www/data/funciones.json"
 
 
 def _misma_pelicula(a: str, b: str) -> bool:
@@ -134,6 +135,17 @@ def main():
             anterior = json.loads(SALIDA.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
             pass
+    # La cartelera publicada en GitHub puede ser más nueva que la de este PC (la actualiza
+    # GitHub Actions). Se parte de la más reciente para no revivir datos viejos.
+    try:
+        import requests
+        r = requests.get(PUBLICADA, timeout=20)
+        publicada = r.json() if r.ok else {}
+        if publicada.get("generado", "") > anterior.get("generado", ""):
+            print(f"  (se parte de la cartelera publicada el {publicada['generado']})")
+            anterior = publicada
+    except Exception as e:
+        print(f"  (no se pudo leer la cartelera publicada: {type(e).__name__})")
 
     with sync_playwright() as p:
         navegador = p.chromium.launch(headless="--visible" not in sys.argv)
