@@ -14,7 +14,9 @@
    "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Andino_centro_comercial_Bogot%C3%A1.JPG?width=480",
    "foto_fuente": "https://commons.wikimedia.org/wiki/File:Andino_centro_comercial_Bogot%C3%A1.JPG",
    "nota": "Horarios no disponibles todavía: consúltalos en la web de Cine Colombia",
-   "logo": "cinecolombia.png"
+   "logo": "cinecolombia.png",
+   "foto_autor": "Felipe Restrepo Acosta",
+   "foto_licencia": "CC BY-SA 3.0"
   },
   {
    "id": "cc-avenida-chile",
@@ -41,10 +43,12 @@
    "lng": -74.06404,
    "fuente": "cine_colombia",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Centro_Comercial_Iserra_100_Suba%2C_Bogot%C3%A1.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Centro_Comercial_Iserra_100_Suba%2C_Bogot%C3%A1.jpg",
    "nota": "Horarios no disponibles todavía: consúltalos en la web de Cine Colombia",
-   "logo": "cinecolombia.png"
+   "logo": "cinecolombia.png",
+   "foto_autor": "EEIM",
+   "foto_licencia": "CC BY-SA 3.0"
   },
   {
    "id": "cc-cedritos",
@@ -56,10 +60,12 @@
    "lng": -74.04261,
    "fuente": "cine_colombia",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Cc_Cedritos_Bog_sep_2019.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Cc_Cedritos_Bog_sep_2019.jpg",
    "nota": "Horarios no disponibles todavía: consúltalos en la web de Cine Colombia",
-   "logo": "cinecolombia.png"
+   "logo": "cinecolombia.png",
+   "foto_autor": "EEIM",
+   "foto_licencia": "CC BY-SA 3.0"
   },
   {
    "id": "cc-centro-mayor",
@@ -71,10 +77,12 @@
    "lng": -74.12392,
    "fuente": "cine_colombia",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Centro_comercial_Centro_Mayor_en_Bogot%C3%A1_Cund_-_Colombia.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Centro_comercial_Centro_Mayor_en_Bogot%C3%A1_Cund_-_Colombia.jpg",
    "nota": "Horarios no disponibles todavía: consúltalos en la web de Cine Colombia",
-   "logo": "cinecolombia.png"
+   "logo": "cinecolombia.png",
+   "foto_autor": "EEIM",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "cc-embajador",
@@ -101,10 +109,12 @@
    "lng": -74.07432,
    "fuente": "cine_colombia",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Bogot%C3%A1_centro_comercial_Galer%C3%ADas.JPG?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Bogot%C3%A1_centro_comercial_Galer%C3%ADas.JPG",
    "nota": "Horarios no disponibles todavía: consúltalos en la web de Cine Colombia",
-   "logo": "cinecolombia.png"
+   "logo": "cinecolombia.png",
+   "foto_autor": "Felipe Restrepo Acosta",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "cc-gran-estacion",
@@ -116,10 +126,12 @@
    "lng": -74.10214,
    "fuente": "cine_colombia",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Gran_Estaci%C3%B3n_%28Bogot%C3%A1%29.JPG?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:La_Gran_Estaci%C3%B3n_%28Bogot%C3%A1%29.JPG",
    "nota": "Horarios no disponibles todavía: consúltalos en la web de Cine Colombia",
-   "logo": "cinecolombia.png"
+   "logo": "cinecolombia.png",
+   "foto_autor": "Gersonparra11",
+   "foto_licencia": "CC BY-SA 3.0"
   },
   {
    "id": "cc-lumina",
@@ -191,10 +203,12 @@
    "lng": -74.13683,
    "fuente": "cine_colombia",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Centro_comercial_Plaza_de_las_Am%C3%A9ricas_Fachada.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Centro_comercial_Plaza_de_las_Am%C3%A9ricas_Fachada.jpg",
    "nota": "Horarios no disponibles todavía: consúltalos en la web de Cine Colombia",
-   "logo": "cinecolombia.png"
+   "logo": "cinecolombia.png",
+   "foto_autor": "MrMatz07",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "cc-portal-80",
@@ -221,10 +235,12 @@
    "lng": -74.06504,
    "fuente": "cine_colombia",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Vista_de_Portoalegre_Centro_Comercial.JPG?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Vista_de_Portoalegre_Centro_Comercial.JPG",
    "nota": "Horarios no disponibles todavía: consúltalos en la web de Cine Colombia",
-   "logo": "cinecolombia.png"
+   "logo": "cinecolombia.png",
+   "foto_autor": "Portoalegre Centro Comercial",
+   "foto_licencia": "CC BY-SA 3.0"
   },
   {
    "id": "cc-santafe",
@@ -236,10 +252,12 @@
    "lng": -74.0462,
    "fuente": "cine_colombia",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Santafe_Mall_in_north_Bogota.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Santafe_Mall_in_north_Bogota.jpg",
    "nota": "Horarios no disponibles todavía: consúltalos en la web de Cine Colombia",
-   "logo": "cinecolombia.png"
+   "logo": "cinecolombia.png",
+   "foto_autor": "Matt Lemmon",
+   "foto_licencia": "CC BY-SA 2.0"
   },
   {
    "id": "cc-titan",
@@ -254,7 +272,9 @@
    "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/CC_plaza_Tit%C3%A1n_Bogot%C3%A1.jpg?width=480",
    "foto_fuente": "https://commons.wikimedia.org/wiki/File:CC_plaza_Tit%C3%A1n_Bogot%C3%A1.jpg",
    "nota": "Horarios no disponibles todavía: consúltalos en la web de Cine Colombia",
-   "logo": "cinecolombia.png"
+   "logo": "cinecolombia.png",
+   "foto_autor": "EEIM",
+   "foto_licencia": "CC BY-SA 3.0"
   },
   {
    "id": "cc-unicentro",
@@ -269,7 +289,9 @@
    "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Bogot%C3%A1_Unicentro.JPG?width=480",
    "foto_fuente": "https://commons.wikimedia.org/wiki/File:Bogot%C3%A1_Unicentro.JPG",
    "nota": "Horarios no disponibles todavía: consúltalos en la web de Cine Colombia",
-   "logo": "cinecolombia.png"
+   "logo": "cinecolombia.png",
+   "foto_autor": "Felipe Restrepo Acosta",
+   "foto_licencia": "CC BY-SA 3.0"
   },
   {
    "id": "cm-atlantis",
@@ -281,9 +303,11 @@
    "lng": -74.05572,
    "fuente": "cinemark",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "cinemark.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Bogota_Atlantis_centro_comercial.JPG?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Bogota_Atlantis_centro_comercial.JPG",
+   "logo": "cinemark.png",
+   "foto_autor": "Felipe Restrepo Acosta",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "cm-floresta",
@@ -295,9 +319,11 @@
    "lng": -74.07403,
    "fuente": "cinemark",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "cinemark.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafam_Floresta_Bogot%C3%A1.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Cafam_Floresta_Bogot%C3%A1.jpg",
+   "logo": "cinemark.png",
+   "foto_autor": "EEIM",
+   "foto_licencia": "CC BY-SA 3.0"
   },
   {
    "id": "cm-gran-plaza-bosa",
@@ -323,9 +349,11 @@
    "lng": -74.15665,
    "fuente": "cinemark",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "cinemark.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Centro_comercial_Gran_Plaza_El_Ensue%C3%B1o.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Centro_comercial_Gran_Plaza_El_Ensue%C3%B1o.jpg",
+   "logo": "cinemark.png",
+   "foto_autor": "MrMatz07",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "cm-porvenir",
@@ -351,9 +379,11 @@
    "lng": -74.12607,
    "fuente": "cinemark",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "cinemark.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/CC_Multiplaza_Bogot%C3%A1_may_2018.jpeg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:CC_Multiplaza_Bogot%C3%A1_may_2018.jpeg",
+   "logo": "cinemark.png",
+   "foto_autor": "EEIM",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "cm-colina",
@@ -365,9 +395,11 @@
    "lng": -74.06646,
    "fuente": "cinemark",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "cinemark.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/CC_Parque_La_Colina_Bogot%C3%A1_N_sep_2017_%281%29.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:CC_Parque_La_Colina_Bogot%C3%A1_N_sep_2017_%281%29.jpg",
+   "logo": "cinemark.png",
+   "foto_autor": "EEIM",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "cm-plaza-imperial",
@@ -379,9 +411,11 @@
    "lng": -74.09537,
    "fuente": "cinemark",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "cinemark.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/CC_Plaza_Imperial_Bogot%C3%A1.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:CC_Plaza_Imperial_Bogot%C3%A1.jpg",
+   "logo": "cinemark.png",
+   "foto_autor": "EEIM",
+   "foto_licencia": "CC BY-SA 3.0"
   },
   {
    "id": "pr-bima",
@@ -393,9 +427,11 @@
    "lng": -74.03924,
    "fuente": "procinal",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "procinal.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/CC_Bima_Bogot%C3%A1_.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:CC_Bima_Bogot%C3%A1_.jpg",
+   "logo": "procinal.png",
+   "foto_autor": "EEIM",
+   "foto_licencia": "CC BY-SA 3.0"
   },
   {
    "id": "pr-bulevar",
@@ -407,9 +443,11 @@
    "lng": -74.07107,
    "fuente": "procinal",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "procinal.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/CC_Bulevar_Niza_en_Bogot%C3%A1_N.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:CC_Bulevar_Niza_en_Bogot%C3%A1_N.jpg",
+   "logo": "procinal.png",
+   "foto_autor": "EEIM",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "pr-suba",
@@ -449,9 +487,11 @@
    "lng": -74.13595,
    "fuente": "procinal",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "procinal.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Centro_comercial_Plaza_de_las_Am%C3%A9ricas_Fachada.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Centro_comercial_Plaza_de_las_Am%C3%A9ricas_Fachada.jpg",
+   "logo": "procinal.png",
+   "foto_autor": "MrMatz07",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "pr-palatino",
@@ -477,9 +517,11 @@
    "lng": -74.13517,
    "fuente": "procinal",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "procinal.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Centro_comercial_Plaza_de_las_Am%C3%A9ricas_Fachada.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Centro_comercial_Plaza_de_las_Am%C3%A9ricas_Fachada.jpg",
+   "logo": "procinal.png",
+   "foto_autor": "MrMatz07",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "pr-salitre",
@@ -491,9 +533,11 @@
    "lng": -74.10951,
    "fuente": "procinal",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "procinal.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Salitre_Plaza_Bogot%C3%A1.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Salitre_Plaza_Bogot%C3%A1.jpg",
+   "logo": "procinal.png",
+   "foto_autor": "EEIM",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "pr-tintal",
@@ -505,8 +549,7 @@
    "lng": -74.15622,
    "fuente": "procinal",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
+   "foto": "",
    "logo": "procinal.png"
   },
   {
@@ -519,9 +562,11 @@
    "lng": -74.11385,
    "fuente": "procinal",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "procinal.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Unicentro_occidente.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Unicentro_occidente.jpg",
+   "logo": "procinal.png",
+   "foto_autor": "Marcecarmor",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "rf-altavista",
@@ -533,9 +578,11 @@
    "lng": -74.11814,
    "fuente": "royal_films",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "royal.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/CC_Altavista_Usme%2C_Bogot%C3%A1_Sur.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:CC_Altavista_Usme%2C_Bogot%C3%A1_Sur.jpg",
+   "logo": "royal.png",
+   "foto_autor": "EEIM",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "rf-milenio",
@@ -561,9 +608,11 @@
    "lng": -74.136,
    "fuente": "royal_films",
    "verificado": false,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "royal.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Centro_comercial_Plaza_de_las_Am%C3%A9ricas_Fachada.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Centro_comercial_Plaza_de_las_Am%C3%A9ricas_Fachada.jpg",
+   "logo": "royal.png",
+   "foto_autor": "MrMatz07",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "rf-villa-del-rio",
@@ -646,9 +695,11 @@
    "lng": -74.10596,
    "fuente": "cinepolis",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "cinepolis.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Plaza_Claro_Bogot%C3%A1_nov_2019.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Plaza_Claro_Bogot%C3%A1_nov_2019.jpg",
+   "logo": "cinepolis.png",
+   "foto_autor": "EEIM",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "vz-eden",
@@ -660,9 +711,11 @@
    "lng": -74.12834,
    "fuente": "viziona",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "viziona.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Centro_comercial_El_Ed%C3%A9n_desde_la_Avenida_Boyac%C3%A1.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Centro_comercial_El_Ed%C3%A9n_desde_la_Avenida_Boyac%C3%A1.jpg",
+   "logo": "viziona.png",
+   "foto_autor": "Futbolero",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "cine-cinemateca",
@@ -674,8 +727,10 @@
    "lng": -74.06752,
    "fuente": "cinemateca",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/2019_Bogot%C3%A1_-_Edificio_de_la_Cinemateca_en_la_Carrera_Tercera.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:2019_Bogot%C3%A1_-_Edificio_de_la_Cinemateca_en_la_Carrera_Tercera.jpg",
+   "foto_autor": "Felipe Restrepo Acosta",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "cine-tunal",
@@ -687,9 +742,11 @@
    "lng": -74.13413,
    "fuente": "cinemateca",
    "verificado": false,
-   "foto": null,
-   "foto_fuente": null,
-   "nota": "Sin programación publicada por ahora"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_El_Tunal_2026.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Parque_El_Tunal_2026.jpg",
+   "nota": "Sin programación publicada por ahora",
+   "foto_autor": "MrMatz07",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "cine-fontanar",
@@ -753,9 +810,11 @@
    "lng": -74.0693,
    "fuente": "manual",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "mambo.jpg"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Museo_de_Arte_Moderno_de_Bogot%C3%A1_-_MAMBO_5.jpg?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Museo_de_Arte_Moderno_de_Bogot%C3%A1_-_MAMBO_5.jpg",
+   "logo": "mambo.jpg",
+   "foto_autor": "Gregorio.Diaz.Fotografo",
+   "foto_licencia": "CC BY-SA 4.0"
   },
   {
    "id": "club-red",
@@ -781,9 +840,11 @@
    "lng": -74.13004,
    "fuente": "biblored",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "biblored.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Biblioteca_El_Tunal_Bogot%C3%A1.JPG?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Biblioteca_El_Tunal_Bogot%C3%A1.JPG",
+   "logo": "biblored.png",
+   "foto_autor": "Felipe Restrepo Acosta",
+   "foto_licencia": "CC BY-SA 3.0"
   },
   {
    "id": "club-unal",
@@ -795,8 +856,10 @@
    "lng": -74.084,
    "fuente": "manual",
    "verificado": false,
-   "foto": null,
-   "foto_fuente": null
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Auditorio_Le%C3%B3n_de_Greiff-frente.JPG?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Auditorio_Le%C3%B3n_de_Greiff-frente.JPG",
+   "foto_autor": "Cuauhtemoc sanchez fernandez",
+   "foto_licencia": "CC BY-SA 3.0"
   },
   {
    "id": "ind-cinemalocal",
@@ -823,9 +886,11 @@
    "lng": -74.06398,
    "fuente": "elmuro",
    "verificado": true,
-   "foto": null,
-   "foto_fuente": null,
-   "logo": "elmuro.png"
+   "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Calle_55_cra_10_Chapinero.JPG?width=480",
+   "foto_fuente": "https://commons.wikimedia.org/wiki/File:Calle_55_cra_10_Chapinero.JPG",
+   "logo": "elmuro.png",
+   "foto_autor": "Felipe Restrepo Acosta",
+   "foto_licencia": "CC BY-SA 3.0"
   },
   {
    "id": "club-elmuro-coffee",

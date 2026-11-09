@@ -616,7 +616,7 @@ $("velo").onclick = cerrarHoja;
 function abrirSala(s) {
   const fs = (state.funcionesPorSala.get(s.id) || []).filter(vigente);
   const foto = s.foto ? `<div class="hoja-foto" style="background-image:url('${esc(s.foto)}')">
-      ${s.foto_fuente ? `<span class="credito">Foto: <a href="${esc(s.foto_fuente)}" target="_blank" rel="noopener">Wikimedia Commons</a></span>` : ""}</div>` : "";
+      ${s.foto_fuente ? `<span class="credito">Foto: <a href="${esc(s.foto_fuente)}" target="_blank" rel="noopener">${esc(s.foto_autor || "Wikimedia Commons")}${s.foto_licencia ? ` · ${esc(s.foto_licencia)}` : ""}</a> (Wikimedia Commons)</span>` : ""}</div>` : "";
   const ir = tieneUbicacion(s)
     ? `<a class="boton-ir" href="https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}" target="_blank" rel="noopener">➜ Cómo llegar</a>` : "";
   const compra = fs.find((f) => f.url_compra)?.url_compra;
