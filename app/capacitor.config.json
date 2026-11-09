@@ -1,7 +1,11 @@
 {
   "appId": "co.bogocine.app",
-  "appName": "BogoCine",
+  "appName": "¿Qué dan?",
   "webDir": "www",
-  "server": { "androidScheme": "https" },
-  "android": { "backgroundColor": "#0d0c0b" }
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#a3212c"
+  }
 }

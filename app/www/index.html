@@ -4,17 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0d0c0b">
-  <title>BogoCine</title>
+  <title>¿Qué dan?</title>
   <link rel="stylesheet" href="vendor/leaflet.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Animación de inicio: la claqueta "da el golpe" y aparece el nombre (toca para saltarla) -->
+  <div id="intro" class="intro" aria-hidden="true">
+    <svg class="intro-claqueta" viewBox="20 22 68 64" aria-hidden="true"><g class="intro-cuerpo"><rect x="26" y="57" width="56" height="26" rx="4.5" fill="#0D0C0B"/><clipPath id="ik"><rect x="26" y="50" width="56" height="9" rx="2"/></clipPath><rect x="26" y="50" width="56" height="9" rx="2" fill="#F3EAD8"/><g clip-path="url(#ik)"><path d="M29.0 59 l5.4 -9 h7.0 l-5.4 9 z" fill="#0D0C0B"/><path d="M43.0 59 l5.4 -9 h7.0 l-5.4 9 z" fill="#0D0C0B"/><path d="M57.0 59 l5.4 -9 h7.0 l-5.4 9 z" fill="#0D0C0B"/><path d="M71.0 59 l5.4 -9 h7.0 l-5.4 9 z" fill="#0D0C0B"/></g><rect x="33" y="72" width="17" height="4" rx="2" fill="#D6A649"/></g><g class="intro-brazo"><clipPath id="ib"><rect x="26" y="37.8" width="56" height="11" rx="2.5"/></clipPath><rect x="26" y="37.8" width="56" height="11" rx="2.5" fill="#F3EAD8"/><g clip-path="url(#ib)"><path d="M29.0 48.8 l6.6 -11 h7.0 l-6.6 11 z" fill="#0D0C0B"/><path d="M43.0 48.8 l6.6 -11 h7.0 l-6.6 11 z" fill="#0D0C0B"/><path d="M57.0 48.8 l6.6 -11 h7.0 l-6.6 11 z" fill="#0D0C0B"/><path d="M71.0 48.8 l6.6 -11 h7.0 l-6.6 11 z" fill="#0D0C0B"/></g></g></svg>
+    <div class="intro-nombre"><i>¿</i>QUÉ <span>DAN</span><i>?</i></div>
+  </div>
   <!-- Claqueta: brazo con franjas + pizarra con datos de "rodaje" -->
   <header class="claqueta">
     <div class="claqueta-brazo" aria-hidden="true"></div>
     <div class="claqueta-pizarra">
       <div class="pizarra-fila">
-        <h1 class="logo">Bogo<span>Cine</span></h1>
+        <h1 class="logo"><i>¿</i>Qué <span>dan</span><i>?</i></h1>
         <span id="demo" class="sello" hidden>DEMO</span>
       </div>
       <div class="pizarra-campos">

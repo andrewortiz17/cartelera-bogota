@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">BogoCine</string>
-    <string name="title_activity_main">BogoCine</string>
+    <string name="app_name">¿Qué dan?</string>
+    <string name="title_activity_main">¿Qué dan?</string>
     <string name="package_name">co.bogocine.app</string>
     <string name="custom_url_scheme">co.bogocine.app</string>
 </resources>

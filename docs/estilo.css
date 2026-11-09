@@ -15,4 +15,5 @@ a { color: var(--oro); }
 ul { padding-left: 20px; }
 .logo { font-size: 64px; margin: 24px 0 0; }
 .logo span { color: var(--rojo); }
+.logo i { font-style: normal; color: var(--oro); }
 .lema { color: var(--oro); font-size: 18px; margin-top: 0; }

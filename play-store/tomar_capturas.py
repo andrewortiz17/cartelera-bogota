@@ -64,6 +64,7 @@ def main():
         p = ctx.new_page()
         p.goto(f"http://127.0.0.1:{PUERTO}/", wait_until="domcontentloaded")
         p.wait_for_function("document.querySelectorAll('.marcador-pin').length > 10", timeout=30000)
+        p.wait_for_selector("#intro", state="detached", timeout=10000)   # espera que termine la animación de inicio
         p.evaluate("mapa.setView([%f, %f], 13)" % (UBICACION["latitude"], UBICACION["longitude"]))
         esperar_mapa(p)
         foto(p, "01-mapa.png")

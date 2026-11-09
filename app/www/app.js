@@ -1,3 +1,13 @@
+/* Animación de inicio: se retira sola a los ~1,6 s, o antes si se toca la pantalla */
+(function intro() {
+  const el = document.getElementById("intro");
+  if (!el) return;
+  const quieto = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const cerrar = () => { el.classList.add("fuera"); setTimeout(() => el.remove(), 400); };
+  setTimeout(cerrar, quieto ? 500 : 1650);
+  el.addEventListener("click", cerrar, { once: true });
+})();
+
 /* BogoCine — v0.3
    Mapa en grises con casas por tipo de sala; al acercarse (zoom ≥ 16) cada casa
    se convierte en la foto del cine. "Cerca de mí" y búsqueda por película.
@@ -380,7 +390,7 @@ function alRecibirPosicion(pos) {
 function alFallarGps() {
   const aviso = $("aviso-ubicacion");
   aviso.hidden = false;
-  aviso.textContent = "Activa la ubicación del celular y da permiso a BogoCine para ver los cines cercanos.";
+  aviso.textContent = "Activa la ubicación del celular y da permiso a ¿Qué dan? para ver los cines cercanos.";
 }
 
 async function iniciarUbicacion() {

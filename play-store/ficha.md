@@ -1,11 +1,11 @@
-# BogoCine en Google Play: textos y respuestas
+# ¿Qué dan? en Google Play: textos y respuestas
 
 Todo lo que pide Play Console, listo para copiar. Las imágenes están en esta misma carpeta:
 `icono-512.png`, `grafico-1024x500.png` y `capturas/` (se regeneran con `tomar-capturas.bat`).
 
 ## Ficha de la tienda
 
-**Nombre de la app** (máx. 30): `BogoCine: cartelera de Bogotá`
+**Nombre de la app** (máx. 30): `¿Qué dan? · Cines de Bogotá`
 
 **Descripción breve** (máx. 80):
 `Todos los cines de Bogotá en un mapa: horarios, cineclubes y la sala más cerca.`
@@ -13,7 +13,7 @@ Todo lo que pide Play Console, listo para copiar. Las imágenes están en esta m
 **Descripción completa** (máx. 4000):
 
 ```
-BogoCine reúne en un solo lugar la cartelera de los cines de Bogotá: las grandes cadenas, la Cinemateca de Bogotá, las salas independientes y los cineclubes.
+¿Qué dan? reúne en un solo lugar la cartelera de los cines de Bogotá: las grandes cadenas, la Cinemateca de Bogotá, las salas independientes y los cineclubes.
 
 ¿QUÉ PUEDES HACER?
 • Ver en un mapa todos los cines de la ciudad y cuáles tienes más cerca.
@@ -28,9 +28,9 @@ CINES INCLUIDOS
 Cinemark, Procinal, Royal Films, Cinépolis, Viziona, la Cinemateca de Bogotá y sus salas, Cinemanía, cineclubes como El Muro y más. Cine Colombia aparece en el mapa; sus horarios se sumarán cuando haya acuerdo de datos.
 
 TU PRIVACIDAD
-BogoCine no pide cuenta ni registro. Tu ubicación se usa dentro del celular para ordenar los cines por cercanía; tus coordenadas no se envían a ningún servidor.
+La app no pide cuenta ni registro. Tu ubicación se usa dentro del celular para ordenar los cines por cercanía; tus coordenadas no se envían a ningún servidor.
 
-BogoCine es un proyecto independiente hecho en Bogotá y no está afiliado a ninguna cadena de cine. Los horarios, precios y la venta de boletas son responsabilidad de cada sala; confirma siempre en su página antes de ir.
+¿Qué dan? es un proyecto independiente hecho en Bogotá y no está afiliado a ninguna cadena de cine. Los horarios, precios y la venta de boletas son responsabilidad de cada sala; confirma siempre en su página antes de ir.
 ```
 
 **Categoría:** Entretenimiento · **Etiquetas:** Películas, Cine, Bogotá
@@ -65,7 +65,7 @@ BogoCine es un proyecto independiente hecho en Bogotá y no está afiliado a nin
 
 1. Crea la cuenta de desarrollador en play.google.com/console (pago único de 25 USD).
    Las cuentas personales nuevas deben hacer una **prueba cerrada con al menos 12 personas durante 14 días** antes de poder publicar en producción.
-2. Crea la app "BogoCine", idioma predeterminado Español (Latinoamérica), App, Gratis.
+2. Crea la app "¿Qué dan?" (si ya la creaste como BogoCine, cambia el nombre en Ficha de Play Store > Detalles de la app), idioma predeterminado Español (Latinoamérica), App, Gratis.
 3. En GitHub: Actions → **Compilar para Google Play** → Run workflow → versión `1.0`. Descarga el artefacto y sube el `.aab`.
 4. Llena la ficha con los textos y las imágenes de arriba, y las secciones de "Contenido de la app".
 5. Prueba cerrada → invita a tus 12+ probadores → después de 14 días, solicita acceso a producción.
