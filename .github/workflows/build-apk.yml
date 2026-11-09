@@ -10,6 +10,8 @@ on:
       - "logs/**"
       - "*.bat"
       - "README.md"
+      - "docs/**"
+      - "play-store/**"
   workflow_dispatch:
 
 jobs:
