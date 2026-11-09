@@ -49,8 +49,22 @@ La app no pide cuenta ni registro. Tu ubicación se usa dentro del celular para 
 | Información personal, mensajes, fotos, contactos, historial, identificadores | **No** |
 | Información de la app y rendimiento (fallos, diagnósticos) | **No** |
 
-> Si más adelante agregas anuncios (AdMob), cambia esto: AdMob recopila el ID de publicidad,
-> la ubicación aproximada por IP y datos de diagnóstico, y hay que declararlos y actualizar la política.
+### Cuando actives los anuncios (AdMob)
+
+Reemplaza las respuestas de arriba por estas. Vienen de la guía oficial de Google para su SDK de
+anuncios; la política de privacidad ya está escrita para la versión con anuncios.
+
+| Tipo de dato en Play Console | Recopilado | Compartido | Fines |
+|---|---|---|---|
+| Ubicación › Ubicación aproximada (por la IP) | Sí | Sí | Publicidad o marketing · Estadísticas · Prevención de fraudes |
+| Actividad en la app › Interacciones con la app | Sí | Sí | Publicidad o marketing · Estadísticas · Prevención de fraudes |
+| Información y rendimiento de la app › Diagnóstico | Sí | Sí | Estadísticas · Prevención de fraudes |
+| Dispositivo u otros identificadores (ID de publicidad, ID de conjunto de apps) | Sí | Sí | Publicidad o marketing · Estadísticas · Prevención de fraudes |
+
+- Todos: encriptados en tránsito = Sí. Opcional para el usuario = No (el ID de publicidad sí se puede borrar en Android).
+- En **Contenido de la app › Anuncios**, cambia la respuesta a **Sí, mi app contiene anuncios**.
+- En **Configuración › Información sobre el ID de publicidad**, declara que la app usa el ID de publicidad para publicidad.
+- El mapa ya es OpenFreeMap (permite uso comercial); MapTiler quedó apagado porque su plan gratis no lo permite.
 
 ## Otras secciones de "Contenido de la app"
 

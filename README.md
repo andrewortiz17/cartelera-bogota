@@ -113,6 +113,10 @@ página del cine en tu navegador, copias todo (Ctrl+A, Ctrl+C), lo pegas en la v
 vista previa y guardas. Reconoce el formato de Cine Colombia y, para otras páginas, asigna cada hora
 al último título. "Guardar y publicar" actualiza la cartelera y la sube a GitHub en un paso.
 
+**Mapa:** OpenFreeMap (vectorial, estilo oscuro, gratis y con uso comercial permitido) dibujado con
+MapLibre dentro de Leaflet (`app/www/vendor/maplibre-gl.js`). Si no carga, la app pasa a Esri y luego a
+OpenStreetMap. MapTiler quedó desactivado porque su plan gratuito no permite uso comercial.
+
 **Ubicaciones y logos:** las coordenadas de las salas vienen de OpenStreetMap (© colaboradores de
 OpenStreetMap, ODbL) y los pines muestran el ícono de pestaña de cada cadena (`app/www/img/logos/`).
 

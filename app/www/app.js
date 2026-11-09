@@ -217,29 +217,38 @@ function generarDemo(salas) {
 
 const mapa = L.map("mapa", { zoomControl: false, attributionControl: true })
   .setView([BOGOTA.lat, BOGOTA.lng], 12);
-// Mapa base: se prueban proveedores en orden y se cambia al siguiente si las teselas no cargan.
-// Con MAPTILER_KEY en config.js se usa primero MapTiler (requiere API key gratuita).
+// Mapa base: se prueban proveedores en orden y se cambia al siguiente si no cargan.
+// 1) OpenFreeMap: mapa vectorial (MapLibre) oscuro, gratis, sin clave y permite uso comercial.
+// 2) Esri y 3) OpenStreetMap: teselas de imagen, solo como respaldo si el primero falla.
+// MapTiler queda opcional (MAPTILER_KEY): su plan gratuito no permite uso comercial (anuncios).
 const CFG_MAPA = window.BOGOCINE_CONFIG || {};
 const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/";
+const OSM_ATRIB = '<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a>';
 const PROVEEDORES = [
+  { nombre: "OpenFreeMap", vector: true, estilo: CFG_MAPA.ESTILO_MAPA || "https://tiles.openfreemap.org/styles/dark",
+    opciones: { attribution: '<a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> ' +
+      '<a href="https://www.openmaptiles.org/" target="_blank" rel="noopener">© OpenMapTiles</a> ' + OSM_ATRIB } },
   ...(CFG_MAPA.MAPTILER_KEY ? [{
     nombre: "MapTiler",
     url: `https://api.maptiler.com/maps/dataviz-dark/256/{z}/{x}/{y}.png?key=${CFG_MAPA.MAPTILER_KEY}`,
-    opciones: { attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank" rel="noopener">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a>' },
+    opciones: { attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank" rel="noopener">© MapTiler</a> ' + OSM_ATRIB },
     logo: true,   // el plan gratuito de MapTiler exige mostrar su logo
   }] : []),
   // Esri: gris oscuro, sin clave. Las calles y barrios van en una capa de etiquetas aparte.
   { nombre: "Esri", url: ESRI + "World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",
     etiquetas: ESRI + "World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}",
     opciones: { maxNativeZoom: 16, attribution: "Mapa © Esri, HERE, Garmin, © OpenStreetMap" } },
-  // CARTO ahora exige clave: sin ella entrega teselas con el aviso "API KEY REQUIRED"
-  ...(CFG_MAPA.CARTO_KEY ? [{
-    nombre: "CARTO", url: `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?api_key=${CFG_MAPA.CARTO_KEY}`,
-    opciones: { subdomains: "abcd", attribution: "© OpenStreetMap · © CARTO" } }] : []),
   { nombre: "OpenStreetMap", url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-    opciones: { attribution: "© OpenStreetMap" }, claro: true },
+    opciones: { attribution: OSM_ATRIB }, claro: true },
 ];
 let capaBase = null, capaEtiquetas = null, indiceProveedor = -1;
+
+function hayWebGL() {
+  try {
+    const c = document.createElement("canvas");
+    return !!(window.maplibregl && L.maplibreGL && (c.getContext("webgl2") || c.getContext("webgl")));
+  } catch { return false; }
+}
 
 function usarProveedor(n) {
   if (n >= PROVEEDORES.length) { indiceProveedor = n; $("aviso-mapa").hidden = false; return; }
@@ -247,25 +256,58 @@ function usarProveedor(n) {
   indiceProveedor = n;
   if (capaBase) capaBase.remove();
   if (capaEtiquetas) { capaEtiquetas.remove(); capaEtiquetas = null; }
+  document.getElementById("logo-maptiler")?.toggleAttribute("hidden", !p.logo);
+  document.getElementById("mapa").classList.toggle("mapa-claro", !!p.claro);
+  document.getElementById("mapa").classList.toggle("mapa-vector", !!p.vector);
+  const siguiente = (motivo) => {
+    if (indiceProveedor !== n) return;
+    console.warn(`Mapa: ${p.nombre} no responde (${motivo}), probando el siguiente`);
+    usarProveedor(n + 1);
+  };
+
+  if (p.vector) {
+    capaBase = L.maplibreGL({ style: p.estilo, attributionControl: false });
+    capaBase.getAttribution = () => p.opciones.attribution;   // créditos en la barra de Leaflet
+    capaBase.addTo(mapa);
+    const gl = capaBase.getMaplibreMap();
+    // Se considera que funciona cuando llega el estilo y algún pedazo del mapa (eso no depende
+    // de que la pantalla esté dibujando, a diferencia del evento "load"). Si antes de eso hay
+    // varios errores, o pasan 15 s con el mapa a la vista, se pasa al respaldo.
+    let estilo = false, datos = false, errores = 0;
+    const ok = () => { $("aviso-mapa").hidden = true; };
+    gl.on("styledata", () => { estilo = true; });
+    gl.on("sourcedata", (e) => { if (e.isSourceLoaded && e.tile) { datos = true; ok(); } });
+    gl.on("load", () => { datos = true; ok(); });
+    gl.on("error", (e) => {
+      if (datos) return;
+      if (!estilo || ++errores >= 5) siguiente(e?.error?.message || "error");
+    });
+    const vigilar = () => {
+      if (datos || indiceProveedor !== n) return;
+      if (mapa.getSize().x > 0 && !document.hidden) siguiente("tardó demasiado"); else setTimeout(vigilar, 5000);
+    };
+    setTimeout(vigilar, 15000);
+    return;
+  }
+
   let cargadas = 0, errores = 0;
   capaBase = L.tileLayer(p.url, { maxZoom: 19, ...p.opciones }).addTo(mapa);
-  document.getElementById("logo-maptiler")?.toggleAttribute("hidden", !p.logo);
   if (p.etiquetas) {
     capaEtiquetas = L.tileLayer(p.etiquetas, { maxZoom: 19, maxNativeZoom: 16, pane: "overlayPane", opacity: 0.85 }).addTo(mapa);
   }
-  document.getElementById("mapa").classList.toggle("mapa-claro", !!p.claro);
   capaBase.on("tileload", () => { cargadas++; $("aviso-mapa").hidden = true; });
   capaBase.on("tileerror", () => {
     // Si fallan varias teselas antes de que cargue alguna, pasa al siguiente proveedor
-    if (++errores >= 4 && cargadas === 0 && indiceProveedor === n) {
-      console.warn(`Mapa: ${p.nombre} no responde, probando el siguiente`);
-      usarProveedor(n + 1);
-    }
+    if (++errores >= 4 && cargadas === 0) siguiente("teselas con error");
   });
 }
-// Algunos proveedores responden con una imagen de error ("API KEY REQUIRED", "Invalid key")
-// en vez de fallar, y el mapa no se entera. Antes de usar uno, se prueba una tesela.
-async function teselaValida(p) {
+// Antes de usar un proveedor se prueba: el estilo del mapa vectorial (y que el celular tenga
+// WebGL), o una tesela de muestra, porque algunos responden con una imagen de error en vez de fallar.
+async function proveedorDisponible(p) {
+  if (p.vector) {
+    if (!hayWebGL()) return false;
+    try { const r = await fetch(p.estilo, { cache: "no-store" }); return r.ok; } catch { return false; }
+  }
   const url = p.url.replace("{s}", "a").replace("{z}", "12").replace("{x}", "1203")
     .replace("{y}", "1986").replace("{r}", "");
   try {
@@ -277,8 +319,8 @@ async function teselaValida(p) {
 }
 (async () => {
   for (let n = 0; n < PROVEEDORES.length; n++) {
-    if (await teselaValida(PROVEEDORES[n])) { usarProveedor(n); return; }
-    console.warn(`Mapa: ${PROVEEDORES[n].nombre} rechazó la tesela de prueba`);
+    if (await proveedorDisponible(PROVEEDORES[n])) { usarProveedor(n); return; }
+    console.warn(`Mapa: ${PROVEEDORES[n].nombre} no está disponible`);
   }
   usarProveedor(PROVEEDORES.length);
 })();
