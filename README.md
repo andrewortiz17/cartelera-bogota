@@ -108,6 +108,14 @@ y `scrapers/salas-ids.csv` con los ids válidos. Fecha `20/11/2026` o `2026-11-2
 Guarda como CSV y corre `actualizar-cartelera.bat` (o espera la actualización automática). Las filas
 con fecha pasada se ignoran solas.
 
+**Pegar cartelera (Cine Colombia y salas sin datos):** doble clic en `pegar-cartelera.bat`. Abres la
+página del cine en tu navegador, copias todo (Ctrl+A, Ctrl+C), lo pegas en la ventana, revisas la
+vista previa y guardas. Reconoce el formato de Cine Colombia y, para otras páginas, asigna cada hora
+al último título. "Guardar y publicar" actualiza la cartelera y la sube a GitHub en un paso.
+
+**Ubicaciones y logos:** las coordenadas de las salas vienen de OpenStreetMap (© colaboradores de
+OpenStreetMap, ODbL) y los pines muestran el ícono de pestaña de cada cadena (`app/www/img/logos/`).
+
 **Google Play:** todo está en `play-store/` (textos de la ficha y respuestas de seguridad de datos en
 `ficha.md`, ícono 512, gráfico 1024×500 y capturas; `tomar-capturas.bat` las regenera). La política
 de privacidad está en `docs/` y se publica con GitHub Pages. El AAB firmado sale de Actions →

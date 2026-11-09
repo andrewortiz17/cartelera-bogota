@@ -90,6 +90,18 @@ const svgPin = (color, w = 30) => `
     <path d="M10.5 16.8h9" stroke="${color}" stroke-width="1" opacity=".7"/>
   </svg>`;
 
+// Pin con el logo de la cadena o sala (su ícono de pestaña del navegador) en un círculo
+const svgGota = (color, w) => `
+  <svg width="${w}" height="${w * 4 / 3}" viewBox="0 0 30 40" aria-hidden="true">
+    <path d="M15 38.5S3 24.5 3 14a12 12 0 0 1 24 0c0 10.5-12 24.5-12 24.5Z" fill="${color}" stroke="#0d0c0b" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="15" cy="14" r="9.6" fill="#f3ead8"/>
+  </svg>`;
+function pinSala(s, w = 30) {
+  if (!s.logo) return svgPin(GRIS[s.tipo], w);
+  return `<span class="pin-logo" style="width:${w}px;height:${w * 4 / 3}px">${svgGota(GRIS[s.tipo], w)}` +
+    `<img src="img/logos/${esc(s.logo)}" alt="" loading="lazy" style="width:${Math.round(w * .6)}px;height:${Math.round(w * .6)}px;top:${Math.round(w * 4 / 3 * 14 / 40)}px"></span>`;
+}
+
 /* ================= Datos ================= */
 
 async function cargarDatos() {
@@ -265,20 +277,49 @@ const marcadores = new Map(); // sala_id → L.Marker (se crean una sola vez)
 let modoFoto = null;
 
 function iconoCasa(s) {
-  return L.divIcon({ className: "marcador-pin", html: svgPin(GRIS[s.tipo]), iconSize: [30, 40], iconAnchor: [15, 39] });
+  const w = s.logo ? 34 : 30;   // los pines con logo son un poco más grandes para que se lea
+  const [dx] = corrimiento(s.id, w * 0.8, 0, false);
+  return L.divIcon({ className: "marcador-pin", html: pinSala(s, w), iconSize: [w, w * 4 / 3], iconAnchor: [w / 2 - dx, w * 4 / 3 - 1] });
 }
 function iconoFoto(s) {
+  const [dx, dy] = corrimiento(s.id, 140, 126, true);
   // Con foto: imagen de fondo. Sin foto: casa ilustrada en el tono de su tipo
   const bg = s.foto ? ` style="background-image:url('${esc(s.foto)}')"` : "";
-  const img = `<div class="mf-img"${bg}>${s.foto ? "" : svgPin(GRIS[s.tipo], 30)}</div>`;
+  const img = `<div class="mf-img"${bg}>${s.foto ? "" : pinSala(s, 30)}</div>`;
   return L.divIcon({
     className: "marcador-foto",
-    html: `<div class="mf-franjas"></div>${img}<div class="mf-nombre"><i style="background:${GRIS[s.tipo]}"></i>${esc(s.nombre)}</div>`,
-    iconSize: [132, 118], iconAnchor: [66, 118],
+    html: `<div class="mf-franjas"></div>${img}<div class="mf-nombre">${s.logo ? `<img class="mf-logo" src="img/logos/${esc(s.logo)}" alt="">` : `<i style="background:${GRIS[s.tipo]}"></i>`}${esc(s.nombre)}</div>`,
+    iconSize: [132, 118], iconAnchor: [66 - dx, 118 - dy],
   });
 }
 
+// Salas en el mismo centro comercial (a menos de 80 m): se reparten a los lados para que
+// no queden una encima de otra. desplazamiento = posición dentro del grupo, centrada en 0.
+const desplazamiento = new Map();
+const centroComercial = (s) => (/C\.C\. ([^,]+)/.exec(s.zona || "") || [])[1] || "";
+// Corrimiento en píxeles: en fila para los pines; en cuadrícula de 2 columnas para las fotos
+function corrimiento(id, ancho, alto, cuadricula) {
+  const d = desplazamiento.get(id);
+  if (!d || d.n < 2) return [0, 0];
+  if (!cuadricula || d.n === 2) return [(d.k - (d.n - 1) / 2) * ancho, 0];
+  return [((d.k % 2) - 0.5) * ancho, -Math.floor(d.k / 2) * alto];
+}
+function agruparCercanas() {
+  const conUbic = state.salas.filter(tieneUbicacion);
+  const usados = new Set();
+  for (const s of conUbic) {
+    if (usados.has(s.id)) continue;
+    const grupo = conUbic.filter((o) => !usados.has(o.id) && (distanciaKm(s, o) < 0.08 ||
+      (centroComercial(s) && centroComercial(s) === centroComercial(o))));
+    // Centro del grupo: en modo foto todas las tarjetas se ordenan alrededor de ese punto
+    const lat = grupo.reduce((t, o) => t + o.lat, 0) / grupo.length;
+    const lng = grupo.reduce((t, o) => t + o.lng, 0) / grupo.length;
+    grupo.forEach((o, k) => { usados.add(o.id); desplazamiento.set(o.id, { k, n: grupo.length, lat, lng }); });
+  }
+}
+
 function crearMarcadores() {
+  agruparCercanas();
   for (const s of state.salas.filter(tieneUbicacion)) {
     const m = L.marker([s.lat, s.lng], { icon: iconoCasa(s), riseOnHover: true, keyboard: false });
     m.on("click", () => abrirSala(s));
@@ -293,7 +334,11 @@ function actualizarMarcadores() {
   for (const [id, m] of marcadores) {
     const s = state.salaPorId.get(id);
     if (visible(s)) {
-      if (cambioModo || !mapa.hasLayer(m)) m.setIcon(foto ? iconoFoto(s) : iconoCasa(s));
+      if (cambioModo || !mapa.hasLayer(m)) {
+        const d = desplazamiento.get(id);
+        m.setLatLng(foto && d && d.n > 1 ? [d.lat, d.lng] : [s.lat, s.lng]);
+        m.setIcon(foto ? iconoFoto(s) : iconoCasa(s));
+      }
       if (!mapa.hasLayer(m)) m.addTo(mapa);
     } else if (mapa.hasLayer(m)) {
       m.remove();
@@ -386,7 +431,7 @@ function meta(s) {
 
 function miniatura(s) {
   const bg = s.foto ? ` style="background-image:url('${esc(s.foto)}')"` : "";
-  return `<div class="miniatura"${bg}>${s.foto ? "" : svgPin(GRIS[s.tipo], 24)}</div>`;
+  return `<div class="miniatura"${bg}>${s.foto ? "" : pinSala(s, 26)}</div>`;
 }
 
 function poster(p, clase = "cinta") {
