@@ -1,26 +1,25 @@
 {
- "generado": "2026-11-12T13:50:31-05:00",
+ "generado": "2026-11-12T19:15:29-05:00",
  "estado": {
   "cinemark": {
    "funciones": 0,
    "error": "0 funciones: revisar",
-   "conservadas": 194
+   "conservadas": 105
   },
   "procinal": {
    "funciones": 0,
    "error": "0 funciones: revisar"
   },
   "royal_films": {
-   "funciones": 180,
+   "funciones": 146,
    "error": null
   },
   "cinepolis": {
-   "funciones": 0,
-   "error": "0 funciones: revisar",
-   "conservadas": 127
+   "funciones": 253,
+   "error": null
   },
   "viziona": {
-   "funciones": 67,
+   "funciones": 77,
    "error": null
   },
   "cinemateca": {
@@ -42,44 +41,44 @@
  },
  "posters": {
   "Buscando un cielo para rambo": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Afiche%20Oficial%20-%20Rambo%20%28Web%29.jpg?itok=Mia8Q_p0",
-  "El gato con sombrero": "https://d1h560xa7cmqwq.cloudfront.net/movies-poster/1787165512641-Poster_.jpg",
-  "Ebenezer": "https://dqq1cn0vfegag.cloudfront.net/movies-poster/1792532894758-EBZR_INTL_Teaser_1_Sheet_CandleSmoke_OV_v2_1080x1350_Insta_.jpg",
   "El poder de la red": "https://cinemania.com.co/wp-content/uploads/2026/10/red.jpg",
   "Tierra de mi padre": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Tierra-de-mi-padre_webp.JPG?itok=8VqnmKwX",
-  "Encanto": "https://d11w3vv8f1cdqg.cloudfront.net/movies-poster/1793713926343-Encanto 1080x1350_.jpg",
-  "Wildwood": "https://static.cinepolis.com/img/peliculas/54046/1/1/54046.jpg",
   "Yo soy rocky": "https://d1h560xa7cmqwq.cloudfront.net/movies-poster/1792533783245-POSTER (3)_.jpg",
-  "Godzilla minus zero": "https://d2gok2bmf4ckrg.cloudfront.net/movies-poster/1792529226195-Poster.png",
-  "Cómo robar un banco": "https://dqq1cn0vfegag.cloudfront.net/movies-poster/1794010494942-Poster.jpg",
-  "Blue lock": "https://d11w3vv8f1cdqg.cloudfront.net/movies-poster/1792531197626-BLUE LOCK_Poster_35x50_RGB -_.jpg",
-  "El corazón de la bestia": "https://static.cinepolis.com/img/peliculas/53485/1/1/53485.jpg",
   "El gran falsificador": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/EL-GRAN-FALSIFICADOR-webp-1075x1536.JPG?itok=zdZndNFy",
-  "Flywheel: Vida con propósito": "https://static.cinepolis.com/img/peliculas/54261/1/1/54261.jpg",
   "Hijo de tigre y mula": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/AFICHE%20COLOMBIA%20HTM.jpg?itok=xKLoJq8e",
   "Calle málaga": "https://cinemania.com.co/wp-content/uploads/2026/09/Poster-Calle-714x1024.jpg",
   "El juego de la vida": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-04/EJDLV_Afiche_35x50cms.jpg?itok=kztBV-rX",
   "A cualquier precio": "https://cinemania.com.co/wp-content/uploads/2026/10/precio.jpg",
-  "Clayface": "https://static.cinepolis.com/img/peliculas/53686/1/1/53686.jpg",
   "Donde comienza el río": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/DCR_POSTER.JPG?itok=By1VeUHt",
-  "Rápido y furioso": "https://d11w3vv8f1cdqg.cloudfront.net/movies-poster/1786469298679-FAF25_Anniversary_Intl1Sheet2_1080x1350pxH_RGB_Rev_Las_.jpg",
   "Caballo salvaje nueve": "https://cinemania.com.co/wp-content/uploads/2026/10/caballo.jpg",
+  "Cómo robar un banco": "https://d1h560xa7cmqwq.cloudfront.net/movies-poster/1794010494942-Poster.jpg",
+  "Ebenezer": "https://dqq1cn0vfegag.cloudfront.net/movies-poster/1792532894758-EBZR_INTL_Teaser_1_Sheet_CandleSmoke_OV_v2_1080x1350_Insta_.jpg",
   "Congreso las ruinas circulares": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Poster%20%281%29%20%281%29.jpg?itok=91l63pJt",
   "Donnie darko": "https://cineclubelmuro.com/wp-content/uploads/2023/06/Donnie-Darko_poster_goldposter_com_25-e1686708492119.jpg",
-  "Akira": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6adb86dd5a746be3728b16f7/common/akira-re-113434-1792790105568",
-  "Quedate conmigo": "https://score.vizionacines.com/scoreimg/imgpel/440.jpg",
-  "La posesión de la bruja": "https://d11w3vv8f1cdqg.cloudfront.net/movies-poster/1787087938993-Poster.jpg",
+  "Blue Lock": "https://d2gok2bmf4ckrg.cloudfront.net/movies-poster/1792531197626-BLUE LOCK_Poster_35x50_RGB -_.jpg",
+  "El gato con sombrero": "https://static.cinepolis.com/img/peliculas/53860/1/1/53860.jpg",
   "Rápidos y furiosos": "https://static.cinepolis.com/img/peliculas/54082/1/1/54082.jpg",
   "Territorio puloui": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Territorio%20Puloui_Poster.jpg?itok=HGZGgNKv",
   "Clausura bmvf": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-11/BMVF26_Afiche_5.jpeg?itok=ysuCePYt",
-  "Ju-on: el grito": "https://d2gok2bmf4ckrg.cloudfront.net/movies-poster/1793380349675-JU-ON - Afiche - Cines_1344 x 1920_.jpg",
+  "Flywheel: Vida con propósito": "https://static.cinepolis.com/img/peliculas/54261/1/1/54261.jpg",
+  "Clayface": "https://static.cinepolis.com/img/peliculas/53686/1/1/53686.jpg",
+  "Rápido y furioso": "https://d2gok2bmf4ckrg.cloudfront.net/movies-poster/1786469298679-FAF25_Anniversary_Intl1Sheet2_1080x1350pxH_RGB_Rev_Las_.jpg",
+  "La posesión de la bruja": "https://d11w3vv8f1cdqg.cloudfront.net/movies-poster/1787087938993-Poster.jpg",
+  "Godzilla minus zero": "https://static.cinepolis.com/img/peliculas/53861/1/1/53861.jpg",
+  "El corazón de la bestia": "https://static.cinepolis.com/img/peliculas/53485/1/1/53485.jpg",
+  "Ju-On: El Grito": "https://d11w3vv8f1cdqg.cloudfront.net/movies-poster/1793380349675-JU-ON - Afiche - Cines_1344 x 1920_.jpg",
   "Manual para invocar fantasmas": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/MPIF_Afiche.jpg?itok=uzHm4RxI",
   "Madre siniestra": "https://score.vizionacines.com/scoreimg/imgpel/406.jpg",
+  "Wildwood": "https://static.cinepolis.com/img/peliculas/54046/1/1/54046.jpg",
   "Midbo": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Screen%20Shot%202026-10-19%20at%2010.56.51%20AM.png?itok=A2R6nnEd",
   "Llueve sobre babel": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-04/Copy%20of%20USODIGITAL_0.jpg?itok=dU5UAnft",
   "Fontanar del río": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Cartel%20%20%281%29.png?itok=oPPDnVKP",
+  "Encanto": "https://d1h560xa7cmqwq.cloudfront.net/movies-poster/1793713926343-Encanto 1080x1350_.jpg",
   "Torah tropical": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/57150_12444__imagen__.jpg?itok=MwUJnug2",
   "Las alas del deseo": "https://cineclubelmuro.com/wp-content/uploads/2026/11/el-cielo-sobre-berlin.webp",
   "Rose of Nevada": "https://cineclubelmuro.com/wp-content/uploads/2026/11/rose-of-nevada-e1794275466929.jpg",
+  "Akira": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6adb86dd5a746be3728b16f7/common/akira-re-113434-1792790105568",
+  "Quedate conmigo": "https://score.vizionacines.com/scoreimg/imgpel/440.jpg",
   "Las pesadillas del siervo": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/POSTER-lpds-14-10-26.jpg?itok=1iPjaIG2",
   "Alix": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/MV5BYjgyOTM3YTgtNDU4Ny00MTcwLTg0NzYtOTQyN2Q4MGYxOTkyXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg?itok=FBJs3k_Y",
   "Kmkz: salvaje, libre y valiente": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-11/POSTER%202026%20CON%20laureles%20ganadoreslow.jpg?itok=AQlsrzCj",
@@ -186,42 +185,6 @@
    "fuente": "cinemateca"
   },
   {
-   "sala_id": "cm-colina",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T14:00:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T14:00:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T14:00:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A7",
-   "duracion_min": 115,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
    "sala_id": "ind-cinemania",
    "pelicula": "El poder de la red",
    "hora": "2026-11-12T14:00:00-05:00",
@@ -246,30 +209,6 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "rf-san-rafael",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T14:00:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para todo público",
-   "duracion_min": 102,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4206/encanto",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Wildwood",
-   "hora": "2026-11-12T14:10:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "ind-cinemania",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-12T14:10:00-05:00",
@@ -280,450 +219,6 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T14:15:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T14:15:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T14:15:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 135,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T14:20:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T14:20:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T14:25:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T14:25:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T14:25:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D Vkids",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T14:30:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T14:30:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T14:30:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T14:30:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 120,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T14:30:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Blue lock",
-   "hora": "2026-11-12T14:30:00-05:00",
-   "titulo_original": "Blue lock",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 128,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T14:40:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "TODOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T14:40:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T14:40:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T14:45:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T14:45:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T14:45:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T14:45:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "3D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T14:45:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D Vmax",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T14:50:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T14:50:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 120,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T14:55:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 100,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T14:55:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 116,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T15:00:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T15:00:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "TODOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Blue lock",
-   "hora": "2026-11-12T15:00:00-05:00",
-   "titulo_original": "Blue lock",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T15:00:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T15:00:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 100,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-plaza-claro",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T15:00:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 100,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-12T15:00:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Wildwood",
-   "hora": "2026-11-12T15:05:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T15:05:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-12T15:10:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T15:10:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
   },
   {
    "sala_id": "ind-cinemania",
@@ -738,162 +233,6 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "rf-san-rafael",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T15:10:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 116,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "Blue lock",
-   "hora": "2026-11-12T15:15:00-05:00",
-   "titulo_original": "Blue lock",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "Flywheel: Vida con propósito",
-   "hora": "2026-11-12T15:15:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 110,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "rf-americas",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T15:15:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 128,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4188/yo-soy-rocky",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T15:15:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 122,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4209/c%C3%B3mo-robar-un-banco",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T15:20:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "TODOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T15:20:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T15:20:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 100,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "rf-americas",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T15:20:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 116,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T15:20:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-12T15:25:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T15:25:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "TODOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T15:25:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Hijo de tigre y mula",
    "hora": "2026-11-12T15:30:00-05:00",
@@ -904,126 +243,6 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T15:30:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T15:30:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 100,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-plaza-claro",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T15:30:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A7",
-   "duracion_min": 115,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "rf-americas",
-   "pelicula": "Blue lock",
-   "hora": "2026-11-12T15:30:00-05:00",
-   "titulo_original": "Blue lock",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 128,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4186/blue-lock",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Blue lock",
-   "hora": "2026-11-12T15:30:00-05:00",
-   "titulo_original": "Blue lock",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 128,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4186/blue-lock",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T15:35:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T15:35:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "rf-milenio",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T15:35:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 116,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T15:35:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 128,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4188/yo-soy-rocky",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T15:35:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D Ge Y Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
   },
   {
    "sala_id": "ind-cinemania",
@@ -1038,78 +257,6 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T15:45:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T15:45:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T15:45:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 128,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Flywheel: Vida con propósito",
-   "hora": "2026-11-12T15:45:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 110,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T15:50:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T15:55:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
    "sala_id": "cine-cinemateca",
    "pelicula": "El juego de la vida",
    "hora": "2026-11-12T16:00:00-05:00",
@@ -1120,66 +267,6 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T16:00:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A7",
-   "duracion_min": 115,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-plaza-claro",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T16:00:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 100,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "rf-altavista",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T16:00:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 116,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T16:10:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "TODOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T16:10:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "TP",
-   "duracion_min": 110,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -1194,78 +281,6 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "cm-atlantis",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T16:15:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T16:15:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "TP",
-   "duracion_min": 110,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Clayface",
-   "hora": "2026-11-12T16:15:00-05:00",
-   "titulo_original": "",
-   "formato": "2D Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "rf-americas",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T16:20:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para todo público",
-   "duracion_min": 102,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4206/encanto",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-milenio",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T16:20:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para todo público",
-   "duracion_min": 102,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4206/encanto",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T16:20:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para todo público",
-   "duracion_min": 102,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4206/encanto",
-   "fuente": "royal_films"
-  },
-  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Donde comienza el río",
    "hora": "2026-11-12T16:30:00-05:00",
@@ -1276,78 +291,6 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T16:30:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 100,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-plaza-claro",
-   "pelicula": "Wildwood",
-   "hora": "2026-11-12T16:30:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 132,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "rf-altavista",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T16:30:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para todo público",
-   "duracion_min": 102,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4206/encanto",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-san-rafael",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T16:30:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para todo público",
-   "duracion_min": 102,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4206/encanto",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Rápido y furioso",
-   "hora": "2026-11-12T16:35:00-05:00",
-   "titulo_original": "The fast and the furious",
-   "formato": "2D Ge Y Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T16:40:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A7",
-   "duracion_min": 115,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -1362,330 +305,6 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T16:45:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 135,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T16:55:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T17:00:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A7",
-   "duracion_min": 115,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T17:00:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 135,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-plaza-claro",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T17:00:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A7",
-   "duracion_min": 115,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T17:05:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T17:05:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D Vkids",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T17:10:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T17:20:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Clayface",
-   "hora": "2026-11-12T17:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+15 AÑOS",
-   "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T17:20:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T17:20:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T17:25:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T17:25:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T17:25:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Blue lock",
-   "hora": "2026-11-12T17:25:00-05:00",
-   "titulo_original": "Blue lock",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 128,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T17:30:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T17:30:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "rf-americas",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T17:30:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 122,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4209/c%C3%B3mo-robar-un-banco",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-12T17:30:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T17:35:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 116,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Rápido y furioso",
-   "hora": "2026-11-12T17:40:00-05:00",
-   "titulo_original": "The fast and the furious",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T17:40:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 120,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Flywheel: Vida con propósito",
-   "hora": "2026-11-12T17:40:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 120,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T17:40:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T17:40:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "Rápido y furioso",
-   "hora": "2026-11-12T17:40:00-05:00",
-   "titulo_original": "The fast and the furious",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "ind-cinemania",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-12T17:40:00-05:00",
@@ -1710,54 +329,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T17:45:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D Vmax",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T17:50:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T17:50:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T17:50:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "3D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Ebenezer",
    "hora": "2026-11-12T17:50:00-05:00",
@@ -1768,30 +339,6 @@
    "duracion_min": 100,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "rf-san-rafael",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T17:50:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 116,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T17:55:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "3D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
   },
   {
    "sala_id": "ind-cinemania",
@@ -1830,56 +377,20 @@
    "fuente": "elmuro"
   },
   {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T18:00:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 120,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Rápido y furioso",
-   "hora": "2026-11-12T18:00:00-05:00",
-   "titulo_original": "The fast and the furious",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T18:00:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
+   "sala_id": "cp-diverplaza",
    "pelicula": "Ebenezer",
    "hora": "2026-11-12T18:00:00-05:00",
    "titulo_original": "Ebenezer: a christmas carol",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
-   "pelicula": "Blue lock",
+   "pelicula": "Blue Lock",
    "hora": "2026-11-12T18:00:00-05:00",
    "titulo_original": "Blue lock",
    "formato": "2D",
@@ -1902,54 +413,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "vz-eden",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T18:00:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T18:05:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 122,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4209/c%C3%B3mo-robar-un-banco",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T18:10:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T18:10:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Cómo robar un banco",
    "hora": "2026-11-12T18:10:00-05:00",
@@ -1962,64 +425,16 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "rf-americas",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T18:10:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-12T18:15:00-05:00",
+   "titulo_original": "The cat in the hat",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 116,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-san-rafael",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T18:10:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 122,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4209/c%C3%B3mo-robar-un-banco",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Akira",
-   "hora": "2026-11-12T18:15:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 125,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-12T18:15:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T18:15:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 120,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -2046,160 +461,16 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "rf-altavista",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T18:15:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 128,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4188/yo-soy-rocky",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-americas",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T18:15:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 128,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4188/yo-soy-rocky",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-milenio",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T18:15:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 116,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Wildwood",
-   "hora": "2026-11-12T18:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Akira",
-   "hora": "2026-11-12T18:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 125,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Akira",
-   "hora": "2026-11-12T18:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 125,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T18:20:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Akira",
-   "hora": "2026-11-12T18:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 125,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T18:20:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D Ge Y Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "rf-milenio",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T18:25:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 128,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4188/yo-soy-rocky",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Quedate conmigo",
-   "hora": "2026-11-12T18:25:00-05:00",
-   "titulo_original": "",
-   "formato": "2D General",
-   "idioma": "Original",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-floresta",
+   "sala_id": "cp-diverplaza",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-12T18:30:00-05:00",
    "titulo_original": "I play rocky",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "El corazón de la bestia",
-   "hora": "2026-11-12T18:30:00-05:00",
-   "titulo_original": "Heart of the beast",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -2236,114 +507,6 @@
    "duracion_min": 128,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "rf-americas",
-   "pelicula": "La posesión de la bruja",
-   "hora": "2026-11-12T18:30:00-05:00",
-   "titulo_original": "Perewangan",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 15 años",
-   "duracion_min": 109,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4141/-la-posesi%C3%B3n-de-la-bruja",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "La posesión de la bruja",
-   "hora": "2026-11-12T18:30:00-05:00",
-   "titulo_original": "Perewangan",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 15 años",
-   "duracion_min": 109,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4141/-la-posesi%C3%B3n-de-la-bruja",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T18:35:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T18:35:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 120,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T18:35:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 128,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4188/yo-soy-rocky",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-12T18:40:00-05:00",
-   "titulo_original": "I play rocky",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Rápido y furioso",
-   "hora": "2026-11-12T18:40:00-05:00",
-   "titulo_original": "The fast and the furious",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 110,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T18:40:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "rf-altavista",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-12T18:40:00-05:00",
-   "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 7 años",
-   "duracion_min": 116,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
-   "fuente": "royal_films"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -2382,54 +545,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "rf-milenio",
-   "pelicula": "Rápido y furioso",
-   "hora": "2026-11-12T18:50:00-05:00",
-   "titulo_original": "The fast and the furious",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 106,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4127/r%C3%A1pido-y-furioso-%28reestreno%29",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Encanto",
-   "hora": "2026-11-12T18:50:00-05:00",
-   "titulo_original": "Encanto",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para todo público",
-   "duracion_min": 102,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4206/encanto",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Clayface",
-   "hora": "2026-11-12T18:50:00-05:00",
-   "titulo_original": "",
-   "formato": "2D Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-12T18:55:00-05:00",
-   "titulo_original": "The cat in the hat",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Territorio puloui",
    "hora": "2026-11-12T19:00:00-05:00",
@@ -2454,28 +569,16 @@
    "fuente": "cinemateca"
   },
   {
-   "sala_id": "cm-atlantis",
-   "pelicula": "El gato con sombrero",
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Flywheel: Vida con propósito",
    "hora": "2026-11-12T19:00:00-05:00",
-   "titulo_original": "The cat in the hat",
+   "titulo_original": "",
    "formato": "2D",
    "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T19:00:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 120,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
+   "clasificacion": "A12",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -2514,42 +617,6 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "rf-altavista",
-   "pelicula": "Rápido y furioso",
-   "hora": "2026-11-12T19:00:00-05:00",
-   "titulo_original": "The fast and the furious",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 106,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4127/r%C3%A1pido-y-furioso-%28reestreno%29",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-americas",
-   "pelicula": "Rápido y furioso",
-   "hora": "2026-11-12T19:00:00-05:00",
-   "titulo_original": "The fast and the furious",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 106,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4127/r%C3%A1pido-y-furioso-%28reestreno%29",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Rápido y furioso",
-   "hora": "2026-11-12T19:00:00-05:00",
-   "titulo_original": "The fast and the furious",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 106,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4127/r%C3%A1pido-y-furioso-%28reestreno%29",
-   "fuente": "royal_films"
-  },
-  {
    "sala_id": "vz-eden",
    "pelicula": "Rápido y furioso",
    "hora": "2026-11-12T19:10:00-05:00",
@@ -2562,6 +629,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Blue Lock",
+   "hora": "2026-11-12T19:15:00-05:00",
+   "titulo_original": "Blue lock",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Ebenezer",
    "hora": "2026-11-12T19:15:00-05:00",
@@ -2570,6 +649,18 @@
    "idioma": "Doblada",
    "clasificacion": "A12",
    "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "La posesión de la bruja",
+   "hora": "2026-11-12T19:30:00-05:00",
+   "titulo_original": "Perewangan",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
   },
@@ -2594,6 +685,18 @@
    "idioma": "Doblada",
    "clasificacion": "A15",
    "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-12T19:45:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
   },
@@ -2646,6 +749,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-12T20:00:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-plaza-claro",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-12T20:00:00-05:00",
@@ -2707,7 +822,7 @@
   },
   {
    "sala_id": "rf-villa-del-rio",
-   "pelicula": "Ju-on: el grito",
+   "pelicula": "Ju-On: El Grito",
    "hora": "2026-11-12T20:10:00-05:00",
    "titulo_original": "Ju-on: the grudge",
    "formato": "2D",
@@ -2970,6 +1085,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-12T20:40:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "Cómo robar un banco",
    "hora": "2026-11-12T20:40:00-05:00",
@@ -3052,6 +1179,18 @@
    "duracion_min": 115,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-12T20:55:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-milenio",
@@ -3184,18 +1323,6 @@
    "duracion_min": 115,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
    "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-12T21:05:00-05:00",
-   "titulo_original": "How to rob a bank",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 100,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
   },
   {
    "sala_id": "cm-colina",
@@ -3402,6 +1529,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-12T21:25:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Rápidos y furiosos",
    "hora": "2026-11-12T21:25:00-05:00",
@@ -3510,6 +1649,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "rf-san-rafael",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-12T21:30:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "",
+   "idioma": "",
+   "clasificacion": "Para mayores de 7 años",
+   "duracion_min": 128,
+   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4188/yo-soy-rocky",
+   "fuente": "royal_films"
+  },
+  {
    "sala_id": "rf-villa-del-rio",
    "pelicula": "Rápido y furioso",
    "hora": "2026-11-12T21:30:00-05:00",
@@ -3556,6 +1707,18 @@
    "duracion_min": 135,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Flywheel: Vida con propósito",
+   "hora": "2026-11-12T21:35:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-villa-del-rio",
@@ -3610,8 +1773,8 @@
    "pelicula": "Ebenezer",
    "hora": "2026-11-12T21:40:00-05:00",
    "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
+   "formato": "",
+   "idioma": "",
    "clasificacion": "Para mayores de 7 años",
    "duracion_min": 116,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
@@ -3622,8 +1785,8 @@
    "pelicula": "Ebenezer",
    "hora": "2026-11-12T21:40:00-05:00",
    "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
+   "formato": "",
+   "idioma": "",
    "clasificacion": "Para mayores de 7 años",
    "duracion_min": 116,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
@@ -3690,6 +1853,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "La posesión de la bruja",
+   "hora": "2026-11-12T21:55:00-05:00",
+   "titulo_original": "Perewangan",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cm-atlantis",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-12T22:00:00-05:00",
@@ -3738,6 +1913,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ju-On: El Grito",
+   "hora": "2026-11-12T22:05:00-05:00",
+   "titulo_original": "Ju-on: the grudge",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A15",
+   "duracion_min": 92,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Clayface",
    "hora": "2026-11-12T22:05:00-05:00",
@@ -3751,7 +1938,7 @@
   },
   {
    "sala_id": "cp-hayuelos",
-   "pelicula": "Ju-on: el grito",
+   "pelicula": "Ju-On: El Grito",
    "hora": "2026-11-12T22:10:00-05:00",
    "titulo_original": "Ju-on: the grudge",
    "formato": "2D",
@@ -3858,6 +2045,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-13T14:05:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cm-colina",
    "pelicula": "Wildwood",
    "hora": "2026-11-13T14:10:00-05:00",
@@ -3894,18 +2093,6 @@
    "fuente": "cinemark"
   },
   {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-13T14:15:00-05:00",
-   "titulo_original": "Godzilla minus zero",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 135,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
    "sala_id": "cm-colina",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-13T14:20:00-05:00",
@@ -3916,6 +2103,30 @@
    "duracion_min": 135,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-13T14:20:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-13T14:25:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D Vkids",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "cm-atlantis",
@@ -3943,7 +2154,7 @@
   },
   {
    "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Blue lock",
+   "pelicula": "Blue Lock",
    "hora": "2026-11-13T14:30:00-05:00",
    "titulo_original": "Blue lock",
    "formato": "2D",
@@ -4002,6 +2213,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-13T14:45:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D Vmax",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cm-colina",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-13T14:50:00-05:00",
@@ -4050,6 +2273,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-13T15:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Cómo robar un banco",
    "hora": "2026-11-13T15:00:00-05:00",
@@ -4072,6 +2307,18 @@
    "duracion_min": 100,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-13T15:00:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "cm-atlantis",
@@ -4206,6 +2453,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-13T15:20:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cm-plaza-imperial",
    "pelicula": "Encanto",
    "hora": "2026-11-13T15:25:00-05:00",
@@ -4216,6 +2475,18 @@
    "duracion_min": 100,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-13T15:25:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -4255,7 +2526,7 @@
   },
   {
    "sala_id": "rf-americas",
-   "pelicula": "Blue lock",
+   "pelicula": "Blue Lock",
    "hora": "2026-11-13T15:30:00-05:00",
    "titulo_original": "Blue lock",
    "formato": "2D",
@@ -4279,7 +2550,7 @@
   },
   {
    "sala_id": "rf-villa-del-rio",
-   "pelicula": "Blue lock",
+   "pelicula": "Blue Lock",
    "hora": "2026-11-13T15:30:00-05:00",
    "titulo_original": "Blue lock",
    "formato": "2D",
@@ -4338,6 +2609,30 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-13T15:35:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-13T15:40:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "ind-cinemania",
    "pelicula": "Calle málaga",
    "hora": "2026-11-13T15:40:00-05:00",
@@ -4384,6 +2679,18 @@
    "duracion_min": 110,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Encanto",
+   "hora": "2026-11-13T15:55:00-05:00",
+   "titulo_original": "Encanto",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -4446,6 +2753,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-13T16:05:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Encanto",
    "hora": "2026-11-13T16:10:00-05:00",
@@ -4482,6 +2801,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Blue Lock",
+   "hora": "2026-11-13T16:15:00-05:00",
+   "titulo_original": "Blue lock",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Encanto",
    "hora": "2026-11-13T16:15:00-05:00",
@@ -4492,6 +2823,18 @@
    "duracion_min": 110,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Clayface",
+   "hora": "2026-11-13T16:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "rf-americas",
@@ -4542,6 +2885,18 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Encanto",
+   "hora": "2026-11-13T16:30:00-05:00",
+   "titulo_original": "Encanto",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Ebenezer",
    "hora": "2026-11-13T16:30:00-05:00",
@@ -4590,6 +2945,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Rápido y furioso",
+   "hora": "2026-11-13T16:35:00-05:00",
+   "titulo_original": "The fast and the furious",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-13T16:40:00-05:00",
@@ -4614,6 +2981,18 @@
    "fuente": "cinemania"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-13T16:45:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-13T16:45:00-05:00",
@@ -4622,6 +3001,18 @@
    "idioma": "Doblada",
    "clasificacion": "A12",
    "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "La posesión de la bruja",
+   "hora": "2026-11-13T17:00:00-05:00",
+   "titulo_original": "Perewangan",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
   },
@@ -4662,6 +3053,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-13T17:05:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D Vkids",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cm-colina",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-13T17:10:00-05:00",
@@ -4684,6 +3087,18 @@
    "duracion_min": 105,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-13T17:15:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cm-atlantis",
@@ -4710,6 +3125,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-13T17:20:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cm-plaza-imperial",
    "pelicula": "Cómo robar un banco",
    "hora": "2026-11-13T17:25:00-05:00",
@@ -4723,7 +3150,7 @@
   },
   {
    "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Blue lock",
+   "pelicula": "Blue Lock",
    "hora": "2026-11-13T17:25:00-05:00",
    "titulo_original": "Blue lock",
    "formato": "2D",
@@ -4756,6 +3183,18 @@
    "duracion_min": 122,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4209/c%C3%B3mo-robar-un-banco",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-13T17:30:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "rf-villa-del-rio",
@@ -4816,6 +3255,18 @@
    "duracion_min": 100,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-13T17:45:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D Vmax",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "cm-colina",
@@ -4938,8 +3389,20 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-13T18:00:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
-   "pelicula": "Blue lock",
+   "pelicula": "Blue Lock",
    "hora": "2026-11-13T18:00:00-05:00",
    "titulo_original": "Blue lock",
    "formato": "2D",
@@ -4960,6 +3423,18 @@
    "duracion_min": 100,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-13T18:00:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "rf-villa-del-rio",
@@ -5032,6 +3507,18 @@
    "duracion_min": 135,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-13T18:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -5118,6 +3605,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-13T18:20:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "rf-milenio",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-13T18:25:00-05:00",
@@ -5130,6 +3629,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Quedate conmigo",
+   "hora": "2026-11-13T18:25:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Original",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cm-plaza-imperial",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-13T18:30:00-05:00",
@@ -5140,6 +3651,18 @@
    "duracion_min": 100,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-13T18:30:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -5322,6 +3845,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Clayface",
+   "hora": "2026-11-13T18:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cm-plaza-imperial",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-13T18:55:00-05:00",
@@ -5356,6 +3891,18 @@
    "duracion_min": 105,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Flywheel: Vida con propósito",
+   "hora": "2026-11-13T19:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -5430,6 +3977,30 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Rápido y furioso",
+   "hora": "2026-11-13T19:10:00-05:00",
+   "titulo_original": "The fast and the furious",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Blue Lock",
+   "hora": "2026-11-13T19:15:00-05:00",
+   "titulo_original": "Blue lock",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Ebenezer",
    "hora": "2026-11-13T19:15:00-05:00",
@@ -5452,6 +4023,18 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "La posesión de la bruja",
+   "hora": "2026-11-13T19:30:00-05:00",
+   "titulo_original": "Perewangan",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-mallplaza-nqs",
@@ -5478,6 +4061,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-13T19:45:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-13T19:45:00-05:00",
@@ -5488,6 +4083,18 @@
    "duracion_min": 101,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-13T19:45:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D Vkids",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "cp-mallplaza-nqs",
@@ -5514,6 +4121,18 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-13T20:00:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-plaza-claro",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-13T20:00:00-05:00",
@@ -5524,6 +4143,18 @@
    "duracion_min": 115,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-13T20:00:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "ind-cinemania",
@@ -5563,7 +4194,7 @@
   },
   {
    "sala_id": "rf-villa-del-rio",
-   "pelicula": "Ju-on: el grito",
+   "pelicula": "Ju-On: El Grito",
    "hora": "2026-11-13T20:10:00-05:00",
    "titulo_original": "Ju-on: the grudge",
    "formato": "2D",
@@ -5620,6 +4251,18 @@
    "duracion_min": 116,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-13T20:15:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "cm-colina",
@@ -5718,6 +4361,30 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-13T20:40:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-13T20:40:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "La posesión de la bruja",
    "hora": "2026-11-13T20:45:00-05:00",
@@ -5752,6 +4419,30 @@
    "duracion_min": 105,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-13T20:50:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D Vmax",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-13T20:55:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-milenio",
@@ -5838,6 +4529,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Madre siniestra",
+   "hora": "2026-11-13T21:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cm-atlantis",
    "pelicula": "Ebenezer",
    "hora": "2026-11-13T21:05:00-05:00",
@@ -5896,6 +4599,18 @@
    "duracion_min": 109,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4141/-la-posesi%C3%B3n-de-la-bruja",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-13T21:10:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "cm-plaza-imperial",
@@ -5992,6 +4707,18 @@
    "duracion_min": 106,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4127/r%C3%A1pido-y-furioso-%28reestreno%29",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-13T21:25:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cp-mallplaza-nqs",
@@ -6102,6 +4829,30 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Clayface",
+   "hora": "2026-11-13T21:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Flywheel: Vida con propósito",
+   "hora": "2026-11-13T21:35:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-villa-del-rio",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-13T21:35:00-05:00",
@@ -6142,8 +4893,8 @@
    "pelicula": "Ebenezer",
    "hora": "2026-11-13T21:40:00-05:00",
    "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
+   "formato": "",
+   "idioma": "",
    "clasificacion": "Para mayores de 7 años",
    "duracion_min": 116,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
@@ -6154,8 +4905,8 @@
    "pelicula": "Ebenezer",
    "hora": "2026-11-13T21:40:00-05:00",
    "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
+   "formato": "",
+   "idioma": "",
    "clasificacion": "Para mayores de 7 años",
    "duracion_min": 116,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
@@ -6210,6 +4961,30 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Rápido y furioso",
+   "hora": "2026-11-13T21:45:00-05:00",
+   "titulo_original": "The fast and the furious",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "La posesión de la bruja",
+   "hora": "2026-11-13T21:55:00-05:00",
+   "titulo_original": "Perewangan",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cm-atlantis",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-13T22:00:00-05:00",
@@ -6246,6 +5021,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ju-On: El Grito",
+   "hora": "2026-11-13T22:05:00-05:00",
+   "titulo_original": "Ju-on: the grudge",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A15",
+   "duracion_min": 92,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Clayface",
    "hora": "2026-11-13T22:05:00-05:00",
@@ -6259,7 +5046,7 @@
   },
   {
    "sala_id": "cp-hayuelos",
-   "pelicula": "Ju-on: el grito",
+   "pelicula": "Ju-On: El Grito",
    "hora": "2026-11-13T22:10:00-05:00",
    "titulo_original": "Ju-on: the grudge",
    "formato": "2D",
@@ -6282,6 +5069,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Encanto",
+   "hora": "2026-11-14T10:50:00-05:00",
+   "titulo_original": "Encanto",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "La caza de las moscas",
    "hora": "2026-11-14T11:00:00-05:00",
@@ -6292,6 +5091,18 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Encanto",
+   "hora": "2026-11-14T11:00:00-05:00",
+   "titulo_original": "Encanto",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "vz-eden",
@@ -6330,6 +5141,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T11:20:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "Rápido y furioso",
    "hora": "2026-11-14T11:20:00-05:00",
@@ -6340,6 +5163,18 @@
    "duracion_min": null,
    "url_compra": "https://vizionacines.com/",
    "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Wildwood",
+   "hora": "2026-11-14T11:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "vz-eden",
@@ -6378,6 +5213,42 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T12:00:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T12:00:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Blue Lock",
+   "hora": "2026-11-14T12:15:00-05:00",
+   "titulo_original": "Blue lock",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-americas",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-14T12:15:00-05:00",
@@ -6402,6 +5273,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T12:20:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-villa-del-rio",
    "pelicula": "Cómo robar un banco",
    "hora": "2026-11-14T12:25:00-05:00",
@@ -6414,8 +5297,32 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Encanto",
+   "hora": "2026-11-14T12:30:00-05:00",
+   "titulo_original": "Encanto",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T12:30:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-americas",
-   "pelicula": "Blue lock",
+   "pelicula": "Blue Lock",
    "hora": "2026-11-14T12:30:00-05:00",
    "titulo_original": "Blue lock",
    "formato": "2D",
@@ -6439,7 +5346,7 @@
   },
   {
    "sala_id": "rf-villa-del-rio",
-   "pelicula": "Blue lock",
+   "pelicula": "Blue Lock",
    "hora": "2026-11-14T12:30:00-05:00",
    "titulo_original": "Blue lock",
    "formato": "2D",
@@ -6474,6 +5381,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T12:40:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-americas",
    "pelicula": "Ebenezer",
    "hora": "2026-11-14T12:40:00-05:00",
@@ -6484,6 +5403,30 @@
    "duracion_min": 116,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T12:45:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T12:50:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-milenio",
@@ -6534,6 +5477,78 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T13:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T13:00:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T13:05:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T13:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Blue Lock",
+   "hora": "2026-11-14T13:20:00-05:00",
+   "titulo_original": "Blue lock",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Encanto",
+   "hora": "2026-11-14T13:20:00-05:00",
+   "titulo_original": "Encanto",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-altavista",
    "pelicula": "Ebenezer",
    "hora": "2026-11-14T13:20:00-05:00",
@@ -6558,6 +5573,42 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T13:30:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T13:30:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Wildwood",
+   "hora": "2026-11-14T13:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "El corazón de la bestia",
    "hora": "2026-11-14T13:35:00-05:00",
@@ -6568,6 +5619,30 @@
    "duracion_min": null,
    "url_compra": "https://vizionacines.com/",
    "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-14T13:45:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T13:45:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "vz-eden",
@@ -6628,6 +5703,42 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/80",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Encanto",
+   "hora": "2026-11-14T14:00:00-05:00",
+   "titulo_original": "Encanto",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T14:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T14:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -6702,6 +5813,18 @@
    "fuente": "cinemania"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T14:20:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-14T14:20:00-05:00",
@@ -6714,6 +5837,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-14T14:25:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-14T14:25:00-05:00",
@@ -6724,6 +5859,18 @@
    "duracion_min": null,
    "url_compra": "https://vizionacines.com/",
    "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "La posesión de la bruja",
+   "hora": "2026-11-14T14:30:00-05:00",
+   "titulo_original": "Perewangan",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-americas",
@@ -6748,6 +5895,18 @@
    "duracion_min": null,
    "url_compra": "https://vizionacines.com/",
    "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T14:55:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-villa-del-rio",
@@ -6798,6 +5957,42 @@
    "fuente": "elmuro"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T15:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T15:00:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T15:00:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "ind-cinemania",
    "pelicula": "El gran falsificador",
    "hora": "2026-11-14T15:10:00-05:00",
@@ -6820,6 +6015,18 @@
    "duracion_min": 116,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Flywheel: Vida con propósito",
+   "hora": "2026-11-14T15:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-americas",
@@ -6846,6 +6053,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T15:20:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-americas",
    "pelicula": "Ebenezer",
    "hora": "2026-11-14T15:20:00-05:00",
@@ -6870,8 +6089,44 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T15:25:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T15:30:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T15:30:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-americas",
-   "pelicula": "Blue lock",
+   "pelicula": "Blue Lock",
    "hora": "2026-11-14T15:30:00-05:00",
    "titulo_original": "Blue lock",
    "formato": "2D",
@@ -6895,7 +6150,7 @@
   },
   {
    "sala_id": "rf-villa-del-rio",
-   "pelicula": "Blue lock",
+   "pelicula": "Blue Lock",
    "hora": "2026-11-14T15:30:00-05:00",
    "titulo_original": "Blue lock",
    "formato": "2D",
@@ -6942,6 +6197,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-14T15:40:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "ind-cinemania",
    "pelicula": "Calle málaga",
    "hora": "2026-11-14T15:40:00-05:00",
@@ -6952,6 +6219,30 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-14T15:45:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Flywheel: Vida con propósito",
+   "hora": "2026-11-14T15:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "vz-eden",
@@ -6990,6 +6281,30 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T16:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T16:00:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-altavista",
    "pelicula": "Ebenezer",
    "hora": "2026-11-14T16:00:00-05:00",
@@ -7000,6 +6315,18 @@
    "duracion_min": 116,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T16:05:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "vz-eden",
@@ -7014,6 +6341,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Encanto",
+   "hora": "2026-11-14T16:10:00-05:00",
+   "titulo_original": "Encanto",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "ind-cinemania",
    "pelicula": "A cualquier precio",
    "hora": "2026-11-14T16:10:00-05:00",
@@ -7024,6 +6363,30 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Blue Lock",
+   "hora": "2026-11-14T16:15:00-05:00",
+   "titulo_original": "Blue lock",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Encanto",
+   "hora": "2026-11-14T16:15:00-05:00",
+   "titulo_original": "Encanto",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "vz-eden",
@@ -7074,6 +6437,42 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Encanto",
+   "hora": "2026-11-14T16:30:00-05:00",
+   "titulo_original": "Encanto",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "TP",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T16:30:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Wildwood",
+   "hora": "2026-11-14T16:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 132,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-altavista",
    "pelicula": "Encanto",
    "hora": "2026-11-14T16:30:00-05:00",
@@ -7110,6 +6509,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T16:40:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "ind-cinemania",
    "pelicula": "Caballo salvaje nueve",
    "hora": "2026-11-14T16:40:00-05:00",
@@ -7120,6 +6531,30 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-14T16:45:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-14T16:45:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -7134,6 +6569,54 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "La posesión de la bruja",
+   "hora": "2026-11-14T17:00:00-05:00",
+   "titulo_original": "Perewangan",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T17:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-14T17:00:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T17:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-14T17:05:00-05:00",
@@ -7146,6 +6629,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T17:15:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-14T17:20:00-05:00",
@@ -7156,6 +6651,18 @@
    "duracion_min": null,
    "url_compra": "https://vizionacines.com/",
    "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Blue Lock",
+   "hora": "2026-11-14T17:25:00-05:00",
+   "titulo_original": "Blue lock",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -7206,6 +6713,18 @@
    "fuente": "cinemania"
   },
   {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T17:45:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-14T17:45:00-05:00",
@@ -7216,6 +6735,18 @@
    "duracion_min": null,
    "url_compra": "https://vizionacines.com/",
    "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T17:50:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-san-rafael",
@@ -7266,6 +6797,42 @@
    "fuente": "elmuro"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T18:00:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Blue Lock",
+   "hora": "2026-11-14T18:00:00-05:00",
+   "titulo_original": "Blue lock",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T18:00:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "Cómo robar un banco",
    "hora": "2026-11-14T18:00:00-05:00",
@@ -7290,6 +6857,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T18:10:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-americas",
    "pelicula": "Ebenezer",
    "hora": "2026-11-14T18:10:00-05:00",
@@ -7312,6 +6891,30 @@
    "duracion_min": 122,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4209/c%C3%B3mo-robar-un-banco",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T18:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T18:15:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -7398,6 +7001,54 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-14T18:30:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-14T18:30:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-14T18:30:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-14T18:30:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-americas",
    "pelicula": "La posesión de la bruja",
    "hora": "2026-11-14T18:30:00-05:00",
@@ -7470,6 +7121,42 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Rápidos y furiosos",
+   "hora": "2026-11-14T18:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 109,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Rápidos y furiosos",
+   "hora": "2026-11-14T18:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 109,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Rápidos y furiosos",
+   "hora": "2026-11-14T18:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 109,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-milenio",
    "pelicula": "Rápido y furioso",
    "hora": "2026-11-14T18:50:00-05:00",
@@ -7504,6 +7191,42 @@
    "duracion_min": null,
    "url_compra": "https://vizionacines.com/",
    "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Flywheel: Vida con propósito",
+   "hora": "2026-11-14T19:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Clayface",
+   "hora": "2026-11-14T19:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T19:00:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -7566,6 +7289,30 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Blue Lock",
+   "hora": "2026-11-14T19:15:00-05:00",
+   "titulo_original": "Blue lock",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T19:15:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Donde comienza el río",
    "hora": "2026-11-14T19:30:00-05:00",
@@ -7576,6 +7323,66 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "La posesión de la bruja",
+   "hora": "2026-11-14T19:30:00-05:00",
+   "titulo_original": "Perewangan",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T19:30:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Clayface",
+   "hora": "2026-11-14T19:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-14T19:45:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-14T19:45:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "vz-eden",
@@ -7590,6 +7397,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-14T19:50:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Manual para invocar fantasmas",
    "hora": "2026-11-14T20:00:00-05:00",
@@ -7600,6 +7419,30 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T20:00:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T20:00:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "ind-cinemania",
@@ -7639,7 +7482,7 @@
   },
   {
    "sala_id": "rf-villa-del-rio",
-   "pelicula": "Ju-on: el grito",
+   "pelicula": "Ju-On: El Grito",
    "hora": "2026-11-14T20:10:00-05:00",
    "titulo_original": "Ju-on: the grudge",
    "formato": "2D",
@@ -7648,6 +7491,30 @@
    "duracion_min": 92,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4204/ju-on:-el-grito",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T20:15:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "El corazón de la bestia",
+   "hora": "2026-11-14T20:15:00-05:00",
+   "titulo_original": "Heart of the beast",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 101,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-villa-del-rio",
@@ -7698,6 +7565,42 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T20:30:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T20:35:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T20:40:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "Cómo robar un banco",
    "hora": "2026-11-14T20:40:00-05:00",
@@ -7710,6 +7613,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "La posesión de la bruja",
+   "hora": "2026-11-14T20:45:00-05:00",
+   "titulo_original": "Perewangan",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "vz-eden",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-14T20:50:00-05:00",
@@ -7720,6 +7635,18 @@
    "duracion_min": null,
    "url_compra": "https://vizionacines.com/",
    "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-14T20:55:00-05:00",
+   "titulo_original": "The cat in the hat",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A7",
+   "duracion_min": 115,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-milenio",
@@ -7758,6 +7685,30 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T21:00:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-14T21:00:00-05:00",
+   "titulo_original": "Ebenezer: a christmas carol",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-san-rafael",
    "pelicula": "Cómo robar un banco",
    "hora": "2026-11-14T21:00:00-05:00",
@@ -7780,6 +7731,18 @@
    "duracion_min": null,
    "url_compra": "https://vizionacines.com/",
    "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T21:05:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-americas",
@@ -7818,6 +7781,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Rápidos y furiosos",
+   "hora": "2026-11-14T21:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 109,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-altavista",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-14T21:15:00-05:00",
@@ -7840,6 +7815,18 @@
    "duracion_min": 128,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4188/yo-soy-rocky",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Rápidos y furiosos",
+   "hora": "2026-11-14T21:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 109,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-altavista",
@@ -7866,6 +7853,30 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-14T21:25:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Rápidos y furiosos",
+   "hora": "2026-11-14T21:25:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 109,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-milenio",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-14T21:25:00-05:00",
@@ -7876,6 +7887,18 @@
    "duracion_min": 128,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4188/yo-soy-rocky",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Clayface",
+   "hora": "2026-11-14T21:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "rf-americas",
@@ -7926,6 +7949,18 @@
    "fuente": "viziona"
   },
   {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Flywheel: Vida con propósito",
+   "hora": "2026-11-14T21:35:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 110,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-villa-del-rio",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-14T21:35:00-05:00",
@@ -7938,12 +7973,36 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-14T21:40:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-14T21:40:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
    "sala_id": "rf-americas",
    "pelicula": "Ebenezer",
    "hora": "2026-11-14T21:40:00-05:00",
    "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
+   "formato": "",
+   "idioma": "",
    "clasificacion": "Para mayores de 7 años",
    "duracion_min": 116,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
@@ -7954,12 +8013,24 @@
    "pelicula": "Ebenezer",
    "hora": "2026-11-14T21:40:00-05:00",
    "titulo_original": "Ebenezer: a christmas carol",
-   "formato": "2D",
-   "idioma": "Doblada",
+   "formato": "",
+   "idioma": "",
    "clasificacion": "Para mayores de 7 años",
    "duracion_min": 116,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4102/ebenezer",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-14T21:45:00-05:00",
+   "titulo_original": "I play rocky",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "vz-eden",
@@ -7972,6 +8043,90 @@
    "duracion_min": null,
    "url_compra": "https://vizionacines.com/",
    "fuente": "viziona"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "La posesión de la bruja",
+   "hora": "2026-11-14T21:55:00-05:00",
+   "titulo_original": "Perewangan",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 128,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-14T22:00:00-05:00",
+   "titulo_original": "Godzilla minus zero",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 135,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-14T22:00:00-05:00",
+   "titulo_original": "How to rob a bank",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A12",
+   "duracion_min": 100,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-diverplaza",
+   "pelicula": "Ju-On: El Grito",
+   "hora": "2026-11-14T22:05:00-05:00",
+   "titulo_original": "Ju-on: the grudge",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A15",
+   "duracion_min": 92,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-mallplaza-nqs",
+   "pelicula": "Clayface",
+   "hora": "2026-11-14T22:05:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-hayuelos",
+   "pelicula": "Ju-On: El Grito",
+   "hora": "2026-11-14T22:10:00-05:00",
+   "titulo_original": "Ju-on: the grudge",
+   "formato": "2D",
+   "idioma": "Subtitulada",
+   "clasificacion": "A15",
+   "duracion_min": 92,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cp-plaza-claro",
+   "pelicula": "Clayface",
+   "hora": "2026-11-14T22:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "A15",
+   "duracion_min": 108,
+   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
+   "fuente": "cinepolis"
   },
   {
    "sala_id": "cine-cinemateca",
