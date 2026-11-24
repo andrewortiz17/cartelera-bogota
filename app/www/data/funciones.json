@@ -1,8 +1,8 @@
 {
- "generado": "2026-11-23T23:35:20-05:00",
+ "generado": "2026-11-24T15:57:00-05:00",
  "estado": {
   "cinemark": {
-   "funciones": 216,
+   "funciones": 275,
    "error": null
   },
   "procinal": {
@@ -10,23 +10,24 @@
    "error": "0 funciones: revisar"
   },
   "royal_films": {
-   "funciones": 140,
-   "error": null
+   "funciones": 0,
+   "error": "TimeoutError: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"País\", exact=True).first\n    - locator resolved to <span class=\"current\" _ngcontent-lia-c46=\"\"> País </span>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      -",
+   "conservadas": 120
   },
   "cinepolis": {
-   "funciones": 169,
+   "funciones": 165,
    "error": null
   },
   "viziona": {
-   "funciones": 24,
+   "funciones": 66,
    "error": null
   },
   "cinemateca": {
-   "funciones": 302,
+   "funciones": 295,
    "error": null
   },
   "cinemania": {
-   "funciones": 60,
+   "funciones": 40,
    "error": null
   },
   "elmuro": {
@@ -42,43 +43,41 @@
   "El poder de la red": "https://cinemania.com.co/wp-content/uploads/2026/10/red.jpg",
   "Tierra de mi padre": "https://cinemania.com.co/wp-content/uploads/2026/08/padre.jpg",
   "Yo soy rocky": "https://static.cinepolis.com/img/peliculas/54209/1/1/54209.jpg",
+  "Juegos del hambre: amanecer": "https://dqq1cn0vfegag.cloudfront.net/movies-poster/1786393635035-SOLSTICE_4x5_EXPLO_LAT_ESP_P2_.jpg",
   "El gran falsificador": "https://cinemania.com.co/wp-content/uploads/2026/09/falsificador.jpg",
+  "Shaun el cordero: Misión Calabaza": "https://static.cinepolis.com/img/peliculas/54372/1/1/54372.jpg",
+  "Gringolandia no es como a pintan": "https://d1h560xa7cmqwq.cloudfront.net/movies-poster/1795022416266-700X1000_.jpg",
+  "Coyote vs. ACME": "https://static.cinepolis.com/img/peliculas/53259/1/1/53259.jpg",
+  "Ebenezer": "https://static.cinepolis.com/img/peliculas/54048/1/1/54048.jpg",
+  "El silencio de los palafitos": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/POSTER.jpg?itok=8HVT9Ffj",
   "Calle málaga": "https://cinemania.com.co/wp-content/uploads/2026/09/Poster-Calle-714x1024.jpg",
+  "El gato con sombrero": "https://static.cinepolis.com/img/peliculas/53860/1/1/53860.jpg",
+  "¿vendrán mis padres a verme? + omi nobu": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/def-posterOmiNobu_22.02.23_ONLINE.jpg?itok=YBUb49v5",
+  "Shaun, el cordero: el monstruo de mossy bottom": "https://d1h560xa7cmqwq.cloudfront.net/movies-poster/1794953400673-Poster 3 4_.jpg",
   "Caballo salvaje nueve": "https://cinemania.com.co/wp-content/uploads/2026/10/caballo.jpg",
+  "Pinocho sin cuerdas": "https://dqq1cn0vfegag.cloudfront.net/movies-poster/1786737435100-ARTE-NARIZ-LATAM-4x5_.jpg",
+  "Sacrificio: Los elegidos": "https://static.cinepolis.com/img/peliculas/54081/1/1/54081.jpg",
+  "100 años de delia zapata y álvaro cepeda": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Delia%20Afiche.v1.png?itok=-FuKWpa_",
+  "Godzilla minus zero": "https://static.cinepolis.com/img/peliculas/53861/1/1/53861.jpg",
   "Minotauro": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Poster_Minotauro_PaginaWeb.JPG?itok=KsKQKxxZ",
+  "El corazon de la bestia": "https://static.cinepolis.com/img/peliculas/53485/1/1/53485.jpg",
+  "Engendro": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/a09cd69fba9fc199b7c56c2394a3fa53.jpg?itok=Nq5FJu6H",
+  "Cómo robar un banco": "https://static.cinepolis.com/img/peliculas/54083/1/1/54083.jpg",
+  "Quedate conmigo": "https://score.vizionacines.com/scoreimg/imgpel/440.jpg",
   "捕风追影The Shadow’s Edge": "https://cinemania.com.co/wp-content/uploads/2026/11/%C2%A1Lucha-hasta-el-final-%E6%96%97%E5%88%B0%E5%BA%95%EF%BC%81%E7%89%88%E7%BB%88%E6%9E%81%E6%B5%B7%E6%8A%A5-689x1024.jpg",
   "热辣滚烫 yolo": "https://cinemania.com.co/wp-content/uploads/2026/11/yolo-710x1024.jpg",
   "给阿嬷的情书Dear You": "https://cinemania.com.co/wp-content/uploads/2026/11/424%E3%80%8A%E7%BB%99%E9%98%BF%E5%AC%B7%E7%9A%84%E6%83%85%E4%B9%A6%E3%80%8B%E6%B5%B7%E6%8A%A5-%E7%AB%96-dear-you-682x1024.png",
   "飞驰人生3 Pegasus 3": "https://cinemania.com.co/wp-content/uploads/2026/11/%E3%80%8A%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3%E3%80%8B%E9%A9%AC%E5%88%B0%E6%88%90%E5%8A%9F%E7%89%88%E6%B5%B7%E6%8A%A5%EF%BC%88%E6%8D%A2%E8%BD%A6%E7%89%88%EF%BC%89-Pegasus-3-%E2%80%94-Exito-instantaneo-version-con-intercambio-de-vehiculos-664x1024.png",
   "抓娃娃 Successor": "https://cinemania.com.co/wp-content/uploads/2026/11/%E3%80%8A%E6%8A%93%E5%A8%83%E5%A8%83%E3%80%8B%E6%B5%B7%E6%8A%A5-Successor-683x1024.jpeg",
   "我们一起摇太阳 viva la vida": "https://cinemania.com.co/wp-content/uploads/2026/11/%E3%80%8A%E6%88%91%E4%BB%AC%E4%B8%80%E8%B5%B7%E6%91%87%E5%A4%AA%E9%98%B3%E3%80%8B%E4%B8%BB%E6%B5%B7%E6%8A%A5-Viva-La-Vida-732x1024.jpeg",
-  "Gringolandia no es como a pintan": "https://d1h560xa7cmqwq.cloudfront.net/movies-poster/1795022416266-700X1000_.jpg",
-  "Sacrificio: Los elegidos": "https://static.cinepolis.com/img/peliculas/54081/1/1/54081.jpg",
-  "Juegos del hambre: amanecer": "https://dqq1cn0vfegag.cloudfront.net/movies-poster/1786393635035-SOLSTICE_4x5_EXPLO_LAT_ESP_P2_.jpg",
-  "La colina de las amapolas": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-02/Screenshot_2.png?itok=1pMDGtSc",
-  "El increíble castillo vagabundo": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-03/EL%20INCREI%CC%81BLE%20CASTILLO%20VAGABUNDO_POSTER_MAIN_35X50.jpg?itok=sbxnGCj8",
-  "Cómo robar un banco": "https://static.cinepolis.com/img/peliculas/54083/1/1/54083.jpg",
-  "Las pesadillas del siervo": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/POSTER-lpds-14-10-26.jpg?itok=1iPjaIG2",
-  "El gato con sombrero": "https://static.cinepolis.com/img/peliculas/53860/1/1/53860.jpg",
-  "Shaun, el cordero: el monstruo de mossy bottom": "https://d1h560xa7cmqwq.cloudfront.net/movies-poster/1794953400673-Poster 3 4_.jpg",
-  "Ebenezer": "https://static.cinepolis.com/img/peliculas/54048/1/1/54048.jpg",
-  "En busca del mesías": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6aeb6a702f47374405c07e26/common/en-busca-del-mesias-114032-1793821029291",
-  "El corazon de la bestia": "https://static.cinepolis.com/img/peliculas/53485/1/1/53485.jpg",
-  "Buscando un cielo para rambo": "https://d2gok2bmf4ckrg.cloudfront.net/movies-poster/1795023960251-Afiche Oficial - Rambo (Web)_.jpg",
-  "Godzilla minus zero": "https://static.cinepolis.com/img/peliculas/53861/1/1/53861.jpg",
-  "Shaun el cordero: Misión Calabaza": "https://static.cinepolis.com/img/peliculas/54372/1/1/54372.jpg",
-  "Coyote vs. ACME": "https://static.cinepolis.com/img/peliculas/53259/1/1/53259.jpg",
-  "El silencio de los palafitos": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/POSTER.jpg?itok=8HVT9Ffj",
   "Wildwood": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6acfb3ebd1a620d42024d1a5/common/wildwood-113745-1792010139629",
-  "Flywheel: vida con propósito": "https://d1h560xa7cmqwq.cloudfront.net/movies-poster/1792600060041-Poster_.jpg",
-  "¿vendrán mis padres a verme? + omi nobu": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/def-posterOmiNobu_22.02.23_ONLINE.jpg?itok=YBUb49v5",
-  "Pinocho sin cuerdas": "https://dqq1cn0vfegag.cloudfront.net/movies-poster/1786737435100-ARTE-NARIZ-LATAM-4x5_.jpg",
-  "100 años de delia zapata y álvaro cepeda": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Delia%20Afiche.v1.png?itok=-FuKWpa_",
-  "Engendro": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-09/a09cd69fba9fc199b7c56c2394a3fa53.jpg?itok=Nq5FJu6H",
-  "Quedate conmigo": "https://score.vizionacines.com/scoreimg/imgpel/440.jpg",
+  "En busca del mesías": "https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/6aeb6a702f47374405c07e26/common/en-busca-del-mesias-114032-1793821029291",
   "Muestra nacional. programa 3": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Kankurang.PNG?itok=MhqWxMSN",
   "Clayface": "https://static.cinepolis.com/img/peliculas/53686/1/1/53686.jpg",
   "Coconut head generation": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Affiche%20Coconut%20Head%20Generation.jpg?itok=HABBqKCH",
+  "Flywheel: vida con propósito": "https://d1h560xa7cmqwq.cloudfront.net/movies-poster/1792600060041-Poster_.jpg",
+  "Buscando un cielo para rambo": "https://d2gok2bmf4ckrg.cloudfront.net/movies-poster/1795023960251-Afiche Oficial - Rambo (Web)_.jpg",
+  "El increíble castillo vagabundo": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-03/EL%20INCREI%CC%81BLE%20CASTILLO%20VAGABUNDO_POSTER_MAIN_35X50.jpg?itok=sbxnGCj8",
   "Nome": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/NOME%20-%20Affiche%20A2%20V5%20Lite_0.jpg?itok=L9ju61hk",
   "Programa de cortometrajes": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Tsutsue%20afiche.PNG?itok=emQfjAEP",
   "La marcha del hambre": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-04/afiche%20Espan%CC%83ol%20bc%20-%20La%20Marcha%20del%20Hambre%20Documental%20%281%29.jpg?itok=3UHpOC2e",
@@ -86,6 +85,9 @@
   "Farö - cine club: palestina": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/images%20%281%29%20%281%29.jpg?itok=jC3OggmR",
   "Shame and money": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-11/Plantilla%20Poster%20imag%20secundaria%20-%202026-11-13T153725.145.jpg?itok=2fQFFZ3s",
   "Muestra nacional programa 2": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Afiche-azotea.jpeg?itok=BOvrV6k5",
+  "La colina de las amapolas": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-02/Screenshot_2.png?itok=1pMDGtSc",
+  "La nueva focker": "https://score.vizionacines.com/scoreimg/imgpel/347.jpg",
+  "Hechizo: bienvenidos a hexe": "https://score.vizionacines.com/scoreimg/imgpel/453.jpg",
   "Tug of war": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Tug_of_War_%28Vuta_N%27Kuvute%29_Poster.jpg?itok=rMwp7q6U",
   "Ciudadano havel (občan havel)": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-11/Plantilla%20Poster%20imag%20secundaria%20-%202026-11-13T154257.271.jpg?itok=UhklaHH9",
   "The souffleur": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-11/Plantilla%20Poster%20imag%20secundaria%20-%202026-11-13T164637.677.jpg?itok=g3ncNitS",
@@ -95,6 +97,7 @@
   "La retirada (odcházení)": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-11/Plantilla%20Poster%20imag%20secundaria%20-%202026-11-13T165629.083.jpg?itok=2NvRrrHD",
   "Cómo limpiar una casa en 10 pasos fáciles": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-11/Captura%20de%20pantalla%202026-11-06%20122427.png?itok=ShYDcHix",
   "Ino moxo: el sueño del brujo": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-11/Plantilla%20Poster%20imag%20secundaria%20-%202026-11-13T170144.596.jpg?itok=khpJSj8W",
+  "Ramayana": "https://score.vizionacines.com/scoreimg/imgpel/442.jpg",
   "Midbo": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/Screen%20Shot%202026-10-19%20at%2010.56.51%20AM.png?itok=A2R6nnEd",
   "Fontanar del río": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-11/afiche_cuentos%20de%20la%20cuenca.png?itok=xXOSYmB7",
   "Historias de una mentira (stories of a lie)": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-11/Plantilla%20Poster%20imag%20secundaria%20-%202026-11-13T170529.285.jpg?itok=fbedoLJH",
@@ -162,8 +165,8 @@
   "Clc-ado | colecciones: adolescencia": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/CLC-ADO_AFICHE.jpg?itok=lAJ0voKG",
   "Con-latam | conexión: latinoamérica": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/CON-LATAM_AFICHE.jpg?itok=2mjCjgU6",
   "Cn-fic2 | competencia nacional ficción 2": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/CN-FIC2_AFICHE.jpg?itok=gpU0GxmD",
-  "Estreno bfm-iv - furia": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/BFM-INVITRO-FURIA_AFICHE.jpg?itok=r2b6Qhj_",
   "Pac-exp | panorama colombia: experimental": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/PAC_EXP_AFICHE.jpg?itok=T6JAekRc",
+  "Estreno bfm-iv - furia": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/BFM-INVITRO-FURIA_AFICHE.jpg?itok=r2b6Qhj_",
   "City-bcn1 | viva la ciudad: barcelona 1": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/CITY-BCN1_AFICHE.jpg?itok=F9OuGdXl",
   "Videoclip": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/CN-VC%20_%20CI-VC_AFICHE%20%281%29_1.jpg?itok=HBfy0_rd",
   "Es-astro | especial astrológico": "https://cinematecadebogota.gov.co/sites/default/files/styles/poster/public/2026-10/ES-ASTRO_AFICHE.jpg?itok=9hV2tcMb",
@@ -184,426 +187,6 @@
   {
    "sala_id": "ind-cinemania",
    "pelicula": "El poder de la red",
-   "hora": "2026-11-23T14:05:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "Tierra de mi padre",
-   "hora": "2026-11-23T14:10:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-23T14:30:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "El gran falsificador",
-   "hora": "2026-11-23T14:45:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "Calle málaga",
-   "hora": "2026-11-23T15:45:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "Caballo salvaje nueve",
-   "hora": "2026-11-23T16:15:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "Minotauro",
-   "hora": "2026-11-23T17:00:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-23T17:15:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "Calle málaga",
-   "hora": "2026-11-23T17:55:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "捕风追影The Shadow’s Edge",
-   "hora": "2026-11-23T18:00:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "热辣滚烫 yolo",
-   "hora": "2026-11-23T18:00:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "给阿嬷的情书Dear You",
-   "hora": "2026-11-23T18:00:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "飞驰人生3 Pegasus 3",
-   "hora": "2026-11-23T18:00:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "抓娃娃 Successor",
-   "hora": "2026-11-23T18:00:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "我们一起摇太阳 viva la vida",
-   "hora": "2026-11-23T18:00:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "Tierra de mi padre",
-   "hora": "2026-11-23T18:30:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "Minotauro",
-   "hora": "2026-11-23T19:40:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "El gran falsificador",
-   "hora": "2026-11-23T19:45:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "El poder de la red",
-   "hora": "2026-11-23T20:05:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "Caballo salvaje nueve",
-   "hora": "2026-11-23T20:05:00-05:00",
-   "titulo_original": "",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinemania.com.co/",
-   "fuente": "cinemania"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Gringolandia no es como a pintan",
-   "hora": "2026-11-23T22:10:00-05:00",
-   "titulo_original": "Gringolandia no es como la pintan",
-   "formato": "2D",
-   "idioma": "Español",
-   "clasificacion": "A12",
-   "duracion_min": 100,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-hayuelos",
-   "pelicula": "Sacrificio: Los elegidos",
-   "hora": "2026-11-23T22:15:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 103,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-23T22:20:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A12",
-   "duracion_min": 158,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "cine-cinemateca",
-   "pelicula": "La colina de las amapolas",
-   "hora": "2026-11-24T11:00:00-05:00",
-   "titulo_original": "",
-   "formato": "Sala Capital",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
-   "fuente": "cinemateca"
-  },
-  {
-   "sala_id": "cine-cinemateca",
-   "pelicula": "El increíble castillo vagabundo",
-   "hora": "2026-11-24T13:00:00-05:00",
-   "titulo_original": "",
-   "formato": "Sala Capital",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
-   "fuente": "cinemateca"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Cómo robar un banco",
-   "hora": "2026-11-24T13:50:00-05:00",
-   "titulo_original": "",
-   "formato": "2D Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cine-cinemateca",
-   "pelicula": "Las pesadillas del siervo",
-   "hora": "2026-11-24T14:00:00-05:00",
-   "titulo_original": "",
-   "formato": "Sala 3",
-   "idioma": "",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
-   "fuente": "cinemateca"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cp-mallplaza-nqs",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-24T14:00:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "A7",
-   "duracion_min": 115,
-   "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
-   "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "rf-altavista",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-americas",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D Ge Y Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "ind-cinemania",
-   "pelicula": "El poder de la red",
    "hora": "2026-11-24T14:05:00-05:00",
    "titulo_original": "",
    "formato": "",
@@ -614,42 +197,6 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-24T14:10:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:10:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-24T14:10:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "ind-cinemania",
    "pelicula": "Tierra de mi padre",
    "hora": "2026-11-24T14:10:00-05:00",
@@ -662,198 +209,6 @@
    "fuente": "cinemania"
   },
   {
-   "sala_id": "rf-altavista",
-   "pelicula": "Shaun, el cordero: el monstruo de mossy bottom",
-   "hora": "2026-11-24T14:10:00-05:00",
-   "titulo_original": "Shaun the sheep: the beast of mossy bottom",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para todo público",
-   "duracion_min": 81,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4210/shaun,-el-cordero:-el-monstruo-de-mossy-bottom",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-24T14:15:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-24T14:15:00-05:00",
-   "titulo_original": "",
-   "formato": "2D Vkids",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-24T14:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-24T14:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-24T14:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "rf-milenio",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:20:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-24T14:25:00-05:00",
-   "titulo_original": "",
-   "formato": "2D Vip",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "ind-cinemania",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-24T14:30:00-05:00",
@@ -864,42 +219,6 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
-  },
-  {
-   "sala_id": "rf-altavista",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-san-rafael",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -926,114 +245,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "cm-colina",
-   "pelicula": "En busca del mesías",
-   "hora": "2026-11-24T14:40:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 90,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El corazon de la bestia",
-   "hora": "2026-11-24T14:40:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "rf-san-rafael",
-   "pelicula": "Shaun, el cordero: el monstruo de mossy bottom",
-   "hora": "2026-11-24T14:40:00-05:00",
-   "titulo_original": "Shaun the sheep: the beast of mossy bottom",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para todo público",
-   "duracion_min": 81,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4210/shaun,-el-cordero:-el-monstruo-de-mossy-bottom",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Buscando un cielo para rambo",
-   "hora": "2026-11-24T14:40:00-05:00",
-   "titulo_original": "Seeking heaven for mr. rambo",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 100,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4212/buscando-un-cielo-para-rambo",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-24T14:45:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-24T14:45:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-24T14:45:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-24T14:45:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-24T14:45:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "ind-cinemania",
    "pelicula": "El gran falsificador",
    "hora": "2026-11-24T14:45:00-05:00",
@@ -1044,150 +255,6 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-24T14:50:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "rf-americas",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:50:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:50:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Godzilla minus zero",
-   "hora": "2026-11-24T14:50:00-05:00",
-   "titulo_original": "",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T14:55:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:00:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-24T15:00:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -1212,54 +279,6 @@
    "duracion_min": 80,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "rf-americas",
-   "pelicula": "Shaun, el cordero: el monstruo de mossy bottom",
-   "hora": "2026-11-24T15:00:00-05:00",
-   "titulo_original": "Shaun the sheep: the beast of mossy bottom",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para todo público",
-   "duracion_min": 81,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4210/shaun,-el-cordero:-el-monstruo-de-mossy-bottom",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "cm-colina",
-   "pelicula": "Yo soy rocky",
-   "hora": "2026-11-24T15:10:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 130,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-24T15:10:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-24T15:10:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-diverplaza",
@@ -1286,66 +305,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "rf-altavista",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:10:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-milenio",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:10:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-san-rafael",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:10:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:10:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D Vmax",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "El gato con sombrero",
-   "hora": "2026-11-24T15:15:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 105,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Coyote vs. ACME",
    "hora": "2026-11-24T15:15:00-05:00",
@@ -1358,54 +317,6 @@
    "fuente": "cinepolis"
   },
   {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-24T15:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-gran-plaza-bosa",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-24T15:20:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:20:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-porvenir",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:20:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-plaza-claro",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-24T15:20:00-05:00",
@@ -1416,30 +327,6 @@
    "duracion_min": 158,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "rf-americas",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:20:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "",
-   "idioma": "",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:20:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 150,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
-   "fuente": "royal_films"
   },
   {
    "sala_id": "cp-diverplaza",
@@ -1466,66 +353,6 @@
    "fuente": "cinemateca"
   },
   {
-   "sala_id": "cm-colina",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-ensueno",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-floresta",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-multiplaza",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-24T15:30:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+7 AÑOS",
-   "duracion_min": 115,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
-   "fuente": "cinemark"
-  },
-  {
-   "sala_id": "cm-plaza-imperial",
-   "pelicula": "Juegos del hambre: amanecer",
-   "hora": "2026-11-24T15:30:00-05:00",
-   "titulo_original": "The hunger games: sunrise on the reaping",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 160,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
-   "fuente": "cinemark"
-  },
-  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Ebenezer",
    "hora": "2026-11-24T15:30:00-05:00",
@@ -1536,42 +363,6 @@
    "duracion_min": 100,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Shaun, el cordero: el monstruo de mossy bottom",
-   "hora": "2026-11-24T15:30:00-05:00",
-   "titulo_original": "Shaun the sheep: the beast of mossy bottom",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para todo público",
-   "duracion_min": 81,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4210/shaun,-el-cordero:-el-monstruo-de-mossy-bottom",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "El corazon de la bestia",
-   "hora": "2026-11-24T15:30:00-05:00",
-   "titulo_original": "",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
-  },
-  {
-   "sala_id": "cm-atlantis",
-   "pelicula": "Wildwood",
-   "hora": "2026-11-24T15:40:00-05:00",
-   "titulo_original": "",
-   "formato": "2D",
-   "idioma": "",
-   "clasificacion": "+12 AÑOS",
-   "duracion_min": 135,
-   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
-   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-diverplaza",
@@ -1596,30 +387,6 @@
    "duracion_min": 103,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
-  },
-  {
-   "sala_id": "rf-villa-del-rio",
-   "pelicula": "Flywheel: vida con propósito",
-   "hora": "2026-11-24T15:40:00-05:00",
-   "titulo_original": "Flywheel: ignition of the soul",
-   "formato": "2D",
-   "idioma": "Doblada",
-   "clasificacion": "Para mayores de 12 años",
-   "duracion_min": 119,
-   "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4191/flywheel:-vida-con-prop%C3%B3sito",
-   "fuente": "royal_films"
-  },
-  {
-   "sala_id": "vz-eden",
-   "pelicula": "Ebenezer",
-   "hora": "2026-11-24T15:40:00-05:00",
-   "titulo_original": "",
-   "formato": "2D General",
-   "idioma": "Doblada",
-   "clasificacion": "",
-   "duracion_min": null,
-   "url_compra": "https://vizionacines.com/",
-   "fuente": "viziona"
   },
   {
    "sala_id": "cm-floresta",
@@ -4886,6 +3653,18 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Cómo robar un banco",
+   "hora": "2026-11-25T13:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Nome",
    "hora": "2026-11-25T14:00:00-05:00",
@@ -4896,6 +3675,18 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T14:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cm-ensueno",
@@ -4970,6 +3761,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T14:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "ind-cinemania",
    "pelicula": "El poder de la red",
    "hora": "2026-11-25T14:05:00-05:00",
@@ -4991,6 +3794,18 @@
    "clasificacion": "+12 AÑOS",
    "duracion_min": 160,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T14:10:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
    "fuente": "cinemark"
   },
   {
@@ -5030,6 +3845,54 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T14:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T14:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vkids",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T14:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T14:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Ebenezer",
    "hora": "2026-11-25T14:20:00-05:00",
@@ -5066,6 +3929,42 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T14:25:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T14:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T14:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T14:30:00-05:00",
@@ -5078,6 +3977,30 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cm-floresta",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T14:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T14:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T14:30:00-05:00",
@@ -5087,6 +4010,30 @@
    "clasificacion": "+12 AÑOS",
    "duracion_min": 160,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T14:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-porvenir",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T14:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
    "fuente": "cinemark"
   },
   {
@@ -5162,6 +4109,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "cm-colina",
+   "pelicula": "En busca del mesías",
+   "hora": "2026-11-25T14:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "El corazon de la bestia",
    "hora": "2026-11-25T14:40:00-05:00",
@@ -5196,6 +4155,66 @@
    "duracion_min": 100,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4212/buscando-un-cielo-para-rambo",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-25T14:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-floresta",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T14:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T14:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T14:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-porvenir",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T14:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "ind-cinemania",
@@ -5246,6 +4265,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-25T14:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T14:55:00-05:00",
@@ -5270,6 +4301,30 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T15:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T15:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T15:00:00-05:00",
@@ -5279,6 +4334,54 @@
    "clasificacion": "+12 AÑOS",
    "duracion_min": 160,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-floresta",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T15:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T15:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T15:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-porvenir",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T15:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
    "fuente": "cinemark"
   },
   {
@@ -5318,6 +4421,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cm-colina",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-25T15:10:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-25T15:10:00-05:00",
@@ -5327,6 +4442,18 @@
    "clasificacion": "+7 AÑOS",
    "duracion_min": 105,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-floresta",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T15:10:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
    "fuente": "cinemark"
   },
   {
@@ -5390,6 +4517,30 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T15:10:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D Vmax",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T15:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Coyote vs. ACME",
    "hora": "2026-11-25T15:15:00-05:00",
@@ -5402,6 +4553,30 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T15:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T15:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T15:20:00-05:00",
@@ -5411,6 +4586,18 @@
    "clasificacion": "+12 AÑOS",
    "duracion_min": 160,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-porvenir",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T15:20:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
    "fuente": "cinemark"
   },
   {
@@ -5450,6 +4637,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "cm-colina",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T15:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T15:30:00-05:00",
@@ -5462,6 +4661,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cm-floresta",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T15:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "Ebenezer",
    "hora": "2026-11-25T15:30:00-05:00",
@@ -5471,6 +4682,18 @@
    "clasificacion": "+7 AÑOS",
    "duracion_min": 115,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T15:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
   },
   {
@@ -5510,6 +4733,30 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "El corazon de la bestia",
+   "hora": "2026-11-25T15:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Wildwood",
+   "hora": "2026-11-25T15:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 135,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-diverplaza",
    "pelicula": "Coyote vs. ACME",
    "hora": "2026-11-25T15:40:00-05:00",
@@ -5534,6 +4781,30 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T15:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-floresta",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-25T15:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T15:45:00-05:00",
@@ -5556,6 +4827,18 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T15:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-diverplaza",
@@ -5678,6 +4961,18 @@
    "fuente": "cinemania"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T16:15:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cp-diverplaza",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-25T16:20:00-05:00",
@@ -5786,6 +5081,30 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T16:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vkids",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T16:50:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T16:50:00-05:00",
@@ -5832,6 +5151,30 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T17:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T17:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cm-ensueno",
@@ -5904,6 +5247,18 @@
    "duracion_min": 88,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4211/gringolandia-no-es-como-la-pintan",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T17:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "cp-diverplaza",
@@ -6002,6 +5357,30 @@
    "fuente": "cinemania"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T17:15:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T17:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "El corazon de la bestia",
    "hora": "2026-11-25T17:20:00-05:00",
@@ -6011,6 +5390,18 @@
    "clasificacion": "+12 AÑOS",
    "duracion_min": 100,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-porvenir",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T17:20:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
    "fuente": "cinemark"
   },
   {
@@ -6026,6 +5417,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "cm-colina",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T17:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T17:30:00-05:00",
@@ -6038,6 +5441,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cm-floresta",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T17:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T17:30:00-05:00",
@@ -6047,6 +5462,18 @@
    "clasificacion": "+12 AÑOS",
    "duracion_min": 160,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T17:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
   },
   {
@@ -6098,6 +5525,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T17:35:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Cómo robar un banco",
    "hora": "2026-11-25T17:35:00-05:00",
@@ -6108,6 +5547,30 @@
    "duracion_min": 122,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-25T17:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-porvenir",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T17:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "rf-altavista",
@@ -6146,6 +5609,30 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cm-floresta",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T17:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T17:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Yo soy rocky",
    "hora": "2026-11-25T17:45:00-05:00",
@@ -6170,6 +5657,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Quedate conmigo",
+   "hora": "2026-11-25T17:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Original",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "ind-cinemania",
    "pelicula": "Calle málaga",
    "hora": "2026-11-25T17:55:00-05:00",
@@ -6180,6 +5679,30 @@
    "duracion_min": null,
    "url_compra": "https://cinemania.com.co/",
    "fuente": "cinemania"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T18:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T18:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cm-ensueno",
@@ -6194,6 +5717,30 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cm-floresta",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T18:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T18:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T18:00:00-05:00",
@@ -6203,6 +5750,30 @@
    "clasificacion": "+12 AÑOS",
    "duracion_min": 160,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T18:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-porvenir",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T18:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
    "fuente": "cinemark"
   },
   {
@@ -6350,6 +5921,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-25T18:05:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Godzilla minus zero",
    "hora": "2026-11-25T18:10:00-05:00",
@@ -6371,6 +5954,42 @@
    "clasificacion": "+7 AÑOS",
    "duracion_min": 115,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T18:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T18:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "El corazon de la bestia",
+   "hora": "2026-11-25T18:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 100,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
   },
   {
@@ -6396,6 +6015,30 @@
    "duracion_min": 100,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T18:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T18:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-plaza-claro",
@@ -6482,6 +6125,30 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T18:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T18:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T18:30:00-05:00",
@@ -6491,6 +6158,42 @@
    "clasificacion": "+12 AÑOS",
    "duracion_min": 160,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-floresta",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T18:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T18:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T18:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
   },
   {
@@ -6554,6 +6257,30 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T18:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D Vmax",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-25T18:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-plaza-claro",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T18:40:00-05:00",
@@ -6576,6 +6303,30 @@
    "duracion_min": 88,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4211/gringolandia-no-es-como-la-pintan",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Wildwood",
+   "hora": "2026-11-25T18:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 135,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-floresta",
+   "pelicula": "En busca del mesías",
+   "hora": "2026-11-25T18:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-hayuelos",
@@ -6614,6 +6365,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cm-porvenir",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T18:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-mallplaza-nqs",
    "pelicula": "Ebenezer",
    "hora": "2026-11-25T18:50:00-05:00",
@@ -6624,6 +6387,18 @@
    "duracion_min": 100,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T19:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cm-ensueno",
@@ -6672,6 +6447,30 @@
    "duracion_min": 150,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T19:05:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-floresta",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T19:10:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-mallplaza-nqs",
@@ -6732,6 +6531,18 @@
    "duracion_min": 135,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T19:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vkids",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -6806,6 +6617,30 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T19:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T19:35:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Ebenezer",
    "hora": "2026-11-25T19:35:00-05:00",
@@ -6828,6 +6663,18 @@
    "duracion_min": 105,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
    "fuente": "cinemark"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T19:35:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "ind-cinemania",
@@ -6912,6 +6759,42 @@
    "duracion_min": 100,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4136/pinocho-sin-cuerdas",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Clayface",
+   "hora": "2026-11-25T19:55:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T20:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T20:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-diverplaza",
@@ -7010,6 +6893,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "cm-colina",
+   "pelicula": "En busca del mesías",
+   "hora": "2026-11-25T20:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 90,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "rf-altavista",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T20:20:00-05:00",
@@ -7046,6 +6941,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cm-porvenir",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T20:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-diverplaza",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T20:30:00-05:00",
@@ -7068,6 +6975,18 @@
    "duracion_min": 128,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T20:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "rf-milenio",
@@ -7106,6 +7025,30 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cm-floresta",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T20:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T20:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-hayuelos",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T20:45:00-05:00",
@@ -7116,6 +7059,54 @@
    "duracion_min": 158,
    "url_compra": "https://cinepolis.com.co/cartelera/bogota-colombia",
    "fuente": "cinepolis"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-25T20:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-25T20:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 105,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "Pinocho sin cuerdas",
+   "hora": "2026-11-25T20:50:00-05:00",
+   "titulo_original": "Pinocchio unstrung",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+18 AÑOS",
+   "duracion_min": 80,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-porvenir",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T20:50:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-mallplaza-nqs",
@@ -7166,6 +7157,30 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T20:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T21:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T21:00:00-05:00",
@@ -7178,6 +7193,18 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cm-floresta",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T21:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T21:00:00-05:00",
@@ -7187,6 +7214,18 @@
    "clasificacion": "+12 AÑOS",
    "duracion_min": 160,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T21:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
   },
   {
@@ -7238,6 +7277,42 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Pinocho sin cuerdas",
+   "hora": "2026-11-25T21:00:00-05:00",
+   "titulo_original": "Pinocchio unstrung",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T21:05:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T21:10:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "Ebenezer",
    "hora": "2026-11-25T21:10:00-05:00",
@@ -7272,6 +7347,30 @@
    "duracion_min": 150,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4002/los-juegos-del-hambre:-amanecer-en-la-cosecha",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cm-floresta",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-25T21:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T21:15:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cp-diverplaza",
@@ -7358,6 +7457,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T21:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T21:30:00-05:00",
@@ -7370,6 +7481,30 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cm-floresta",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T21:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T21:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-multiplaza",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T21:30:00-05:00",
@@ -7379,6 +7514,30 @@
    "clasificacion": "+12 AÑOS",
    "duracion_min": 160,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T21:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-porvenir",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T21:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
    "fuente": "cinemark"
   },
   {
@@ -7442,6 +7601,18 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cm-colina",
+   "pelicula": "Clayface",
+   "hora": "2026-11-25T21:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+15 AÑOS",
+   "duracion_min": 110,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cp-diverplaza",
    "pelicula": "El gato con sombrero",
    "hora": "2026-11-25T21:40:00-05:00",
@@ -7502,6 +7673,78 @@
    "fuente": "royal_films"
   },
   {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T21:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-floresta",
+   "pelicula": "Pinocho sin cuerdas",
+   "hora": "2026-11-25T21:45:00-05:00",
+   "titulo_original": "Pinocchio unstrung",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+18 AÑOS",
+   "duracion_min": 80,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Pinocho sin cuerdas",
+   "hora": "2026-11-25T21:45:00-05:00",
+   "titulo_original": "Pinocchio unstrung",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+18 AÑOS",
+   "duracion_min": 80,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-porvenir",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T21:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/micentro-el-porvenir",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T21:45:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D Vmax",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Yo soy rocky",
+   "hora": "2026-11-25T21:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 130,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Pinocho sin cuerdas",
    "hora": "2026-11-25T21:50:00-05:00",
@@ -7538,6 +7781,30 @@
    "fuente": "cinemark"
   },
   {
+   "sala_id": "cm-atlantis",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T22:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/atlantis",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T22:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T22:00:00-05:00",
@@ -7547,6 +7814,42 @@
    "clasificacion": "+12 AÑOS",
    "duracion_min": 160,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-el-ensueno",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-floresta",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T22:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/floresta",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-gran-plaza-bosa",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T22:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/gran-plaza-bosa",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-plaza-imperial",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T22:00:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "Doblada",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/plaza-imperial",
    "fuente": "cinemark"
   },
   {
@@ -7608,6 +7911,18 @@
    "duracion_min": 100,
    "url_compra": "https://www.cinemasroyalfilms.com/pelicula/4136/pinocho-sin-cuerdas",
    "fuente": "royal_films"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-25T22:10:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+7 AÑOS",
+   "duracion_min": 115,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
   },
   {
    "sala_id": "cm-ensueno",
@@ -7694,6 +8009,18 @@
    "fuente": "cinepolis"
   },
   {
+   "sala_id": "cm-colina",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-25T22:30:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 160,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
+   "fuente": "cinemark"
+  },
+  {
    "sala_id": "cm-ensueno",
    "pelicula": "Juegos del hambre: amanecer",
    "hora": "2026-11-25T22:30:00-05:00",
@@ -7715,6 +8042,18 @@
    "clasificacion": "+7 AÑOS",
    "duracion_min": 130,
    "url_compra": "https://www.cinemark.com.co/ciudad/bogota/multiplaza",
+   "fuente": "cinemark"
+  },
+  {
+   "sala_id": "cm-colina",
+   "pelicula": "Godzilla minus zero",
+   "hora": "2026-11-25T22:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D",
+   "idioma": "",
+   "clasificacion": "+12 AÑOS",
+   "duracion_min": 135,
+   "url_compra": "https://www.cinemark.com.co/ciudad/bogota/parque-colina",
    "fuente": "cinemark"
   },
   {
@@ -7742,6 +8081,78 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "La nueva focker",
+   "hora": "2026-11-26T14:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-26T14:10:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-26T14:20:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Hechizo: bienvenidos a hexe",
+   "hora": "2026-11-26T14:35:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vkids",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Quedate conmigo",
+   "hora": "2026-11-26T14:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Original",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-26T14:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Tug of war",
    "hora": "2026-11-26T15:00:00-05:00",
@@ -7754,6 +8165,18 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Hechizo: bienvenidos a hexe",
+   "hora": "2026-11-26T15:45:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vmax",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "Ciudadano havel (občan havel)",
    "hora": "2026-11-26T16:00:00-05:00",
@@ -7764,6 +8187,54 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-26T16:05:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "La nueva focker",
+   "hora": "2026-11-26T16:25:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-26T16:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Quedate conmigo",
+   "hora": "2026-11-26T16:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Original",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -7790,6 +8261,30 @@
    "fuente": "cinemateca"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Hechizo: bienvenidos a hexe",
+   "hora": "2026-11-26T17:05:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vkids",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-26T17:20:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cine-cefe-chapinero",
    "pelicula": "Cefe chapinero",
    "hora": "2026-11-26T17:30:00-05:00",
@@ -7800,6 +8295,18 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/112",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-26T17:35:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "club-elmuro-tavola",
@@ -7814,6 +8321,30 @@
    "fuente": "elmuro"
   },
   {
+   "sala_id": "vz-eden",
+   "pelicula": "Hechizo: bienvenidos a hexe",
+   "hora": "2026-11-26T18:10:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vmax",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "La nueva focker",
+   "hora": "2026-11-26T18:50:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
    "sala_id": "cine-cinemateca",
    "pelicula": "La retirada (odcházení)",
    "hora": "2026-11-26T19:00:00-05:00",
@@ -7824,6 +8355,42 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Quedate conmigo",
+   "hora": "2026-11-26T19:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Original",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "El gato con sombrero",
+   "hora": "2026-11-26T19:10:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-26T19:20:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -7848,6 +8415,90 @@
    "duracion_min": null,
    "url_compra": "https://cinematecadebogota.gov.co/agenda/11",
    "fuente": "cinemateca"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Hechizo: bienvenidos a hexe",
+   "hora": "2026-11-26T19:30:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vkids",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Ebenezer",
+   "hora": "2026-11-26T19:55:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Ge Y Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Hechizo: bienvenidos a hexe",
+   "hora": "2026-11-26T20:35:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vmax",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Juegos del hambre: amanecer",
+   "hora": "2026-11-26T20:50:00-05:00",
+   "titulo_original": "The hunger games: sunrise on the reaping",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Ramayana",
+   "hora": "2026-11-26T21:00:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "La nueva focker",
+   "hora": "2026-11-26T21:15:00-05:00",
+   "titulo_original": "",
+   "formato": "2D Vip",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
+  },
+  {
+   "sala_id": "vz-eden",
+   "pelicula": "Clayface",
+   "hora": "2026-11-26T21:40:00-05:00",
+   "titulo_original": "",
+   "formato": "2D General",
+   "idioma": "Doblada",
+   "clasificacion": "",
+   "duracion_min": null,
+   "url_compra": "https://vizionacines.com/",
+   "fuente": "viziona"
   },
   {
    "sala_id": "cine-cinemateca",
@@ -8955,10 +9606,10 @@
   },
   {
    "sala_id": "cine-cinemateca",
-   "pelicula": "Estreno bfm-iv - furia",
-   "hora": "2026-12-06T16:00:00-05:00",
+   "pelicula": "Pac-exp | panorama colombia: experimental",
+   "hora": "2026-12-06T17:00:00-05:00",
    "titulo_original": "",
-   "formato": "Sala 3",
+   "formato": "Sala Capital",
    "idioma": "",
    "clasificacion": "",
    "duracion_min": null,
@@ -8967,10 +9618,10 @@
   },
   {
    "sala_id": "cine-cinemateca",
-   "pelicula": "Pac-exp | panorama colombia: experimental",
+   "pelicula": "Estreno bfm-iv - furia",
    "hora": "2026-12-06T17:00:00-05:00",
    "titulo_original": "",
-   "formato": "Sala Capital",
+   "formato": "Sala 3",
    "idioma": "",
    "clasificacion": "",
    "duracion_min": null,
